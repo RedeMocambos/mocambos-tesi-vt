@@ -1,0 +1,33 @@
+% Capitolo 4
+
+\chapter{Architettura e prototipo per la Rede Mocambos} % Write in your own chapter title
+\label{Capitolo3}
+\lhead{Capitolo 3. \emph{}} % Write in your own chapter title to set the page header
+
+\subsection{Specifica dei requisiti}
+
+La Rede Mocambos attualmente è composta da piu di 200 comunità
+localizzate in tutto il territorio nazionale brasiliano e alcune
+comunità in Africa e in Europa. La connettività in Brasile è
+satellitare grazie al programma GESAC che mette a disposizione di ogni
+comunità un Very Small Aperture Terminal (VSAT) con banda di 512
+kbit/s in download e 128 kbit/s in upload. La topologia della rete è a
+stella per cui tutti i nodi comunicano tramite satellite concentrando
+il traffico su un hub terrestre, dove la rete satellitare è
+interconnessa a Internet. Ogni comunità ha a disposizione una sala con
+10 computer ad accesso pubblico (chiamati comunemente
+``telecentros''), installati recentemente tramite il Telecentros.BR
+\footnote{``Il programma nazionale di appoggio all'inclusione digitale
+  nelle comunità, Telecentros.BR, è un'azione del Governo Federale di
+  appoggio per la creazione di nuovi spazi pubblici e comunitari di
+  inclusione digitale e per il potenziamento degli spazi già in
+  funzione su tutto il territorio. Vengono messe a disposizione le
+  apparecchiature informatiche e il mobiliario necessario al
+  funzionamento dei \textit{telecentros}, servizi di connessione a
+  internet tramite banda larga oltre a formazione e borse per
+  l'appoggio economico per tutor che lavorano come agenti di
+  inclusione digitale. Questi tutor borsisti partecipano ad un corso
+  di formazione e lavorano, nei telecentros, per le comunità.'',
+  tradotto da http://www.inclusaodigital.gov.br/telecentros}, altro
+programma federale brasiliano.
+
