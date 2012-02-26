@@ -1,35 +1,37 @@
-% Capitolo 3
+% Capitolo 4
 
-\chapter{Architettura e prototipo per la Rede Mocambos
-} % Write in your own chapter title
+\chapter{Un prototipo di servizio federato}
 \label{Capitolo3}
-\lhead{Capitolo 3. \emph{Architettura e prototipo per la Rede Mocambos
-}} % Write in your own chapter title to set the page header
+\lhead{Capitolo 3. \emph{Un prototipo di servizio federato}}
 
-\subsection{Specifica dei requisiti}
+\section{Sistema di pubblicazione e diffusione di contenuti
+  multimediali}
+L'uso delle tecnologie digitali offre nuove possibilità per
+l'educazione. Molte comunità afferenti alla RM hanno iniziato la
+produzione di materiale pedagogico audio-visuale che con l'aiuto della
+rete potrebbe contribuire ad arricchire i programmi educativi pubblici
+spesso carenti e poco integrati con la cultura quilombola. Da tempo
+\footnote{Il progetto \emph{Tambor e Comunicação} é un tentativo di
+  fortificare la rete di comunicazione digitale per le necessità delle
+  comunità. Vedi
+  \url{http://wiki.mocambos.net/wiki/Projeto_Tambor_e_Comunicacao}.}
+quindi il Nucleo di Ricerca e Sviluppo Digitale (NPDD) della RM
+\footnote{Il \emph{Núcleo de Pesquisa e Desenvolvimento Digital} della
+  RM ricerca e sviluppa tecnologie digitali per la comunicazione, la
+  produzione di energie rinnovabili e sostenibili, e il miglioramento
+  delle condizioni di vita in simbiosi con l'ambiente. Maggiori
+  informazioni su \url{http://wiki.mocambos.net/wiki/NPDD}.} cerca una
+soluzione per la pubblicazione e diffusione in rete di immagini, audio
+e video di interesse comune e spesso prodotti nelle stesse
+comunità. Il sistema prevede l'installazione di un portale sul server
+locale delle comunità su cui è possibile pubblicare contenuti
+multimediali sfruttando l'alta velocità della rete locale. Il sistema
+si prende cura di diffondere i contenuti, etichettati come di
+interesse comune, verso i server delle altre comunità. Il prototipo
+sviluppato cerca di risolvere le limitazioni di banda della rete
+rispettando la specifica di requisiti.
 
-La Rede Mocambos attualmente è composta da piu di 200 comunità
-localizzate in tutto il territorio nazionale brasiliano e alcune
-comunità in Africa e in Europa. La connettività in Brasile è
-satellitare grazie al programma GESAC che mette a disposizione di ogni
-comunità un Very Small Aperture Terminal (VSAT) con banda di 512
-kbit/s in download e 128 kbit/s in upload. La topologia della rete è a
-stella per cui tutti i nodi comunicano tramite satellite concentrando
-il traffico su un hub terrestre, dove la rete satellitare è
-interconnessa a Internet. Ogni comunità ha a disposizione una sala con
-10 computer ad accesso pubblico (chiamati comunemente
-``telecentros''), installati recentemente tramite il Telecentros.BR
-\footnote{``Il programma nazionale di appoggio all'inclusione digitale
-nelle comunità, Telecentros.BR, è un'azione del Governo Federale di
-appoggio per la creazione di nuovi spazi pubblici e comunitari di
-inclusione digitale e per il potenziamento degli spazi già in funzione
-su tutto il territorio. Vengono messe a disposizione le
-apparecchiature informatiche e il mobiliario necessario al
-funzionamento dei \textit{telecentros}, servizi di connessione a
-internet tramite banda larga oltre a formazione e borse per l'appoggio
-economico per tutor che lavorano come agenti di inclusione
-digitale. Questi tutor borsisti partecipano ad un corso di formazione
-e lavorano, nei telecentros, per le comunità.'', tradotto da
-http://www.inclusaodigital.gov.br/telecentros}, altro programma
-federale brasiliano.
+\section{Portale Comunitario}
+Per lo sviluppo di un portale locale è stato scelto l'uso di Django.
+
 

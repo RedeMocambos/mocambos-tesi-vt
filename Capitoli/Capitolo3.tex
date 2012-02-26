@@ -1,8 +1,8 @@
 % Capitolo 3
 
-\chapter{Un'architettura per la Rete Mocambos} % Write in your own chapter title
+\chapter{Un'architettura per la Rete Mocambos}
 \label{Capitolo3}
-\lhead{Capitolo 3. \emph{Un'architettura per la Rete Mocambos}} % Write in your own chapter title to set the page header
+\lhead{Capitolo 3. \emph{Un'architettura per la Rete Mocambos}}
 
 \section{Specifica dei requisiti}
 La Rete Mocambos attualmente è composta da piu di 200 comunità
@@ -36,7 +36,7 @@ centrale, la popolazione è divisa in piccoli nuclei familiari sparsi
 sul territorio e a volte molto distanti tra di loro. 
 
 Vediamo alcuni requisiti essenziali per questa architettura di rete
-federata:
+federata.
 
 \subsection{Identità di rete}
 Gli utenti delle comunità devono avere associate delle identità
@@ -62,7 +62,7 @@ la RM. È quindi necessario un meccanismo per la sincronizzazione
 selettiva dei contenuti di interesse generale. Inoltre, per
 ottimizzare l'uso della banda, le operazioni di sincronizzazione dei
 dati devono incidere il meno possibile sull'uso quotidiano di internet
-e prevedere un sistema di agendamento notturno, o comunque quando la
+programmando queste operazioni per la notte o comunque quando la
 connessione satellitare non è utilizzata. Il sistema deve prevedere
 anche la possibilità di sincronizzare i dati da e verso periferiche di
 archiviazione di massa.
@@ -126,6 +126,22 @@ la distribuzione GNU\\Linux Ubuntu \footnote{``Ubuntu è un sistema
   \url{http://it.wikipedia.org/wiki/Ubuntu}.} per cui per il prototipo
 è stata scelta l'ultima versione stabile 11.10.
 
+\subsection{Linguaggi di programmazione}
+Per il sistema sviluppato si è scelto l'uso del linguaggio di
+programmazione Python, un linguaggio molto flessibile e probabilmente
+il più versatile per connettere componenti eterogenee. Inoltre alcune
+comunità già usano Software Liberi, quali
+\emph{GIMP}\footnote{\emph{GNU Image Manipulation Program (GIMP)} è un
+  programma per il fotoritocco, montaggio e creazione di
+  immagini. Disponibile su \url{http://www.gimp.org/}.},
+\emph{Blender}\footnote{\emph{Blender} è un programma per la creazione
+  di grafica e ambienti tridimensionali. Disponibile su
+  \url{http://www.blender.org/}.},
+\emph{Inkscape}\footnote{\emph{Inkscape} è un programma di grafica
+  vettoriale conforme allo standard SVG. Disponibile su
+  \url{http://inkscape.org}.} che fanno ampio uso di \emph{scripting}
+Python per la creazione di filtri e per altre funzionalità avanzate.
+
 
 \section{Architettura di base}
 
@@ -159,63 +175,6 @@ preparare il server LDAP slapd in configurazione master o
 replica. Inoltre crea un DIT preconfigurato per la RM con una semplice
 struttura (vedi figura \ref{fig:DIT}).
 
-\begin{verbatim}
-# Create top-level object in domain
-dn: dc=mocambos,dc=net
-objectClass: top
-objectClass: dcObject
-objectclass: organization
-o: Mocambos
-dc: mocambos
-description: LDAP Mocambos
 
-# Admin user.
-dn: cn=admin,dc=mocambos,dc=net
-objectClass: simpleSecurityObject
-objectClass: organizationalRole
-cn: admin
-description: LDAP administrator
-userPassword: {SSHA}lx56Oal2lADo7y21hmy5GCdNWF7545Eh
 
-dn: ou=people,dc=mocambos,dc=net
-objectClass: organizationalUnit
-ou: people
-
-dn: ou=groups,dc=mocambos,dc=net
-objectClass: organizationalUnit
-ou: groups
-
-dn: cn=coordenadores,ou=groups,dc=mocambos,dc=net
-objectClass: groupOfNames
-cn: coordenadores
-member: uid=zumbi,ou=people,dc=mocambos,dc=net
-
-dn: uid=zumbi,ou=people,dc=mocambos,dc=net
-objectClass: inetOrgPerson
-objectClass: posixAccount
-objectClass: shadowAccount
-uid: mocambola
-sn: dos Palmares
-givenName: Zumbi
-cn: Zumbi dos Palmares
-displayName: Zumbi dos Palmares
-uidNumber: 5001
-gidNumber: 50000
-userPassword: {SSHA}lx56Oal2lADo7y21hmy5GCdNWF7545Eh
-gecos: Zumbi dos Palmares
-loginShell: /bin/bash
-homeDirectory: /home/zumbi
-shadowExpire: -1
-shadowFlag: 0
-shadowWarning: 7
-shadowMin: 8
-shadowMax: 999999
-shadowLastChange: 10877
-mail: zumbi@mocambos.net
-ou: Quilombo dos Palmares
-o: Mocambos
-title: Liderança
-initials: ZP
-
-\end{verbatim}
 
