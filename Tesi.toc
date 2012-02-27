@@ -13,14 +13,13 @@
 \contentsline {section}{\numberline {2.1}Le Reti federate}{5}{section.17}
 \contentsline {subsection}{\numberline {2.1.1}Reti federate eventualmente connesse}{5}{subsection.18}
 \contentsline {subsection}{\numberline {2.1.2}La Rete Mocambos (RM)}{6}{subsection.19}
-\contentsline {section}{\numberline {2.2}DA RIVEDERE}{7}{section.23}
-\contentsline {section}{\numberline {2.3}Tecnologie}{8}{section.24}
-\contentsline {subsection}{\numberline {2.3.1}LDAP}{8}{subsection.25}
-\contentsline {subsection}{\numberline {2.3.2}XMPP}{8}{subsection.26}
-\contentsline {subsection}{\numberline {2.3.3}OpenID}{9}{subsection.27}
-\contentsline {subsection}{\numberline {2.3.4}OAuth}{9}{subsection.28}
-\contentsline {subsection}{\numberline {2.3.5}Shibboleth}{10}{subsection.29}
-\contentsline {subsection}{\numberline {2.3.6}Kerberos}{10}{subsection.30}
+\contentsline {section}{\numberline {2.2}Tecnologie}{7}{section.24}
+\contentsline {subsection}{\numberline {2.2.1}LDAP}{8}{subsection.25}
+\contentsline {subsection}{\numberline {2.2.2}XMPP}{8}{subsection.26}
+\contentsline {subsection}{\numberline {2.2.3}OpenID}{9}{subsection.27}
+\contentsline {subsection}{\numberline {2.2.4}OAuth}{9}{subsection.28}
+\contentsline {subsection}{\numberline {2.2.5}Shibboleth}{9}{subsection.29}
+\contentsline {subsection}{\numberline {2.2.6}Kerberos}{10}{subsection.30}
 \contentsline {chapter}{\numberline {3}Un'architettura per la Rete Mocambos}{11}{chapter.31}
 \contentsline {section}{\numberline {3.1}Specifica dei requisiti}{11}{section.32}
 \contentsline {subsection}{\numberline {3.1.1}Identit\IeC {\`a} di rete}{12}{subsection.34}
@@ -40,3 +39,4 @@
 \contentsline {section}{\numberline {4.3}Portale Comunitario}{17}{section.57}
 \vspace {2em}
 \vspace {2em}
+\contentsline {chapter}{Bibliografia}{18}{dummy.59}
