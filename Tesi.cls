@@ -252,7 +252,7 @@
     {\normalsize \facname \par}
     {\normalsize \deptname \par}
     \bigskip
-    {\normalsize Corso di Laura in Informatica\par}
+    {\normalsize Corso di Laurea in Informatica\par}
     \bigskip
     {\normalsize\bf \@title \par}
     \medskip

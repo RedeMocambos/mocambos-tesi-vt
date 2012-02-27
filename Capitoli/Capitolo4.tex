@@ -10,10 +10,10 @@ L'uso delle tecnologie digitali offre nuove possibilità per
 l'educazione. Molte comunità afferenti alla RM hanno iniziato la
 produzione di materiale pedagogico audio-visuale che con l'aiuto della
 rete potrebbe contribuire ad arricchire i programmi educativi pubblici
-spesso carenti e poco integrati con la cultura quilombola. Da
-tempo\footnote{Il progetto \emph{Tambor e Comunicação} é un tentativo
-  di fortificare la rete di comunicazione digitale per le necessità
-  delle comunità. Vedi
+spesso carenti e poco integrati con la cultura quilombola. Col il
+progetto \emph{Tambor e Comunicação}\footnote{Il progetto \emph{Tambor
+    e Comunicação} é un tentativo di fortificare la rete di
+  comunicazione digitale per le necessità delle comunità. Vedi
   \url{http://wiki.mocambos.net/wiki/Projeto_Tambor_e_Comunicacao}.},
 quindi, il \emph{Núcleo de Pesquisa e Desenvolvimento Digital
   (NPDD)}\footnote{Il \emph{Núcleo de Pesquisa e Desenvolvimento
@@ -21,7 +21,7 @@ quindi, il \emph{Núcleo de Pesquisa e Desenvolvimento Digital
   per la comunicazione, la produzione di energie rinnovabili e
   sostenibili, e il miglioramento delle condizioni di vita in simbiosi
   con l'ambiente. Maggiori informazioni su
-  \url{http://wiki.mocambos.net/wiki/NPDD}.} nucleo di ricerca e
+  \url{http://wiki.mocambos.net/wiki/NPDD}.}, nucleo di ricerca e
 sviluppo digitale della RM cerca una soluzione per la pubblicazione e
 diffusione in rete di immagini, audio e video di interesse comune e
 spesso prodotti nelle stesse comunità. Il sistema prevede
@@ -32,7 +32,19 @@ contenuti, etichettati come di interesse comune, verso i server delle
 altre comunità. Il prototipo sviluppato cerca di risolvere le
 limitazioni di banda della rete rispettando la specifica di requisiti.
 
+\section{Archivio multimediale}
+L'archivio locale della comunità è un \emph{repository git-annex} che
+viene gestito tramite il portale comunitario, sia per la pubblicazione
+che per la visualizzazione dei contenuti. L'accesso diretto ai dati è
+comunque garantito essendo i dati salvati in chiaro sul disco.
+
 \section{Portale Comunitario}
-Per lo sviluppo di un portale locale è stato scelto l'uso di Django.
+Per lo sviluppo di un portale locale è stato scelto l'uso del framework \emph{Django}.
 
-
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=\textwidth]{./Figure/SchemaServer_ReteMocambos-crop.pdf}
+  \rule{35em}{0.5pt}
+  \caption[Schema dei server della RM]{Schema dei server della RM.}
+  \label{fig:SchemaServer_ReteMocambos}
+\end{figure}
