@@ -3,8 +3,12 @@ filename=Tesi
 all: pdf read
 
 pdf: 
-	bibtex ${filename}.aux
 	pdflatex ${filename}.tex
+
+remake: pdf bibtex pdf
+
+bibtex:
+	bibtex ${filename}.aux
 
 read:
 	evince ${filename}.pdf &
@@ -17,3 +21,4 @@ clean:
 
 dropbox: pdf
 	cp ${filename}.pdf ~/Dropbox/Public/${filename}.pdf
+	cp -a ~/dev/mocambos-tesi-vt ~/Dropbox/Tesi/
