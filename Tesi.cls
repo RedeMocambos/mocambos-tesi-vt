@@ -214,7 +214,7 @@
       \bigskip
       {\large presso \par}
       {\large \facname \par}
-      {\large \deptname \par}
+%      {\large \deptname \par}
       \bigskip
       \bigskip
       \bigskip
@@ -250,11 +250,14 @@
     {\huge{\textit{Abstract}} \par}
     \bigskip
     {\normalsize \facname \par}
-    {\normalsize \deptname \par}
+%    {\normalsize \deptname \par}
     \bigskip
     {\normalsize Corso di Laurea in Informatica\par}
     \bigskip
-    {\normalsize\bf \@title \par}
+    % {\normalsize\bf \@title \par}
+    {\normalsize\bf Eventually connected federated network \par}
+    {\normalsize Architecture and prototype for Mocambos Network \par}
+    % \vfill
     \medskip
     {\normalsize di \authornames \par}
     \bigskip
