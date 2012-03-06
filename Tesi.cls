@@ -189,23 +189,21 @@
     \let\footnoterule\relax
     \let \footnote \thanks
     \setcounter{footnote}{0}
-    \null\vfil
-    \vskip 60\p@
-    \begin{center}
-      \setlength{\parskip}{0pt}
+    \null\vfill
+    \vskip 50\p@
+      \begin{center}
       {\large\textbf{\UNIVNAME}\par}
       \vfill
+      \setlength{\parskip}{0pt}
       \begin{figure}[htbp]
         \centering
-%        \includegraphics[width=\textwidth]{./Figure/LogoUNIFI.pdf}
         \includegraphics[width=3.5cm]{./Figure/LogoUNIFI.pdf}
         % \rule{35em}{0.5pt}
         % \caption[Mappa delle comunità della Rete Mocambos, tratto da
         % \url{http://mapa.mocambos.net}]{Mappa delle comunità della Rete
-        %  Mocambos, tratto da \url{http://mapa.mocambos.net}}
+        % Mocambos, tratto da \url{http://mapa.mocambos.net}}
         % \label{fig:MappaRedeMocambos}
       \end{figure}
-
       \vfill
       {\huge \bf \@title \par}
       {\huge Architettura e prototipo per la Rete Mocambos \par}
