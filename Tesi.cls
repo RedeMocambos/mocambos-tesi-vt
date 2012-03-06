@@ -195,6 +195,18 @@
       \setlength{\parskip}{0pt}
       {\large\textbf{\UNIVNAME}\par}
       \vfill
+      \begin{figure}[htbp]
+        \centering
+%        \includegraphics[width=\textwidth]{./Figure/LogoUNIFI.pdf}
+        \includegraphics[width=3.5cm]{./Figure/LogoUNIFI.pdf}
+        % \rule{35em}{0.5pt}
+        % \caption[Mappa delle comunità della Rete Mocambos, tratto da
+        % \url{http://mapa.mocambos.net}]{Mappa delle comunità della Rete
+        %  Mocambos, tratto da \url{http://mapa.mocambos.net}}
+        % \label{fig:MappaRedeMocambos}
+      \end{figure}
+
+      \vfill
       {\huge \bf \@title \par}
       {\huge Architettura e prototipo per la Rete Mocambos \par}
       \vfill
@@ -259,7 +271,7 @@
     {\normalsize Architecture and prototype for Mocambos Network \par}
     % \vfill
     \medskip
-    {\normalsize di \authornames \par}
+    {\normalsize by \authornames \par}
     \bigskip
   \end{center}
 }

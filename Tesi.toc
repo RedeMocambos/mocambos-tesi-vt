@@ -1,43 +1,43 @@
 \select@language {italian}
-\contentsline {chapter}{Abstract}{ii}{dummy.1}
+\contentsline {chapter}{Abstract}{ii}{dummy.2}
 \vspace {1em}
-\contentsline {chapter}{Ringraziamenti}{iii}{dummy.2}
+\contentsline {chapter}{Ringraziamenti}{iii}{dummy.3}
 \vspace {1em}
-\contentsline {chapter}{Elenco delle figure}{vi}{dummy.4}
-\contentsline {chapter}{Abbreviazioni}{vii}{dummy.6}
+\contentsline {chapter}{Elenco delle figure}{vi}{dummy.5}
+\contentsline {chapter}{Abbreviazioni}{vii}{dummy.7}
 \vspace {2em}
-\contentsline {chapter}{\numberline {1}Introduzione}{1}{chapter.9}
-\contentsline {section}{\numberline {1.1}Neutralit\IeC {\`a} tecnologica}{2}{section.14}
-\contentsline {section}{\numberline {1.2}Internet, autonomia e libert\IeC {\`a} tecnologica}{2}{section.15}
-\contentsline {chapter}{\numberline {2}Reti federate eventualmente connesse}{5}{chapter.16}
-\contentsline {section}{\numberline {2.1}Le Reti federate}{5}{section.17}
-\contentsline {subsection}{\numberline {2.1.1}Reti federate eventualmente connesse}{5}{subsection.18}
-\contentsline {subsection}{\numberline {2.1.2}La Rete Mocambos (RM)}{6}{subsection.19}
-\contentsline {section}{\numberline {2.2}Tecnologie}{7}{section.25}
-\contentsline {subsection}{\numberline {2.2.1}LDAP}{8}{subsection.26}
-\contentsline {subsection}{\numberline {2.2.2}XMPP}{8}{subsection.27}
-\contentsline {subsection}{\numberline {2.2.3}OpenID}{9}{subsection.28}
-\contentsline {subsection}{\numberline {2.2.4}OAuth}{9}{subsection.29}
-\contentsline {subsection}{\numberline {2.2.5}Shibboleth}{9}{subsection.30}
-\contentsline {subsection}{\numberline {2.2.6}Kerberos}{10}{subsection.31}
-\contentsline {chapter}{\numberline {3}Un'architettura per la Rete Mocambos}{12}{chapter.32}
-\contentsline {section}{\numberline {3.1}Specifica dei requisiti}{12}{section.33}
-\contentsline {subsection}{\numberline {3.1.1}Identit\IeC {\`a} di rete}{13}{subsection.35}
-\contentsline {subsection}{\numberline {3.1.2}Autenticazione decentrata}{13}{subsection.36}
-\contentsline {subsection}{\numberline {3.1.3}Sincronizzazione}{13}{subsection.37}
-\contentsline {subsection}{\numberline {3.1.4}Riproducibilit\IeC {\`a}}{13}{subsection.38}
-\contentsline {subsection}{\numberline {3.1.5}Manutenzione}{13}{subsection.39}
-\contentsline {subsection}{\numberline {3.1.6}Sviluppo}{14}{subsection.40}
-\contentsline {section}{\numberline {3.2}Strumenti e pratiche per lo sviluppo}{14}{section.41}
-\contentsline {subsection}{\numberline {3.2.1}Sistema operativo}{14}{subsection.44}
-\contentsline {subsection}{\numberline {3.2.2}Linguaggi di programmazione}{15}{subsection.47}
-\contentsline {subsection}{\numberline {3.2.3}Virtualizzazione}{15}{subsection.51}
-\contentsline {section}{\numberline {3.3}Architettura di base}{15}{section.53}
-\contentsline {subsection}{\numberline {3.3.1}Gestione delle identit\IeC {\`a} di rete}{15}{subsection.54}
-\contentsline {chapter}{\numberline {4}Un prototipo di servizio federato}{17}{chapter.56}
-\contentsline {section}{\numberline {4.1}Sistema di pubblicazione e diffusione di contenuti multimediali}{17}{section.57}
-\contentsline {section}{\numberline {4.2}Archivio multimediale}{18}{section.60}
-\contentsline {section}{\numberline {4.3}Portale Comunitario}{18}{section.61}
+\contentsline {chapter}{\numberline {1}Introduzione}{1}{chapter.10}
+\contentsline {section}{\numberline {1.1}Neutralit\IeC {\`a} tecnologica}{2}{section.15}
+\contentsline {section}{\numberline {1.2}Internet, autonomia e libert\IeC {\`a} tecnologica}{2}{section.16}
+\contentsline {chapter}{\numberline {2}Reti federate eventualmente connesse}{5}{chapter.17}
+\contentsline {section}{\numberline {2.1}Le Reti federate}{5}{section.18}
+\contentsline {subsection}{\numberline {2.1.1}Reti federate eventualmente connesse}{5}{subsection.19}
+\contentsline {subsection}{\numberline {2.1.2}La Rete Mocambos (RM)}{6}{subsection.20}
+\contentsline {section}{\numberline {2.2}Tecnologie}{8}{section.27}
+\contentsline {subsection}{\numberline {2.2.1}LDAP}{8}{subsection.28}
+\contentsline {subsection}{\numberline {2.2.2}XMPP}{9}{subsection.29}
+\contentsline {subsection}{\numberline {2.2.3}OpenID}{9}{subsection.30}
+\contentsline {subsection}{\numberline {2.2.4}OAuth}{10}{subsection.31}
+\contentsline {subsection}{\numberline {2.2.5}Shibboleth}{10}{subsection.32}
+\contentsline {subsection}{\numberline {2.2.6}Kerberos}{10}{subsection.33}
+\contentsline {chapter}{\numberline {3}Un'architettura per la Rete Mocambos}{13}{chapter.34}
+\contentsline {section}{\numberline {3.1}Specifica dei requisiti}{13}{section.35}
+\contentsline {subsection}{\numberline {3.1.1}Identit\IeC {\`a} di rete}{14}{subsection.37}
+\contentsline {subsection}{\numberline {3.1.2}Autenticazione decentrata}{14}{subsection.38}
+\contentsline {subsection}{\numberline {3.1.3}Sincronizzazione}{14}{subsection.39}
+\contentsline {subsection}{\numberline {3.1.4}Riproducibilit\IeC {\`a}}{14}{subsection.40}
+\contentsline {subsection}{\numberline {3.1.5}Manutenzione}{14}{subsection.41}
+\contentsline {subsection}{\numberline {3.1.6}Sviluppo}{15}{subsection.42}
+\contentsline {section}{\numberline {3.2}Strumenti e pratiche per lo sviluppo}{15}{section.43}
+\contentsline {subsection}{\numberline {3.2.1}Sistema operativo}{15}{subsection.46}
+\contentsline {subsection}{\numberline {3.2.2}Linguaggi di programmazione}{16}{subsection.49}
+\contentsline {subsection}{\numberline {3.2.3}Virtualizzazione}{16}{subsection.53}
+\contentsline {section}{\numberline {3.3}Architettura di base}{16}{section.55}
+\contentsline {subsection}{\numberline {3.3.1}Gestione delle identit\IeC {\`a} di rete}{16}{subsection.56}
+\contentsline {chapter}{\numberline {4}Un prototipo di servizio federato}{18}{chapter.58}
+\contentsline {section}{\numberline {4.1}Sistema di pubblicazione e diffusione di contenuti multimediali}{18}{section.59}
+\contentsline {section}{\numberline {4.2}Archivio multimediale}{19}{section.62}
+\contentsline {section}{\numberline {4.3}Portale Comunitario}{19}{section.63}
 \vspace {2em}
 \vspace {2em}
-\contentsline {chapter}{Bibliografia}{19}{dummy.63}
+\contentsline {chapter}{Bibliografia}{20}{dummy.65}
