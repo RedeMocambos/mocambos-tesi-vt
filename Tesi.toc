@@ -12,7 +12,7 @@
 \contentsline {chapter}{\numberline {2}Reti federate eventualmente connesse}{5}{chapter.17}
 \contentsline {section}{\numberline {2.1}Le Reti federate}{5}{section.18}
 \contentsline {subsection}{\numberline {2.1.1}Reti federate eventualmente connesse}{5}{subsection.19}
-\contentsline {subsection}{\numberline {2.1.2}La Rete Mocambos (RM)}{6}{subsection.20}
+\contentsline {subsection}{\numberline {2.1.2}La Rete Mocambos}{6}{subsection.20}
 \contentsline {section}{\numberline {2.2}Tecnologie}{8}{section.27}
 \contentsline {subsection}{\numberline {2.2.1}LDAP}{8}{subsection.28}
 \contentsline {subsection}{\numberline {2.2.2}XMPP}{9}{subsection.29}
