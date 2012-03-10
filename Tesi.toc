@@ -40,6 +40,7 @@
 \contentsline {subsection}{\numberline {4.2.1}git-annex}{20}{subsection.72}
 \contentsline {section}{\numberline {4.3}Portale Comunitario}{20}{section.73}
 \contentsline {subsection}{\numberline {4.3.1}Django}{20}{subsection.74}
+\contentsline {chapter}{\numberline {5}Conclusioni e sviluppi futuri}{22}{chapter.76}
 \vspace {2em}
 \vspace {2em}
-\contentsline {chapter}{Bibliografia}{22}{dummy.76}
+\contentsline {chapter}{Bibliografia}{23}{dummy.77}
