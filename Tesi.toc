@@ -7,19 +7,18 @@
 \contentsline {chapter}{Abbreviazioni}{vii}{dummy.7}
 \vspace {2em}
 \contentsline {chapter}{\numberline {1}Introduzione}{1}{chapter.10}
-\contentsline {section}{\numberline {1.1}Neutralit\IeC {\`a} tecnologica}{2}{section.17}
-\contentsline {section}{\numberline {1.2}Internet, autonomia e libert\IeC {\`a} tecnologica}{3}{section.18}
-\contentsline {chapter}{\numberline {2}Reti federate eventualmente connesse}{6}{chapter.25}
-\contentsline {section}{\numberline {2.1}Le Reti federate}{6}{section.26}
-\contentsline {subsection}{\numberline {2.1.1}Reti federate eventualmente connesse}{6}{subsection.27}
-\contentsline {subsection}{\numberline {2.1.2}La Rete Mocambos}{7}{subsection.28}
-\contentsline {section}{\numberline {2.2}Tecnologie}{9}{section.36}
-\contentsline {subsection}{\numberline {2.2.1}LDAP}{9}{subsection.37}
-\contentsline {subsection}{\numberline {2.2.2}XMPP}{10}{subsection.38}
-\contentsline {subsection}{\numberline {2.2.3}OpenID}{10}{subsection.39}
-\contentsline {subsection}{\numberline {2.2.4}OAuth}{11}{subsection.40}
-\contentsline {subsection}{\numberline {2.2.5}Shibboleth}{11}{subsection.41}
-\contentsline {subsection}{\numberline {2.2.6}Kerberos}{11}{subsection.42}
+\contentsline {section}{\numberline {1.1}Neutralit\IeC {\`a} tecnologica}{2}{section.18}
+\contentsline {section}{\numberline {1.2}Internet, autonomia e libert\IeC {\`a} tecnologica}{3}{section.19}
+\contentsline {chapter}{\numberline {2}Reti federate eventualmente connesse}{6}{chapter.26}
+\contentsline {section}{\numberline {2.1}Reti federate eventualmente connesse}{6}{section.27}
+\contentsline {section}{\numberline {2.2}La Rete Mocambos}{7}{section.28}
+\contentsline {section}{\numberline {2.3}Tecnologie}{9}{section.36}
+\contentsline {subsection}{\numberline {2.3.1}LDAP}{9}{subsection.37}
+\contentsline {subsection}{\numberline {2.3.2}XMPP}{10}{subsection.38}
+\contentsline {subsection}{\numberline {2.3.3}OpenID}{10}{subsection.39}
+\contentsline {subsection}{\numberline {2.3.4}OAuth}{11}{subsection.40}
+\contentsline {subsection}{\numberline {2.3.5}Shibboleth}{11}{subsection.41}
+\contentsline {subsection}{\numberline {2.3.6}Kerberos}{11}{subsection.42}
 \contentsline {chapter}{\numberline {3}Un'architettura per la Rete Mocambos}{14}{chapter.43}
 \contentsline {section}{\numberline {3.1}Specifica dei requisiti}{14}{section.44}
 \contentsline {subsection}{\numberline {3.1.1}Identit\IeC {\`a} di rete}{15}{subsection.46}
@@ -34,13 +33,14 @@
 \contentsline {subsection}{\numberline {3.2.3}Virtualizzazione}{17}{subsection.62}
 \contentsline {section}{\numberline {3.3}Architettura di base}{17}{section.64}
 \contentsline {subsection}{\numberline {3.3.1}Gestione delle identit\IeC {\`a} di rete}{17}{subsection.65}
-\contentsline {chapter}{\numberline {4}Un prototipo di servizio federato}{19}{chapter.67}
-\contentsline {section}{\numberline {4.1}Sistema di pubblicazione e diffusione di contenuti multimediali}{19}{section.70}
-\contentsline {section}{\numberline {4.2}Archivio multimediale}{20}{section.71}
-\contentsline {subsection}{\numberline {4.2.1}git-annex}{20}{subsection.72}
-\contentsline {section}{\numberline {4.3}Portale Comunitario}{20}{section.73}
-\contentsline {subsection}{\numberline {4.3.1}Django}{20}{subsection.74}
-\contentsline {chapter}{\numberline {5}Conclusioni e sviluppi futuri}{22}{chapter.76}
+\contentsline {subsection}{\numberline {3.3.2}Mocambos\_LDAP}{18}{subsection.66}
+\contentsline {chapter}{\numberline {4}Un prototipo di servizio federato}{19}{chapter.68}
+\contentsline {section}{\numberline {4.1}Sistema di pubblicazione e diffusione di contenuti multimediali}{19}{section.71}
+\contentsline {section}{\numberline {4.2}Archivio multimediale}{20}{section.73}
+\contentsline {subsection}{\numberline {4.2.1}git-annex}{20}{subsection.74}
+\contentsline {section}{\numberline {4.3}Portale Comunitario}{22}{section.76}
+\contentsline {subsection}{\numberline {4.3.1}Django}{22}{subsection.78}
+\contentsline {chapter}{\numberline {5}Conclusioni e sviluppi futuri}{23}{chapter.79}
 \vspace {2em}
 \vspace {2em}
-\contentsline {chapter}{Bibliografia}{23}{dummy.77}
+\contentsline {chapter}{Bibliografia}{24}{dummy.80}

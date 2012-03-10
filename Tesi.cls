@@ -228,7 +228,8 @@
       \bigskip
       \bigskip
       \bigskip
-      {\Large \@date \par}
+%      {\Large \@date \par}
+      {\Large Anno Accademico 2010-2011 \par}
       \bigskip
     \end{center}
     \par
