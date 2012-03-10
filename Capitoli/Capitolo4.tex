@@ -101,6 +101,9 @@ altro che \emph{push} e \emph{pull} tra i vari \emph{repository}.
 \end{itemize}
 
 \section{Portale Comunitario}
+\framebox[\textwidth]{\footnotesize Il codice è disponibile su
+\url{https://github.com/RedeMocambos/Mocambos_Portal_Local}}
+
 Il portale locale deve dare accesso ai principali servizi locali della
 comunità. Per lo sviluppo è stato scelto l'uso di un framework basato
 su python, \emph{Django}, che consente un'integrazione flessibile e
@@ -121,5 +124,49 @@ dei dati e si prendono cura di aggiungere i contenuti sul
   \label{fig:SchemaUMLDjango}
 \end{figure}
 
-\subsection{Django}
-\emph{Django} è un framework per lo sviluppo rapido di applicazioni web.
+\subsection{Django mmedia}
+\framebox[\textwidth]{\footnotesize Il codice è disponibile su
+\url{https://github.com/RedeMocambos/mmedia}}
+
+Il modulo \emph{mmedia} implementa il modello dei dati
+multimediali con supporto al salvataggio su \emph{repository
+  git-annex}.
+
+I modelli, in Django, devono essere creati nel file \verb|model.py|,
+dove, innanzitutto, definiamo la struttura base della classe
+``MMedia'', con gli attributi comuni a tutti gli oggetti
+multimediali. Le classi ``Audio'', ``Image'' e ``Video'', ereditano
+dalla classe astratta ``MMedia'', includendo altri attributi specifici
+per il tipo di oggetto.
+
+Gli oggetti vengono salvati su \emph{database}, e serializzati su
+disco tramite l'\emph{overriding} della funzione \emph{save()}:
+
+\lstset{language=Python}
+\begin{lstlisting}
+    def save(self, *args, **kwargs):
+        logger.debug(type(self))
+        serializeTo = os.path.join(settings.MEDIA_ROOT,\
+                                   settings.GITANNEX_DIR,\
+                                   settings.PORTAL_NAME,\
+                                   settings.SERIALIZED_DIR,\
+                                   os.path.basename(self.fileref.path)+ '.xml')
+        logger.info('>>>> Serialize to: ' + serializeTo)
+        out = open(serializeTo, "w")
+        XMLSerializer = serializers.get_serializer("xml")
+        xml_serializer = XMLSerializer()
+        xml_serializer.serialize((self, ), stream=out)
+        super(MMedia, self).save(*args, **kwargs)
+\end{lstlisting}
+
+\subsection{Django gitannex}
+\framebox[\textwidth]{\footnotesize Il codice è disponibile su
+\url{https://github.com/RedeMocambos/gitannex}}
+
+Django fornisce un sistema di segnali, lanciati in concomitanza di
+operazioni quali la \emph{save()}, che possono essere intercettati
+altrove dal sistema.  
+
+
+
+

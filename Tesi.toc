@@ -19,28 +19,31 @@
 \contentsline {subsection}{\numberline {2.3.4}OAuth}{11}{subsection.40}
 \contentsline {subsection}{\numberline {2.3.5}Shibboleth}{11}{subsection.41}
 \contentsline {subsection}{\numberline {2.3.6}Kerberos}{11}{subsection.42}
-\contentsline {chapter}{\numberline {3}Un'architettura per la Rete Mocambos}{14}{chapter.43}
-\contentsline {section}{\numberline {3.1}Specifica dei requisiti}{14}{section.44}
-\contentsline {subsection}{\numberline {3.1.1}Identit\IeC {\`a} di rete}{15}{subsection.46}
-\contentsline {subsection}{\numberline {3.1.2}Autenticazione decentrata}{15}{subsection.47}
-\contentsline {subsection}{\numberline {3.1.3}Sincronizzazione}{15}{subsection.48}
-\contentsline {subsection}{\numberline {3.1.4}Riproducibilit\IeC {\`a}}{15}{subsection.49}
-\contentsline {subsection}{\numberline {3.1.5}Manutenzione}{15}{subsection.50}
-\contentsline {subsection}{\numberline {3.1.6}Sviluppo}{16}{subsection.51}
-\contentsline {section}{\numberline {3.2}Strumenti e pratiche per lo sviluppo}{16}{section.52}
-\contentsline {subsection}{\numberline {3.2.1}Sistema operativo}{16}{subsection.55}
-\contentsline {subsection}{\numberline {3.2.2}Linguaggi di programmazione}{17}{subsection.58}
-\contentsline {subsection}{\numberline {3.2.3}Virtualizzazione}{17}{subsection.62}
-\contentsline {section}{\numberline {3.3}Architettura di base}{17}{section.64}
-\contentsline {subsection}{\numberline {3.3.1}Gestione delle identit\IeC {\`a} di rete}{17}{subsection.65}
-\contentsline {subsection}{\numberline {3.3.2}Mocambos\_LDAP}{18}{subsection.66}
-\contentsline {chapter}{\numberline {4}Un prototipo di servizio federato}{19}{chapter.68}
-\contentsline {section}{\numberline {4.1}Sistema di pubblicazione e diffusione di contenuti multimediali}{19}{section.71}
-\contentsline {section}{\numberline {4.2}Archivio multimediale}{20}{section.73}
-\contentsline {subsection}{\numberline {4.2.1}git-annex}{20}{subsection.74}
-\contentsline {section}{\numberline {4.3}Portale Comunitario}{22}{section.76}
-\contentsline {subsection}{\numberline {4.3.1}Django}{22}{subsection.78}
-\contentsline {chapter}{\numberline {5}Conclusioni e sviluppi futuri}{23}{chapter.79}
+\contentsline {subsection}{\numberline {2.3.7}Django}{12}{subsection.43}
+\contentsline {subsection}{\numberline {2.3.8}Git}{12}{subsection.44}
+\contentsline {chapter}{\numberline {3}Un'architettura per la Rete Mocambos}{14}{chapter.45}
+\contentsline {section}{\numberline {3.1}Specifica dei requisiti}{14}{section.46}
+\contentsline {subsection}{\numberline {3.1.1}Identit\IeC {\`a} di rete}{15}{subsection.48}
+\contentsline {subsection}{\numberline {3.1.2}Autenticazione decentrata}{15}{subsection.49}
+\contentsline {subsection}{\numberline {3.1.3}Sincronizzazione}{15}{subsection.50}
+\contentsline {subsection}{\numberline {3.1.4}Riproducibilit\IeC {\`a}}{15}{subsection.51}
+\contentsline {subsection}{\numberline {3.1.5}Manutenzione}{15}{subsection.52}
+\contentsline {subsection}{\numberline {3.1.6}Sviluppo}{16}{subsection.53}
+\contentsline {section}{\numberline {3.2}Strumenti e pratiche per lo sviluppo}{16}{section.54}
+\contentsline {subsection}{\numberline {3.2.1}Sistema operativo}{16}{subsection.57}
+\contentsline {subsection}{\numberline {3.2.2}Linguaggi di programmazione}{17}{subsection.60}
+\contentsline {subsection}{\numberline {3.2.3}Virtualizzazione}{17}{subsection.64}
+\contentsline {section}{\numberline {3.3}Architettura di base}{17}{section.66}
+\contentsline {subsection}{\numberline {3.3.1}Gestione delle identit\IeC {\`a} di rete}{17}{subsection.67}
+\contentsline {subsection}{\numberline {3.3.2}Mocambos\_LDAP}{18}{subsection.68}
+\contentsline {chapter}{\numberline {4}Un prototipo di servizio federato}{19}{chapter.70}
+\contentsline {section}{\numberline {4.1}Sistema di pubblicazione e diffusione di contenuti multimediali}{19}{section.73}
+\contentsline {section}{\numberline {4.2}Archivio multimediale}{20}{section.75}
+\contentsline {subsection}{\numberline {4.2.1}git-annex}{20}{subsection.76}
+\contentsline {section}{\numberline {4.3}Portale Comunitario}{21}{section.78}
+\contentsline {subsection}{\numberline {4.3.1}Django mmedia}{22}{subsection.80}
+\contentsline {subsection}{\numberline {4.3.2}Django gitannex}{23}{subsection.95}
+\contentsline {chapter}{\numberline {5}Conclusioni e sviluppi futuri}{24}{chapter.96}
 \vspace {2em}
 \vspace {2em}
-\contentsline {chapter}{Bibliografia}{24}{dummy.80}
+\contentsline {chapter}{Bibliografia}{25}{dummy.97}
