@@ -35,9 +35,11 @@
 \contentsline {section}{\numberline {3.3}Architettura di base}{17}{section.64}
 \contentsline {subsection}{\numberline {3.3.1}Gestione delle identit\IeC {\`a} di rete}{17}{subsection.65}
 \contentsline {chapter}{\numberline {4}Un prototipo di servizio federato}{19}{chapter.67}
-\contentsline {section}{\numberline {4.1}Sistema di pubblicazione e diffusione di contenuti multimediali}{19}{section.68}
+\contentsline {section}{\numberline {4.1}Sistema di pubblicazione e diffusione di contenuti multimediali}{19}{section.70}
 \contentsline {section}{\numberline {4.2}Archivio multimediale}{20}{section.71}
-\contentsline {section}{\numberline {4.3}Portale Comunitario}{20}{section.72}
+\contentsline {subsection}{\numberline {4.2.1}git-annex}{20}{subsection.72}
+\contentsline {section}{\numberline {4.3}Portale Comunitario}{20}{section.73}
+\contentsline {subsection}{\numberline {4.3.1}Django}{20}{subsection.74}
 \vspace {2em}
 \vspace {2em}
-\contentsline {chapter}{Bibliografia}{21}{dummy.74}
+\contentsline {chapter}{Bibliografia}{22}{dummy.76}
