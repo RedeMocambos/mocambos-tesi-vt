@@ -6,8 +6,8 @@
 
 \section{Le Reti federate}
 Con rete federata si può intendere un universo molto ampio di
-situazioni. In questo lavoro si ricerca sopratutto una rete federata
-con i seguenti aspetti:
+situazioni. In questo lavoro si considera sopratutto una rete federata
+con le seguenti caratteristiche:
 
 \begin{itemize}
   \item amministrazione decentrata 
@@ -17,45 +17,52 @@ con i seguenti aspetti:
   \item interazione tra reti locali intelligenti
 \end{itemize} 
 
-Una rete federata quindi intesa come congiunto di soluzioni
+Una rete federata, quindi, intesa come un insieme di soluzioni
 tecnicamente viabili ed adattabili ad usi, costumi e contesti
-differenti. Permette una gestione flessibile della rete con sotto-reti
-eterogenee sfruttando diverse tecnologie, ad esempio, P2P ove
-necessario. Si adatta ad un contesto dove esiste già una struttura
-organizzativa che si può riflettere nella struttura di rete e che ne
-può accompagnare la gestione.
+differenti, che permetta una gestione flessibile della rete, con
+sotto-reti eterogenee, sfruttando diverse tecnologie, ad esempio P2P
+ove necessario. Una rete federata si adatta particolarmente ad un
+contesto dove esiste già una struttura organizzativa che si può
+riflettere nella struttura di rete e che ne può accompagnare la
+gestione.
 
 \subsection{Reti federate eventualmente connesse}
 L'introduzione sul contesto suggerisce l'ambito di ricerca ma
-necessita una restrizione maggiore. Per ``rete
-federata eventualmente connessa'', consideriamo, oltre alle premesse
-fatte, principalmente gli aspetti legati ad una rete federata basata
-su connessioni non sempre disponibili, quali le connessioni
-satellitari.
+necessita una restrizione maggiore. Per ``rete federata eventualmente
+connessa'', consideriamo, oltre alle premesse fatte, una rete federata
+basata su connessioni non sempre disponibili, quali le connessioni
+satellitari, con l'esigenza di mantenere i servizi federati attivi,
+anche in assenza di comunicazione. I servizi federati sono inoltre
+ottimizzati per la resilienza del sistema e la riduzione del traffico
+di rete esterno attraverso strategie di replicazione, sincronizzazione
+e memorizzazione dei dati sull'infrastruttura logica/fisica locale.
 
 \subsection{La Rete Mocambos}
 \label{sec:ReteMocambos}
-``La Rete Mocambos è una rete solidaria di comunità che ha come
-principale obbiettivo condividere idee e offrire appoggio reciproco''.
-``La tecnologia è uno dei campi di attuazione della Rete essendo al
-tempo stesso idea e mezzo per condividere idee''\footnote{Tradotto da
-  \url{http://www.mocambos.org/sobre}.}.
 
-La Rete Mocambos (RM) attualmente coinvolge direttamente più di 200
+\begin{quote}
+  ``\emph{É uma rede solidária de comunidades, no qual o objetivo
+    principal é compartilhar idéias e oferecer apoio recíproco.}''
+  \ldots ``\emph{A tecnologia é uma frente de trabalho da Rede
+    Mocambos, sendo ao mesmo tempo idéia e meio para transferir
+    idéias.}''\footnote{``è una rete solidale di comunità che ha come
+    principale obbiettivo condividere idee e offrire appoggio
+    reciproco'' \ldots ``La tecnologia è uno dei campi di attuazione
+    della Rete Mocambos, essendo al tempo stesso idea e mezzo per
+    trasferire idee.'', tradotto da
+    \url{http://www.mocambos.net/sobre}.}, \citep{RMSobre}.
+\end{quote}
+
+La Rete Mocambos (RM), attualmente, coinvolge direttamente più di 200
 comunità quilombola, collettivi, comunità indigene e
-\emph{terreiros}\footnote{SCRIVERE} (vedi figura
+\emph{terreiros}\footnote{Con il termine \emph{terreiros} vengono
+  comunemente identificati i luoghi di culto delle religioni
+  afro-brasiliane, quali Candomblé, Umbanda, Xamba etc.} (vedi figura
 \ref{fig:MappaRedeMocambos}). Esistono due accordi\footnote{Gli
   accordi sono stati firmati, a nome della Rete Mocambos, dalla
-  \emph{Casa de Cultura Tainã}. La \emph{Casa de Cultura Tainã} è
-  un'entità sociale e culturale senza fini di lucro fondata nel 1989
-  da abitanti della periferia di Campinas. Obbiettivo dell'entità è
-  rendere possibile l'accesso all'informazione fortificando la pratica
-  di cittadinanza e la formazione dell'identità culturale, al fine di
-  contribuire nella crescita di individui coscienti e attuanti nella
-  comunità. L'indirizzo del sito internet è
-  \url{http://www.taina.org.br}.} tra la Rete Mocambos i il Ministero
+  \emph{Casa de Cultura Tainã}.} tra la Rete Mocambos i il Ministero
 delle Comunicazioni all'interno del programma GESAC e del programma
-Telecentros.BR. 
+Telecentros.BR.
 
 \begin{figure}[htbp]
   \centering
@@ -67,25 +74,25 @@ Telecentros.BR.
   \label{fig:MappaRedeMocambos}
 \end{figure}
 
-Il GESAC garantisce connettività satellitare a tutte
-le comunità con una banda larga limitata dovuta al tipo di tecnologia,
-non facilmente sostituibile nel breve e medio termine. Tramite il
-programma Telecentros.BR sono in corso di installazione 200
-"telecentros" (sale attrezzate con 10 computer ad accesso pubblico) e
+Il GESAC garantisce connettività satellitare a tutte le comunità, con
+una banda limitata dovuta al tipo di tecnologia, non facilmente
+sostituibile nel breve e medio termine. Tramite il programma
+Telecentros.BR sono in corso di installazione 200 \emph{telecentros},
+sale attrezzate con 10 computer ad accesso pubblico, e saranno erogate
 200 borse per tutor locali, per la gestione degli spazi. Proprio in un
-contesto cosi specifico nasce la necessità di adattare la tecnologia
-alle esigenze locali imposte, anche per le limitazioni
-tecniche. Questa limitazione spinge a riconsiderare la rete non solo
-come il mezzo di connessione verso i grandi \emph{datacenter}. La rete
-può, e in questo caso deve, essere strutturata nel territorio con
-logiche di sviluppo e gestione localmente determinate dalla
-comunità. In questo senso è indispensabile la formazione e l'accesso
-alle tecnologie. La \emph{Casa de Cultura Tainã}, nucleo fondatore
-della RM, è tra le prime realtà popolari che hanno percepito la
-necessità del software libero, come espressione della libertà di poter
-creare i propri strumenti tecnologici digitali. L'esclusione digitale
-non riguarda solo l'accesso al mondo digitale ma l'impossibilità di
-contribuire alla sua creazione e crescita.
+contesto così specifico nasce la necessità di adattare la tecnologia
+alle esigenze locali, anche per le limitazioni tecniche imposte. La
+scarsità di banda spinge a riconsiderare la rete non solo come il
+mezzo di connessione verso i grandi \emph{data center}. La rete può, e
+in questo caso deve, essere strutturata nel territorio con logiche di
+sviluppo e gestione localmente determinate dalla comunità. In questo
+senso è indispensabile la formazione e l'accesso alle tecnologie. La
+\emph{Casa de Cultura Tainã}, nucleo fondatore della RM, è tra le
+prime realtà popolari che hanno percepito la necessità del software
+libero, come espressione della libertà di poter creare i propri
+strumenti tecnologici digitali. L'esclusione digitale non riguarda
+solo l'accesso al mondo digitale ma l'impossibilità di contribuire
+alla sua creazione e crescita.
 
 \begin{figure}[htbp]
   \centering
@@ -103,24 +110,25 @@ sono molte le comunità indigene, quilombola e
 ``tradizionali''\footnote{Per comunità tradizionali si intende
   comunità con culture e società proprie, per lo più di origine
   afro-indigena, situate spesso in ambito rurale e fortemente legate
-  alla natura. In Brasile queste comunità hanno riconosciuto
-  costituzionalmente il diritto di vivere secondo la loro cultura.}
-che conoscono bene le potenzialità delle tecnologie digitali e stanno,
-a poco a poco, cominciando a dominarle. Questo non sarebbe stato
-possibile senza l'esistenza e l'ampia disponibilità di Software
-Libero. Tecnologie digitali sotto forma di prodotti commerciali
-sarebbero un ennesimo passo verso la dipendenza economica e
-culturale. Questa consapevolezza è alla base di scelte ben
-ponderate. Ricordo che, qualche anno fa a Brasilia, ad una riunione
-del programma del governo federale \emph{Luz para Todos} (programma
-per fornire elettricità anche alla popolazione in zone rurali e amene)
-un capo indigena fece presente che pur volendo l'energia elettrica
-questa dovesse essere limitata solo agli spazi comunitari e non alle
-case. Non è difficile intuire il perché di tale condizione. Portare
-l'elettricità nelle case non è compatibile con la loro cultura e
-nemmeno con la loro economia. Ad un contatore elettrico corrisponde
-una bolletta che richiede denaro, che porterebbe alla migrazione in
-cerca di lavoro retribuito al di fuori della comunità.
+  alla natura. La costituzione brasiliana sancisce il diritto alla
+  terra per le comunità indigene e quilombola, e lo stato deve
+  tutelare e garantire la diversità culturale.} che conoscono bene le
+potenzialità delle tecnologie digitali e stanno, a poco a poco,
+cominciando a dominarle. Questo non sarebbe stato possibile senza
+l'esistenza e l'ampia disponibilità di Software Libero. Tecnologie
+digitali sotto forma di prodotti commerciali sarebbero un ennesimo
+passo verso la dipendenza economica e culturale. Questa consapevolezza
+è alla base di scelte ben ponderate. Ricordo che, qualche anno fa a
+Brasilia, ad una riunione del programma del governo federale \emph{Luz
+  para Todos}, programma per fornire elettricità anche alla
+popolazione in zone rurali e amene, un \emph{cacique}\footnote{
+  \emph{Cacique} è un termine con cui si definiscono i capi di alcune
+  comunità indigene in America latina. } fece presente che pur volendo
+l'energia elettrica questa dovesse essere limitata solo agli spazi
+comunitari e non alle case. Non è difficile intuire il perché di tale
+condizione. Avere un contatore e una bolletta per ogni casa
+significherebbe introdurre costi in denaro, che non sono compatibili
+con la loro cultura e nemmeno con la loro economia.
 
 % \section{DA RIVEDERE}
 % Una rete federata deve essere gestita. Servono risorse e conoscenze
