@@ -108,8 +108,8 @@ collettivo. La RM utilizza già da anni un wiki\footnote{``Una Wiki è
 disponibile all'indirizzo \url{http://wiki.mocambos.net}, dove è
 disponibile, in lingua portoghese, una parte della documentazione sul
 codice sviluppato per questo lavoro. Per il versionamento del codice
-del lavoro svolto si è scelto di usare il sistema decentrato GIT
-\ref{sec:GIT} e la piattaforma
+del lavoro svolto si è scelto di usare il sistema decentrato GIT (vedi
+\ref{sec:GIT}) e la piattaforma
 GITHUB\footnote{\href{http://github.com}{GITHUB} è una rete sociale
   basata sul sistema GIT \ref{sec:GIT}.}. Il codice del prototipo è
 disponibile all'indirizzo \url{https://github.com/RedeMocambos}
@@ -189,11 +189,14 @@ all'ultima sincronizzazione.
 
 
 \subsection{Mocambos\_LDAP}
-Per facilitare l'implementazione da parte delle comunità dei server
-locali LDAP è stato sviluppato uno script di installazione disponibile
-su \url{https://github.com/RedeMocambos/Mocambos_LDAP}.
+\framebox[\textwidth]{\footnotesize Il codice è disponibile su
+\url{https://github.com/RedeMocambos/Mocambos_LDAP}}
 
-Lo \textit{script} bash provvede ad installare i pacchetti necessari e
+Per facilitare l'implementazione dei server LDAP dagli amministratori
+locali è stato sviluppato uno script di installazione, che può tornare
+utile anche per un amministratore remoto.
+
+Lo script \textit{bash} provvede ad installare i pacchetti necessari e
 preparare il server LDAP \emph{slapd} in configurazione master o
 replica. Inoltre crea un DIT preconfigurato per la RM con una semplice
 struttura (vedi figura \ref{fig:DIT_ReteMocambos}).
