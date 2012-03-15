@@ -24,16 +24,18 @@ ha proposto la ricerca e sviluppo di una soluzione per la
 pubblicazione e diffusione in rete di immagini, audio e video di
 interesse comune e spesso prodotti nelle stesse comunità.
 
+
 \section{Sistema di pubblicazione e diffusione di contenuti
   multimediali}
 Il sistema sviluppato prevede l'installazione di un portale sul server
-locale delle comunità su cui è possibile pubblicare contenuti
-multimediali, sfruttando l'alta velocità della rete locale. Il sistema
-si prende cura di diffondere i contenuti, etichettati come di
-interesse comune, verso i server delle altre comunità (vedi figura
+locale delle comunità attraverso il quale è possibile visualizzare e
+pubblicare contenuti multimediali sfruttando l'alta velocità della
+rete locale. Il sistema si prende cura di memorizzare i contenuti in
+un archivio multimediale locale e diffondere, quelli etichettati come
+di interesse comune, verso i server delle altre comunità (vedi figura
 \ref{fig:SchemaServer_ReteMocambos}). Il prototipo sviluppato cerca di
 risolvere le limitazioni di banda della rete rispettando la specifica
-di requisiti.
+di requisiti. 
 
 \begin{figure}[htbp]
   \centering
@@ -43,20 +45,36 @@ di requisiti.
   \label{fig:SchemaServer_ReteMocambos}
 \end{figure}
 
+
 \section{Archivio multimediale}
-L'archivio locale della comunità è un \emph{repository git-annex} che
-viene gestito tramite il portale comunitario, sia per la pubblicazione
-che per la visualizzazione dei contenuti. L'accesso diretto ai dati è
-comunque garantito essendo i dati salvati in chiaro sul disco.
+L'archivio multimediale locale della comunità è un \emph{repository
+  git-annex} che viene gestito tramite il portale comunitario, sia per
+la pubblicazione che per la visualizzazione dei contenuti. L'accesso
+diretto ai dati è comunque garantito essendo i dati salvati in chiaro
+sul disco. Inoltre è possibile interagire con i dati attraverso
+l'ampio universo di applicazioni e librerie di \emph{git}. In
+particolare il prototipo utilizza la struttura dei metadati di
+\emph{git} per mantenere traccia del responsabile della pubblicazione
+di un contenuto. L'operazione di \emph{commit} coincide in effetti con
+la pubblicazione di un contenuto, e il \emph{committer} con l'utente
+che lo pubblica. I metadati, invece, relativi al contenuto
+multimediale in se, quali autore, tipo di licenza, data di creazione,
+possono essere memorizzati all'interno del file seguendo gli standard
+esistenti come il \emph{Dublin Core}\footnote{``Il Dublin Core è un
+  sistema di metadati costituito da un nucleo di elementi essenziali
+  ai fini della descrizione di qualsiasi materiale digitale
+  accessibile via rete informatica'', tratto da Wikipedia:
+  \url{http://it.wikipedia.org/wiki/Dublin_Core}.}. 
 
 \subsection{git-annex}
-\emph{git-annex}\footnote{\emph{git-annex} è un programma libero
-  disponibile su \url{http://git-annex.branchable.com}.}
-permette la gestione di file con \emph{git}, senza la necessità di
-aggiungere il file dentro \emph{git}. Anche se può sembrare
-paradossale, è utile quando si ha a che fare con file molto grandi che
-\emph{git} attualmente non può gestire facilmente per limitazioni
-dovute a memoria, tempo o spazio nel disco.
+\emph{git-annex}\footnote{\emph{git-annex} è un programma che estende
+  le funzionalità di \emph{git} ed è disponibile su
+  \url{http://git-annex.branchable.com}.} permette la gestione di file
+con \emph{git}, senza la necessità di aggiungere il file dentro
+\emph{git}. Anche se può sembrare paradossale, è utile quando si ha a
+che fare con file molto grandi che \emph{git} attualmente non può
+gestire facilmente per limitazioni dovute a memoria, tempo o spazio
+nel disco.
 
 Anche senza mantenere traccia del contenuto del file, avere la 
 possibilità di gestire i file con \emph{git}, di spostarli e cancellarli su un
@@ -134,10 +152,10 @@ multimediali con supporto al salvataggio su \emph{repository
 
 I modelli, in Django, devono essere creati nel file \verb|model.py|,
 dove, innanzitutto, definiamo la struttura base della classe
-``MMedia'', con gli attributi comuni a tutti gli oggetti
-multimediali. Le classi ``Audio'', ``Image'' e ``Video'', ereditano
-dalla classe astratta ``MMedia'', includendo altri attributi specifici
-per il tipo di oggetto.
+\emph{MMedia}, con gli attributi comuni a tutti gli oggetti
+multimediali. Le classi \emph{Audio}, \emph{Image} e \emph{Video},
+ereditano dalla classe astratta ``MMedia'', includendo altri attributi
+specifici per il tipo di oggetto.
 
 Gli oggetti vengono salvati su \emph{database}, e serializzati su
 disco tramite l'\emph{overriding} della funzione \emph{save()}:
@@ -163,9 +181,44 @@ disco tramite l'\emph{overriding} della funzione \emph{save()}:
 \framebox[\textwidth]{\footnotesize Il codice è disponibile su
 \url{https://github.com/RedeMocambos/gitannex}}
 
+Il modulo \emph{gitannex} implementa parte del modello dei dati di un
+\emph{repository git-annex} in Django, aggiungendo gli attributi e le
+funzionalità necessarie alla programmazione della sincronizzazione.
+
+Seguendo la specifica, viene definito, tramite l'attributo
+\emph{syncStartTime}, un orario per l'inizio della sincronizzazione,
+che viene lanciata dalla funzione \emph{runScheduledJobs()}.
+
 Django fornisce un sistema di segnali, lanciati in concomitanza di
-operazioni quali la \emph{save()}, che possono essere intercettati
-altrove dal sistema.  
+operazioni quali la \emph{save()} di un oggetto, che possono essere
+intercettati altrove dal sistema. Il modulo \emph{gitannex} intercetta
+il segnale standard di Django, \emph{post-save}, su oggetti che
+ereditano dalla classe \emph{MMedia}\footnote{Django non supporta il
+  ``filtraggio'' dei segnali lanciati dalle sottoclassi di una data
+  classe, in questo caso \emph{MMedia}. A tal fine, è stato usato un
+  trucco reperito in rete (vedi il codice nel file
+  \texttt{gitannex/signals.py}).}, tramite la funzione
+\emph{gitMMediaPostSave()}:
+
+\lstset{language=Python}
+\begin{lstlisting}
+@receiver_subclasses(post_save, MMedia, ``mmedia_post_save'')
+def gitMMediaPostSave(instance, **kwargs):
+    logger.debug(instance.mediatype)
+    logger.debug(type(instance))
+    logger.debug(instance.path_relative())
+
+    path = instance.path_relative().split(os.sep)
+    if gitannex_dir in path:
+        repositoryName = path[path.index(gitannex_dir) + 1]
+        gitAnnexRep = GitAnnexRepository.objects.get(\
+                      repositoryName__iexact=repositoryName)
+        gitAnnexAdd(os.path.basename(instance.fileref.name),\
+                    os.path.dirname(instance.fileref.path))
+        gitCommit(instance.title, instance.author.username,\
+                  instance.author.email, os.path.dirname(instance.fileref.path))
+\end{lstlisting}
+
 
 
 

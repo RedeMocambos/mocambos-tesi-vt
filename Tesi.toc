@@ -39,11 +39,11 @@
 \contentsline {chapter}{\numberline {4}Un prototipo di servizio federato}{19}{chapter.71}
 \contentsline {section}{\numberline {4.1}Sistema di pubblicazione e diffusione di contenuti multimediali}{19}{section.74}
 \contentsline {section}{\numberline {4.2}Archivio multimediale}{20}{section.76}
-\contentsline {subsection}{\numberline {4.2.1}git-annex}{20}{subsection.77}
-\contentsline {section}{\numberline {4.3}Portale Comunitario}{21}{section.79}
-\contentsline {subsection}{\numberline {4.3.1}Django mmedia}{22}{subsection.81}
-\contentsline {subsection}{\numberline {4.3.2}Django gitannex}{23}{subsection.96}
-\contentsline {chapter}{\numberline {5}Conclusioni e sviluppi futuri}{24}{chapter.97}
+\contentsline {subsection}{\numberline {4.2.1}git-annex}{21}{subsection.78}
+\contentsline {section}{\numberline {4.3}Portale Comunitario}{22}{section.80}
+\contentsline {subsection}{\numberline {4.3.1}Django mmedia}{22}{subsection.82}
+\contentsline {subsection}{\numberline {4.3.2}Django gitannex}{23}{subsection.97}
+\contentsline {chapter}{\numberline {5}Conclusioni e sviluppi futuri}{25}{chapter.115}
 \vspace {2em}
 \vspace {2em}
-\contentsline {chapter}{Bibliografia}{25}{dummy.98}
+\contentsline {chapter}{Bibliografia}{26}{dummy.116}
