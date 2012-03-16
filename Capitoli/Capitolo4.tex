@@ -189,18 +189,28 @@ Seguendo la specifica, viene definito, tramite l'attributo
 \emph{syncStartTime}, un orario per l'inizio della sincronizzazione,
 che viene lanciata dalla funzione \emph{runScheduledJobs()}.
 
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=\textwidth]{./Figure/SequenceDiagram_NuovoOggetto-crop.pdf}
+  \rule{35em}{0.5pt}
+  \caption[Diagramma di sequenza della creazione di un nuovo oggetto
+  multimediale]{Diagramma di sequenza della creazione di un nuovo
+    oggetto multimediale.}
+  \label{fig:SequenceDiagramAdd}
+\end{figure}
+
 Django fornisce un sistema di segnali, lanciati in concomitanza di
 operazioni quali la \emph{save()} di un oggetto, che possono essere
 intercettati altrove dal sistema. Il modulo \emph{gitannex} intercetta
-il segnale standard di Django, \emph{post-save}, su oggetti che
-ereditano dalla classe \emph{MMedia}\footnote{Django non supporta il
-  ``filtraggio'' dei segnali lanciati dalle sottoclassi di una data
-  classe, in questo caso \emph{MMedia}. A tal fine, è stato usato un
-  trucco reperito in rete (vedi il codice nel file
-  \texttt{gitannex/signals.py}).}, tramite la funzione
-\emph{gitMMediaPostSave()}:
+il segnale standard di Django, \emph{post-save} (vedi figura
+\ref{fig:SequenceDiagramAdd}), su oggetti che ereditano dalla classe
+\emph{MMedia}\footnote{Django non supporta il ``filtraggio'' dei
+  segnali lanciati dalle sottoclassi di una data classe, in questo
+  caso \emph{MMedia}. A tal fine, è stato usato un trucco reperito in
+  rete (vedi il codice nel file \texttt{gitannex/signals.py}).},
+tramite la funzione \emph{gitMMediaPostSave()}:
 
-\lstset{language=Python}
+
 \begin{lstlisting}
 @receiver_subclasses(post_save, MMedia, ``mmedia_post_save'')
 def gitMMediaPostSave(instance, **kwargs):
@@ -218,6 +228,8 @@ def gitMMediaPostSave(instance, **kwargs):
         gitCommit(instance.title, instance.author.username,\
                   instance.author.email, os.path.dirname(instance.fileref.path))
 \end{lstlisting}
+
+
 
 
 

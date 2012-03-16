@@ -282,9 +282,80 @@ prevede un entità terza di fiducia chiamata Key Distribution Center
 (KDC).
 
 \subsection{Django}
-Django è un framework per lo sviluppo rapido di applicazioni web.
+Django è un framework, scritto in Python, per lo sviluppo rapido di
+applicazioni web, anche conosciuto come ``\emph{The web framework for
+  perfectionists with deadlines}''\footnote{``Il framework web per i
+  perfezionisti con scadenze''.}, poichè è stato creato con l'obiettivo
+di aderire il più possibile al principio DRY\footnote{``Don't Repeat
+  Yourself (DRY, anche conosciuto come ``Single Point of Truth'') è un
+  principio secondo il quale l'informazione non debba essere ripetuta
+  e ridondante e non si debba esprimere lo stesso concetto più di una
+  volta, specie se in forma diversa'', tratto da Wikipedia:
+  \url{http://it.wikipedia.org/wiki/Don\%27t_Repeat_Yourself}.}, e
+quindi fornisce tutti gli strumenti per scrivere codice pulito in modo
+pragmatico ed efficace.
+
+Le caratteristiche di Django sono le seguenti:
+\begin{itemize}
+\item Django è un framework \emph{Model, View, Template}, (MVT),
+  corrispondente al diffuso pattern \emph{Model, View, Controller},
+  (MVC). Il \emph{Template} di Django corrisponde alla \emph{view} in
+  un qualunque framework MVC, mentre la \emph{View} corrisponde al
+  \emph{controller} (anche se le funzionalità del \emph{controller},
+  nel caso di Django, non sono limitate alla componente \emph{View}).
+\item Django consente di modellare i dati direttamente in python e l'
+  \emph{Object Relational Mapper}, (ORM), si occupa di trasformarli in
+  codice SQL. Allo stesso modo non serve scrivere query direttamente
+  in SQL; basta usare l'ORM per avere i risultati direttamente
+  restituiti come oggetti python. L'ORM di Django supporta PostgreSQL,
+  MySQL, sqlite, Microsoft SQL Server ed Oracle.
+\item Django possiede una libreria per i \emph{forms} davvero potente ed
+  espressiva, che consente di realizzare logiche complesse in poche
+  righe di codice, lasciando il massimo controllo allo sviluppatore su
+  ogni aspetto.
+\item Django è un framework ``\emph{batteries included}'', ovvero
+  contiene al suo interno alcune applicazioni, dette \emph{apps}, per
+  le funzionalità più comuni che dimezzano il tempo di sviluppo, ad
+  esempio un sistema di autenticazione, una interfaccia
+  amministrativa, un framework per generare le \emph{sitemaps XML} e
+  molto altro. Inoltre la \emph{community} è piuttosto attiva ed
+  esistono molte \emph{apps} da adattare e riutilizzare.
+\item Django è tra i migliori framework per quanto riguarda la
+  documentazione ufficiale. Oltre ad alcuni tutorial, utili per
+  impararne le basi, quasi ogni aspetto del framework è documentato in
+  modo eccellente.
+\end{itemize}
 
 \subsection{Git}\label{sec:GIT}
-Git è un sistema per il ``versionamento'' decentrato di codice e di file
-testuali. 
+Git è un sistema per il controllo delle versioni distribuito,
+progettato per essere rapido e usabile anche in grandi progetti.
+
+Le caratteristiche principali includono:
+\begin{itemize}
+\item Git è totalmente distribuito e ogni clone di un
+  \emph{repository} contiene l'intero storico delle versioni su cui
+  possono essere effettuate operazioni indipendentemente da
+  connessioni di rete o da server centrali. Le modifiche possono
+  essere copiate da una clone all'altro e vengono mantenute su
+  \emph{branch} diversi, facilitando le operazioni di \emph{merge}. I
+  \emph{repository} sono facilmente accessibili tramite l'efficiente
+  protocollo di Git che, oltre a supportare l'HTTP, può funzionare in
+  combinazione con SSH, per avere connessioni sicure e un sistema di
+  autenticazione solido e diffuso.
+\item Git supporta il \emph{branching}, ramificazione, e il
+  \emph{merging}, fusione, in modo rapido e conveniente, includendo
+  una serie di strumenti per visualizzare e navigare lo storico non
+  lineare delle versioni.
+\item Git è molto veloce e scala bene quando si lavora con progetti
+  molto grandi e con molte modifiche, grazie ad un efficiente sistema
+  di pacchettizzazione e memorizzazione dello storico (è considerato
+  il più efficiente tra i sistemi attualmente disponibili).
+\item Git assegna un nome di versione, per ogni \emph{commit},
+  che è funzione dell'intero storico, per cui una volta pubblicata una
+  versione, non è possibile alterare le vecchie senza essere
+  notati. Inoltre le versioni possono essere etichettate e firmate
+  digitalmente tramite GPG.
+\end{itemize}
+
+
 
