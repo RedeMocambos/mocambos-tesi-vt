@@ -10,6 +10,24 @@ poli regionali, chiamati \emph{Nucleos de Formação Continuada, (NFC)},
 nuclei di formazione continua, che sono attualmente dieci,
 geograficamente ben distribuiti sul territorio nazionale brasiliano.
 
+Seguendo la filosofia di sviluppo Agile \citep{Agile}, per cui: 
+
+\begin{quote}
+  ``\emph{Agile software development is a group of software
+    development methods based on iterative and incremental
+    development, where requirements and solutions evolve through
+    collaboration between self-organizing, cross-functional
+    teams.}''\footnote{``Lo sviluppo di software Agile è un insieme di
+    metodi basati sullo sviluppo iterativo e incrementale, dove i
+    requisiti e le soluzioni evolvono attraverso la collaborazione tra
+    team auto-organizzati e multifunzionali.'', tratto da Wikipedia:
+    \url{http://en.wikipedia.org/wiki/Agile_software_development}.}
+\end{quote}
+
+è importante, in un contesto cosi ampio e eterogeneo, avere una
+struttura generale su cui poter sviluppare codice funzionante, da
+poter evolvere e adattare nel tempo.
+
 Il codice prodotto consente una prima implementazione per un progetto
 pilota che coinvolga sviluppatori del NPDD e consenta la formazione di
 tecnici locali nei NFC, oltre ad ottenere un feedback diretto sull'uso
@@ -23,6 +41,25 @@ Attualmente il codice supporta:
 \item sincronizzazione degli oggetti sui portali django (ricreando gli
   oggetti relativi ai contenuti distribuiti via \emph{git-annex})
 \end{itemize}
+
+Dal punto di vista strutturale la componente più importante è il
+sistema di gestione delle identità digitali federate. Pertanto è
+essenziale una sperimentazione approfondita della soluzione con LDAP
+adottata, che se funzionale può essere estesa e integrata ad altri
+meccanismi. Sarebbe, ad esempio, interessante esplorare le possibilità
+date dai protocolli XMPP, come ad esempio l'integrazione con OpenID,
+per cui, una volta autenticati, si ricevono le richieste di
+autorizzazione ad accedere a siti terzi, tramite messaggi
+istantanei\footnote{Un'implementazione pubblica di questo sistema è
+  disponibile sul sito: \url{http://openid.xmpp.za.net/}.}.
+
+Per quanto riguarda i servizi invece, il prototipo realizzato
+costituisce un primo passo, e la prova su campo costituisce un
+passaggio fondamentale per testare le reali capacità e i limiti che
+sussistono. La distribuzione di file di grandi dimensioni, oltre ai
+limiti di banda, comporta un notevole uso di spazio. È necessario
+quindi imporre dei limiti, ad esempio, sulle dimensioni massime dei file
+accettate dal sistema. 
 
 Da implementare e migliorare nelle prossime versioni:
 \begin{itemize}

@@ -160,8 +160,7 @@ specifici per il tipo di oggetto.
 Gli oggetti vengono salvati su \emph{database}, e serializzati su
 disco tramite l'\emph{overriding} della funzione \emph{save()}:
 
-\lstset{language=Python}
-\begin{lstlisting}
+\begin{code}
     def save(self, *args, **kwargs):
         logger.debug(type(self))
         serializeTo = os.path.join(settings.MEDIA_ROOT,\
@@ -175,7 +174,7 @@ disco tramite l'\emph{overriding} della funzione \emph{save()}:
         xml_serializer = XMLSerializer()
         xml_serializer.serialize((self, ), stream=out)
         super(MMedia, self).save(*args, **kwargs)
-\end{lstlisting}
+\end{code}
 
 \subsection{Django gitannex}
 \framebox[\textwidth]{\footnotesize Il codice è disponibile su
@@ -184,10 +183,6 @@ disco tramite l'\emph{overriding} della funzione \emph{save()}:
 Il modulo \emph{gitannex} implementa parte del modello dei dati di un
 \emph{repository git-annex} in Django, aggiungendo gli attributi e le
 funzionalità necessarie alla programmazione della sincronizzazione.
-
-Seguendo la specifica, viene definito, tramite l'attributo
-\emph{syncStartTime}, un orario per l'inizio della sincronizzazione,
-che viene lanciata dalla funzione \emph{runScheduledJobs()}.
 
 \begin{figure}[htbp]
   \centering
@@ -198,6 +193,10 @@ che viene lanciata dalla funzione \emph{runScheduledJobs()}.
     oggetto multimediale.}
   \label{fig:SequenceDiagramAdd}
 \end{figure}
+
+Seguendo la specifica, viene definito, tramite l'attributo
+\emph{syncStartTime}, un orario per l'inizio della sincronizzazione,
+che viene lanciata dalla funzione \emph{runScheduledJobs()}.
 
 Django fornisce un sistema di segnali, lanciati in concomitanza di
 operazioni quali la \emph{save()} di un oggetto, che possono essere
@@ -211,7 +210,7 @@ il segnale standard di Django, \emph{post-save} (vedi figura
 tramite la funzione \emph{gitMMediaPostSave()}:
 
 
-\begin{lstlisting}
+\begin{code}
 @receiver_subclasses(post_save, MMedia, ``mmedia_post_save'')
 def gitMMediaPostSave(instance, **kwargs):
     logger.debug(instance.mediatype)
@@ -227,7 +226,7 @@ def gitMMediaPostSave(instance, **kwargs):
                     os.path.dirname(instance.fileref.path))
         gitCommit(instance.title, instance.author.username,\
                   instance.author.email, os.path.dirname(instance.fileref.path))
-\end{lstlisting}
+\end{code}
 
 
 

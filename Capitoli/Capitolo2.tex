@@ -327,12 +327,13 @@ Le caratteristiche di Django sono le seguenti:
 \end{itemize}
 
 \subsection{Git}\label{sec:GIT}
-Git è un sistema per il controllo delle versioni distribuito,
-progettato per essere rapido e usabile anche in grandi progetti.
+Git è un sistema multi-piattaforma per il controllo delle versioni
+distribuito, progettato per essere rapido e usabile anche in grandi
+progetti.
 
 Le caratteristiche principali includono:
 \begin{itemize}
-\item Git è totalmente distribuito e ogni clone di un
+\item è totalmente distribuito e ogni clone di un
   \emph{repository} contiene l'intero storico delle versioni su cui
   possono essere effettuate operazioni indipendentemente da
   connessioni di rete o da server centrali. Le modifiche possono
@@ -342,20 +343,25 @@ Le caratteristiche principali includono:
   protocollo di Git che, oltre a supportare l'HTTP, può funzionare in
   combinazione con SSH, per avere connessioni sicure e un sistema di
   autenticazione solido e diffuso.
-\item Git supporta il \emph{branching}, ramificazione, e il
+\item supporta il \emph{branching}, ramificazione, e il
   \emph{merging}, fusione, in modo rapido e conveniente, includendo
   una serie di strumenti per visualizzare e navigare lo storico non
   lineare delle versioni.
-\item Git è molto veloce e scala bene quando si lavora con progetti
+\item è molto veloce e scala bene quando si lavora con progetti
   molto grandi e con molte modifiche, grazie ad un efficiente sistema
   di pacchettizzazione e memorizzazione dello storico (è considerato
   il più efficiente tra i sistemi attualmente disponibili).
-\item Git assegna un nome di versione, per ogni \emph{commit},
+\item assegna un nome di versione, per ogni \emph{commit},
   che è funzione dell'intero storico, per cui una volta pubblicata una
   versione, non è possibile alterare le vecchie senza essere
   notati. Inoltre le versioni possono essere etichettate e firmate
   digitalmente tramite GPG.
 \end{itemize}
 
-
+Git è un sistema completo che, in buon stile Unix, è organizzato in
+programmi e comandi indipendenti, pensati per essere facilmente
+usabili, sia automaticamente tramite \emph{scripting} sia in modo
+interattivo dall'utente finale. Git è, quindi, una base solida per lo
+sviluppo di applicazioni orientate alla sincronizzazione, alla
+portabilità, e alla gestione autonoma e decentrata.
 
