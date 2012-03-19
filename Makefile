@@ -22,3 +22,6 @@ clean:
 dropbox: pdf
 	cp ${filename}.pdf ~/Dropbox/Public/${filename}.pdf
 	cp -a ~/dev/mocambos-tesi-vt ~/Dropbox/Tesi/
+
+getsubmodule:
+	git submodule update --init --recursive
