@@ -1,0 +1,6 @@
+[submodule "src/gitannex"]
+	path = src/gitannex
+	url = git://github.com/RedeMocambos/gitannex.git
+[submodule "src/mmedia"]
+	path = src/mmedia
+	url = git://github.com/RedeMocambos/mmedia.git
