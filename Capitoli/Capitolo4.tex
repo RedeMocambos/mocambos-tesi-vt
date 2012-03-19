@@ -66,6 +66,17 @@ esistenti come il \emph{Dublin Core}\footnote{``Il Dublin Core è un
   accessibile via rete informatica'', tratto da Wikipedia:
   \url{http://it.wikipedia.org/wiki/Dublin_Core}.}. 
 
+Un aspetto importante per l'archivio multimediale sono le operazioni
+di sincronizzazione. Gli strumenti basati su \emph{git} ereditano la
+sua natura decentrata e la capacità di comunicare in maniera
+trasparente usando una ampia gamma di protocolli. In particolare è
+interessante la possibilità di eseguire le sincronizzazioni con
+sistemi di archiviazione di massa, caratteristica utile nella fase di
+creazione di un nuovo nodo, per cui la prima sincronizzazione via rete
+potrebbe richiedere giorni. I trasferimenti comunque avvengono, nel
+caso di \emph{git-annex}, tramite il protocollo \emph{rsync}, che
+gestisce eventuali interruzioni, evitando costose ritrasmissioni. 
+
 \subsection{git-annex}
 \emph{git-annex}\footnote{\emph{git-annex} è un programma che estende
   le funzionalità di \emph{git} ed è disponibile su
@@ -119,20 +130,18 @@ altro che \emph{push} e \emph{pull} tra i vari \emph{repository}.
 \end{itemize}
 
 \section{Portale Comunitario}
-\framebox[\textwidth]{\footnotesize Il codice è disponibile su
-\url{https://github.com/RedeMocambos/Mocambos_Portal_Local}}
-
 Il portale locale deve dare accesso ai principali servizi locali della
 comunità. Per lo sviluppo è stato scelto l'uso di un framework basato
-su python, \emph{Django}, che consente un'integrazione flessibile e
+su Python, \emph{Django}, che consente un'integrazione flessibile e
 avanzata con altri sistemi grazie alle numerose librerie disponibili
 quale, ad esempio, quella per l'autenticazione LDAP.
 
-Per gestire l'archivio multimediale \emph{git-annex} sono stati
-sviluppati due moduli per \emph{Django}, che definiscono il modello
-dei dati e si prendono cura di aggiungere i contenuti sul
-\emph{repository} eseguendo le operazioni di \emph{commit},
-\emph{push} e \emph{pull}. 
+Per l'installazione del framework e del modello base del prototipo di
+portale comunitario è stato creato uno \emph{script} mentre, per
+gestire l'archivio multimediale \emph{git-annex} sono stati sviluppati
+due moduli per \emph{Django}, che definiscono il modello dei dati e si
+prendono cura di aggiungere i contenuti sul \emph{repository}
+eseguendo le operazioni di \emph{commit}, \emph{push} e \emph{pull}.
 
 \begin{figure}[htbp]
   \centering
@@ -142,6 +151,22 @@ dei dati e si prendono cura di aggiungere i contenuti sul
   \label{fig:SchemaUMLDjango}
 \end{figure}
 
+\subsection{Mocambos\_Portal\_Local}
+\framebox[\textwidth]{\footnotesize Il codice è disponibile su
+\url{https://github.com/RedeMocambos/Mocambos_Portal_Local}}
+
+Lo \emph{script bash}, \verb|script/install-django-env.sh|, installa i
+pacchetti di sistema necessari, inoltre crea un ambiente virtuale,
+usando il programma \emph{virtualenv}\footnote{\emph{Virtualenv} è un
+  programma libero per creare ambienti Python isolati disponibile su
+  \url{http://www.virtualenv.org}.}, che consente di installare
+facilmente versioni specifiche delle librerie e dell'interprete
+Python, oltre che di \emph{Django}, senza alterare quelle già presenti
+nel sistema. Nella cartella \verb|exemplos/| si trovano invece dei
+file di configurazione di esempio, preimpostati per la connessione al
+server LDAP della RM (vedi \ref{MocambosLDAP}).
+
+
 \subsection{Django mmedia}
 \framebox[\textwidth]{\footnotesize Il codice è disponibile su
 \url{https://github.com/RedeMocambos/mmedia}}
@@ -150,7 +175,7 @@ Il modulo \emph{mmedia} implementa il modello dei dati
 multimediali con supporto al salvataggio su \emph{repository
   git-annex}.
 
-I modelli, in Django, devono essere creati nel file \verb|model.py|,
+I modelli, in \emph{Django}, devono essere creati nel file \verb|model.py|,
 dove, innanzitutto, definiamo la struttura base della classe
 \emph{MMedia}, con gli attributi comuni a tutti gli oggetti
 multimediali. Le classi \emph{Audio}, \emph{Image} e \emph{Video},
@@ -181,7 +206,7 @@ disco tramite l'\emph{overriding} della funzione \emph{save()}:
 \url{https://github.com/RedeMocambos/gitannex}}
 
 Il modulo \emph{gitannex} implementa parte del modello dei dati di un
-\emph{repository git-annex} in Django, aggiungendo gli attributi e le
+\emph{repository git-annex} in \emph{Django}, aggiungendo gli attributi e le
 funzionalità necessarie alla programmazione della sincronizzazione.
 
 \begin{figure}[htbp]
@@ -196,9 +221,23 @@ funzionalità necessarie alla programmazione della sincronizzazione.
 
 Seguendo la specifica, viene definito, tramite l'attributo
 \emph{syncStartTime}, un orario per l'inizio della sincronizzazione,
-che viene lanciata dalla funzione \emph{runScheduledJobs()}.
+che viene lanciata dalla funzione \emph{runScheduledJobs()}. Per
+interagire più facilmente con il framework tramite shell è possibile
+definire nuovi comandi che devono essere creati nella cartella
+\verb|management/commands/|, dove si trova, ad esempio, il comando
+\verb|run_scheduled_jobs| che richiama la funzione omonima. In questo
+modo è possibile eseguire operazioni programmandole tramite il
+\emph{cron}\footnote{``Nei sistemi operativi Unix e Unix-like, il
+  comando crontab consente la pianificazione di comandi, ovvero
+  consente di registrarli presso il sistema per essere poi mandati in
+  esecuzione periodicamente.'', tratto da Wikipedia:
+  \url{http://it.wikipedia.org/wiki/Crontab}.} o direttamente da shell
+con:
+\begin{verbatim}
+zumbi@palmares:~$ python manage.py run_scheduled_jobs
+\end{verbatim}
 
-Django fornisce un sistema di segnali, lanciati in concomitanza di
+\emph{Django} fornisce un sistema di segnali, lanciati in concomitanza di
 operazioni quali la \emph{save()} di un oggetto, che possono essere
 intercettati altrove dal sistema. Il modulo \emph{gitannex} intercetta
 il segnale standard di Django, \emph{post-save} (vedi figura
@@ -208,7 +247,6 @@ il segnale standard di Django, \emph{post-save} (vedi figura
   caso \emph{MMedia}. A tal fine, è stato usato un trucco reperito in
   rete (vedi il codice nel file \texttt{gitannex/signals.py}).},
 tramite la funzione \emph{gitMMediaPostSave()}:
-
 
 \begin{code}
 @receiver_subclasses(post_save, MMedia, ``mmedia_post_save'')

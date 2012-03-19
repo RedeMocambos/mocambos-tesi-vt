@@ -44,24 +44,27 @@ Attualmente il codice supporta:
 
 Dal punto di vista strutturale la componente più importante è il
 sistema di gestione delle identità digitali federate. Pertanto è
-essenziale una sperimentazione approfondita della soluzione con LDAP
-adottata, che se funzionale può essere estesa e integrata ad altri
-meccanismi. Sarebbe, ad esempio, interessante esplorare le possibilità
-date dai protocolli XMPP, come ad esempio l'integrazione con OpenID,
-per cui, una volta autenticati, si ricevono le richieste di
-autorizzazione ad accedere a siti terzi, tramite messaggi
+essenziale una sperimentazione approfondita della soluzione LDAP
+adottata che può comunque essere estesa e integrata ad altri
+meccanismi. Per la messaggistica e il VOIP, sarebbe interessante
+esplorare le possibilità date dai protocolli XMPP, che inoltre si
+presta per la facilità con cui può integrarsi in sistemi
+eterogenei. Ad esempio l'integrazione tra XMPP e OpenID, per cui, una
+volta autenticati, si ricevono le richieste di autorizzazione ad
+accedere a siti terzi, tramite messaggi
 istantanei\footnote{Un'implementazione pubblica di questo sistema è
-  disponibile sul sito: \url{http://openid.xmpp.za.net/}.}.
+  disponibile sul sito: \url{http://openid.xmpp.za.net/}.}. In questo
+senso il trio LDAP, XMPP e OpenID coprirebbe le necessità di servizi
+federati rispettivamente ``desktop'', ``client'' e ``web oriented''.
 
-Per quanto riguarda i servizi invece, il prototipo realizzato
-costituisce un primo passo, e la prova su campo costituisce un
-passaggio fondamentale per testare le reali capacità e i limiti che
-sussistono. La distribuzione di file di grandi dimensioni, oltre ai
-limiti di banda, comporta un notevole uso di spazio. È necessario
-quindi imporre dei limiti, ad esempio, sulle dimensioni massime dei file
-accettate dal sistema. 
+Nel frattempo il prototipo realizzato costituisce un primo passo, e la
+prova su campo è un passaggio fondamentale per testare le reali
+capacità e i limiti che sussistono. La distribuzione di file di grandi
+dimensioni, oltre ai limiti di banda, comporta un notevole uso di
+spazio su disco. È necessario quindi imporre dei limiti, ad esempio,
+sulle dimensioni massime dei file accettate dal sistema.
 
-Da implementare e migliorare nelle prossime versioni:
+Da implementare o migliorare nelle prossime versioni:
 \begin{itemize}
 \item trasferimento selettivo dei contenuti/valori basato sull'uso
   statistico o su richiesta
