@@ -48,23 +48,24 @@ di requisiti.
 
 \section{Archivio multimediale}
 L'archivio multimediale locale della comunità è un \emph{repository
-  git-annex} che viene gestito tramite il portale comunitario, sia per
-la pubblicazione che per la visualizzazione dei contenuti. L'accesso
-diretto ai dati è comunque garantito essendo i dati salvati in chiaro
-sul disco. Inoltre è possibile interagire con i dati attraverso
-l'ampio universo di applicazioni e librerie di \emph{git}. In
-particolare il prototipo utilizza la struttura dei metadati di
-\emph{git} per mantenere traccia del responsabile della pubblicazione
-di un contenuto. L'operazione di \emph{commit} coincide in effetti con
-la pubblicazione di un contenuto, e il \emph{committer} con l'utente
-che lo pubblica. I metadati, invece, relativi al contenuto
-multimediale in se, quali autore, tipo di licenza, data di creazione,
-possono essere memorizzati all'interno del file seguendo gli standard
-esistenti come il \emph{Dublin Core}\footnote{``Il Dublin Core è un
-  sistema di metadati costituito da un nucleo di elementi essenziali
-  ai fini della descrizione di qualsiasi materiale digitale
-  accessibile via rete informatica'', tratto da Wikipedia:
-  \url{http://it.wikipedia.org/wiki/Dublin_Core}.}. 
+  git-annex} (vedi \ref{git-annex}) che viene gestito tramite un
+portale comunitario, sia per la pubblicazione che per la
+visualizzazione dei contenuti. L'accesso diretto ai dati è comunque
+garantito essendo i dati salvati in chiaro sul disco. Inoltre è
+possibile interagire con i dati attraverso l'ampio universo di
+applicazioni e librerie di \emph{git}. In particolare il prototipo
+utilizza la struttura dei metadati di \emph{git} per mantenere traccia
+del responsabile della pubblicazione di un contenuto. L'operazione di
+\emph{commit} coincide infatti con la pubblicazione di un contenuto, e
+il \emph{committer} con l'utente che lo pubblica. I metadati, invece,
+relativi al contenuto multimediale in se, quali autore, tipo di
+licenza, data di creazione, possono essere memorizzati all'interno del
+file seguendo gli standard esistenti come il \emph{Dublin
+  Core}\footnote{``Il Dublin Core è un sistema di metadati costituito
+  da un nucleo di elementi essenziali ai fini della descrizione di
+  qualsiasi materiale digitale accessibile via rete informatica'',
+  tratto da Wikipedia:
+  \url{http://it.wikipedia.org/wiki/Dublin_Core}.}.
 
 Un aspetto importante per l'archivio multimediale sono le operazioni
 di sincronizzazione. Gli strumenti basati su \emph{git} ereditano la
@@ -74,18 +75,21 @@ interessante la possibilità di eseguire le sincronizzazioni con
 sistemi di archiviazione di massa, caratteristica utile nella fase di
 creazione di un nuovo nodo, per cui la prima sincronizzazione via rete
 potrebbe richiedere giorni. I trasferimenti comunque avvengono, nel
-caso di \emph{git-annex}, tramite il protocollo \emph{rsync}, che
-gestisce eventuali interruzioni, evitando costose ritrasmissioni. 
+caso di \emph{git-annex}, tramite il protocollo
+\emph{rsync}\footnote{\emph{rsync} è uno programma libero per il
+  trasferimento rapido e incrementale di file, disponibile su
+  \url{http://rsync.samba.org/}.}, che gestisce eventuali
+interruzioni, evitando costose ritrasmissioni.
 
-\subsection{git-annex}
+\subsection{git-annex}\label{git-annex}
 \emph{git-annex}\footnote{\emph{git-annex} è un programma che estende
-  le funzionalità di \emph{git} ed è disponibile su
-  \url{http://git-annex.branchable.com}.} permette la gestione di file
-con \emph{git}, senza la necessità di aggiungere il file dentro
-\emph{git}. Anche se può sembrare paradossale, è utile quando si ha a
-che fare con file molto grandi che \emph{git} attualmente non può
-gestire facilmente per limitazioni dovute a memoria, tempo o spazio
-nel disco.
+  le funzionalità di \emph{git} nel gestire file di grandi dimensioni,
+  disponibile su \url{http://git-annex.branchable.com}.} permette la
+gestione di file con \emph{git}, senza la necessità di aggiungere il
+file dentro \emph{git}. Anche se può sembrare paradossale, è utile
+quando si ha a che fare con file molto grandi che \emph{git}
+attualmente non può gestire facilmente per limitazioni dovute a
+memoria, tempo o spazio nel disco.
 
 Anche senza mantenere traccia del contenuto del file, avere la 
 possibilità di gestire i file con \emph{git}, di spostarli e cancellarli su un
@@ -125,16 +129,26 @@ altro che \emph{push} e \emph{pull} tra i vari \emph{repository}.
 \item scaricamento selettivo dei contenuti
 \item gestione della fiducia dei \emph{repository}
 \item gestione del numero di repliche minimo 
-\item vari \emph{backend} per le chiavi (SHA, WORM)
-\item vari \emph{backend} per i contenuti/valori (bup, rsync, web, S3)
+\item vari \emph{backend} per le chiavi (SHA\footnote{Secure Hash
+    Algoritm, (SHA), è un algoritmo usato in sistemi chiave/valore
+    dove le chiavi vengono calcolate tramite una funzione
+    crittografica del valore}, WORM\footnote{L'algoritmo WORM
+    identifica i file in base a nome, dimensione e data di modifica.})
+\item vari \emph{backend} per i contenuti/valori (BUP\footnote{BUP è
+    un sistema per il \emph{backup} ad alta efficienza disponibile su:
+    \url{https://github.com/apenwarr/bup}.}, rsync, web,
+  S3\footnote{Amazon Simple Storage Service, (S3) è un infastruttura
+    per la memorizzazione di dati totalmente ridondante, disponibile
+    su: \url{aws.amazon.com/}.})
 \end{itemize}
 
 \section{Portale Comunitario}
 Il portale locale deve dare accesso ai principali servizi locali della
 comunità. Per lo sviluppo è stato scelto l'uso di un framework basato
-su Python, \emph{Django}, che consente un'integrazione flessibile e
-avanzata con altri sistemi grazie alle numerose librerie disponibili
-quale, ad esempio, quella per l'autenticazione LDAP.
+su Python, \emph{Django} (vedi \ref{Django}), che consente
+un'integrazione flessibile e avanzata con altri sistemi grazie alle
+numerose librerie disponibili quale, ad esempio, quella per
+l'autenticazione LDAP.
 
 Per l'installazione del framework e del modello base del prototipo di
 portale comunitario è stato creato uno \emph{script} mentre, per

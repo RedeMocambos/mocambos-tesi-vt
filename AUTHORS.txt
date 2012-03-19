@@ -1,0 +1,2 @@
+* Copyright (C) 2012 Vincenzo Tozzi
+* under GNU Free Documentation License (see LICENSE.txt)
