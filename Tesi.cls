@@ -192,12 +192,13 @@
     \null\vfill
     \vskip 10\p@
       \begin{center}
+      {\LARGE\textbf{\UNIVNAME}\par}
       \begin{figure}[htbp]
         \centering
         \includegraphics[width=3.5cm]{./Figure/LogoUNIFI.pdf}
       \end{figure}
-      {\large\textbf{\UNIVNAME}\par}
       {\large \FACNAME \par}     
+      {\large CORSO DI LAUREA IN INFORMATICA \par}     
       \setlength{\parskip}{0pt}
       \vfill
       \vfill
