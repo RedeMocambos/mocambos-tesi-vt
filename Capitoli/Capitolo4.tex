@@ -76,7 +76,7 @@ sistemi di archiviazione di massa, caratteristica utile nella fase di
 creazione di un nuovo nodo, per cui la prima sincronizzazione via rete
 potrebbe richiedere giorni (vedi requisito \ref{Sincronizzazione}). I
 trasferimenti comunque avvengono, nel caso di \emph{git-annex},
-tramite il protocollo \emph{rsync}\footnote{\emph{rsync} è uno
+tramite il protocollo \emph{rsync}\footnote{\emph{rsync} è un
   programma libero per il trasferimento rapido e incrementale di file,
   disponibile su \url{http://rsync.samba.org/}.}, che gestisce
 eventuali interruzioni, evitando costose ritrasmissioni.
@@ -132,12 +132,12 @@ altro che \emph{push} e \emph{pull} tra i vari \emph{repository}.
 \item vari \emph{backend} per le chiavi (SHA\footnote{Secure Hash
     Algoritm, (SHA), è un algoritmo usato in sistemi chiave/valore
     dove le chiavi vengono calcolate tramite una funzione
-    crittografica del valore}, WORM\footnote{L'algoritmo WORM
+    crittografica del valore.}, WORM\footnote{L'algoritmo WORM
     identifica i file in base a nome, dimensione e data di modifica.})
 \item vari \emph{backend} per i contenuti/valori (BUP\footnote{BUP è
     un sistema per il \emph{backup} ad alta efficienza disponibile su:
     \url{https://github.com/apenwarr/bup}.}, rsync, web,
-  S3\footnote{Amazon Simple Storage Service, (S3) è un infastruttura
+  S3\footnote{Amazon Simple Storage Service, (S3) è un'infastruttura
     per la memorizzazione di dati totalmente ridondante, disponibile
     su: \url{aws.amazon.com/}.})
 \end{itemize}

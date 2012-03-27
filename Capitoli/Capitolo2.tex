@@ -212,13 +212,13 @@ strumenti per facilitarne l'amministrazione.
 Extensible Messaging and Presence Protocol (XMPP) è un insieme di
 protocolli aperti per la messaggistica e la presenza in rete basato su
 XML. XMPP è un sistema client/server. Le specifiche per la
-comunicazione tra server fanno si che gli utenti di un server possono
+comunicazione tra server fanno sì che gli utenti di un server possono
 interagire in modo trasparente con gli utenti di altri server
 federati. La XMPP Standards Foundation (XSF), coordina lo sviluppo
 delle estensioni dello standard tramite le XMPP Extension Protocols
-(XEPs), che ad oggi sono ben 311. XMPP e le XEPs costituiscono una
-ambiente flessibile e completo per lo sviluppo di servizi
-federati. Questi protocolli sono gia utilizzabili grazie a moltissime
+(XEPs), che ad oggi sono ben 311. XMPP e le XEPs costituiscono
+un'ambiente flessibile e completo per lo sviluppo di servizi
+federati. Questi protocolli sono già utilizzabili grazie a moltissime
 implementazioni di server, client e librerie libere. Anche la storia
 di XMPP, un tempo noto come Jabber, è interessante. Jabber venne
 infatti inizialmente sviluppato da Jeremie Miller nella sua fattoria
@@ -239,10 +239,10 @@ propria identità è un URL che può essere verificata da qualunque
 server supporti il protocollo. E' un protocollo aperto e sono
 disponibili varie implementazioni libere. Inoltre il protocollo è
 stato adottato dai principali fornitori di servizi web. Con OpenID è
-possibile usare la stessa identità su piu servizi ed è un ottima base
-per un sistema Single Sign On (SSO). Il protocollo sfrutta HTTP e e
-Cookies per mantenere una sessione attiva. Al primo tentantivo di
-autenticazione presso un servizio compatibile con OpenID, si viene
+possibile usare la stessa identità su più servizi ed è un'ottima base
+per un sistema Single Sign On (SSO). Il protocollo sfrutta HTTP e i
+\emph{Cookies} per mantenere una sessione attiva. Al primo tentantivo
+di autenticazione presso un servizio compatibile con OpenID, si viene
 reindirizzati verso il proprio provider OpenID per effetturare
 l'accesso e confermare l'autorizzazione a procedere al servizio
 iniziale. Per tutta la durata della sessione, è possibile accedere ai
@@ -273,12 +273,12 @@ tipi di applicazioni, non soltanto per i servizi web.
 
 
 \subsection{Shibboleth}
-Shibboleth è un architettura e un implementazione aperta per
+Shibboleth è un'architettura e un'implementazione aperta per
 l'autenticazione e autorizzazione di identità federate basata su
 Security Assertion Markup Language (SAML). Le identità federate
 permettono che le informazioni di un utente sotto un certo dominio
 possano essere condividise con un altro dominio federato. Questo
-permette il SSO attraverso piu domini senza lo scambio di nomi utente
+permette il SSO attraverso più domini senza lo scambio di nomi utente
 e password. Gli IdP mantengono le informazioni sull'utente mentre i SP
 fanno uso di queste informazioni per l'accesso sicuro ai contenuti.
 
@@ -287,7 +287,7 @@ Kerberos è un protocollo aperto per l'autenticazione forte in reti di
 computer. E' un protocollo client/server e consente l'autenticazione
 reciproca, ossia entrambi verificano le loro identità. Kerberos è
 basato sul protocollo di Needham-Schroeder a chiavi simmetriche e
-prevede un entità terza di fiducia chiamata Key Distribution Center
+prevede un'entità terza di fiducia chiamata Key Distribution Center
 (KDC).
 
 \subsection{Django}\label{Django}
@@ -346,7 +346,7 @@ Le caratteristiche principali includono:
   \emph{repository} contiene l'intero storico delle versioni su cui
   possono essere effettuate operazioni indipendentemente da
   connessioni di rete o da server centrali. Le modifiche possono
-  essere copiate da una clone all'altro e vengono mantenute su
+  essere copiate da un clone all'altro e vengono mantenute su
   \emph{branch} diversi, facilitando le operazioni di \emph{merge}. I
   \emph{repository} sono facilmente accessibili tramite l'efficiente
   protocollo di Git che, oltre a supportare l'HTTP, può funzionare in
