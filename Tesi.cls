@@ -190,20 +190,17 @@
     \let \footnote \thanks
     \setcounter{footnote}{0}
     \null\vfill
-    \vskip 50\p@
+    \vskip 10\p@
       \begin{center}
-      {\large\textbf{\UNIVNAME}\par}
-      \vfill
-      \setlength{\parskip}{0pt}
       \begin{figure}[htbp]
         \centering
         \includegraphics[width=3.5cm]{./Figure/LogoUNIFI.pdf}
-        % \rule{35em}{0.5pt}
-        % \caption[Mappa delle comunità della Rete Mocambos, tratto da
-        % \url{http://mapa.mocambos.net}]{Mappa delle comunità della Rete
-        % Mocambos, tratto da \url{http://mapa.mocambos.net}}
-        % \label{fig:MappaRedeMocambos}
       \end{figure}
+      {\large\textbf{\UNIVNAME}\par}
+      {\large \FACNAME \par}     
+      \setlength{\parskip}{0pt}
+      \vfill
+      \vfill
       \vfill
       {\huge \bf \@title \par}
       {\huge Architettura e prototipo per la Rete Mocambos \par}
@@ -212,26 +209,38 @@
       \smallskip
       {\LARGE \authornames \par}
       \vfill
-      {\LARGE Relatori: \par}
-      \smallskip
-      {\LARGE Prof. Rocco De Nicola \par}
-      \smallskip
-      {\LARGE Dott. Alberto Mancini \par}
       \vfill
       {\large Tesi di Laurea per il Corso\par}
-      {\large di Laurea in Informatica \par}
+      {\large di Laurea triennale in Informatica \par}
       \bigskip
       \bigskip
-      {\large presso \par}
-      {\large \facname \par}
+%      {\large presso \par}
+
 %      {\large \deptname \par}
-      \bigskip
-      \bigskip
+      \par
+    \end{center}
+
+      \begin{minipage}{0.5\textwidth}
+        \begin{flushleft} \large
+          {\large Relatore: \par}
+          {\large Prof. Rocco De Nicola \par}
+        \end{flushleft}
+      \end{minipage}
+      \begin{minipage}{0.5\textwidth}
+        \begin{flushright} \large
+          {\large Co-relatore: \par}
+          {\large Dott. Alberto Mancini \par}
+        \end{flushright}
+      \end{minipage}
+
+
+      \begin{center}
       \bigskip
 %      {\Large \@date \par}
       {\Large Anno Accademico 2010-2011 \par}
       \bigskip
     \end{center}
+
     \par
     \@thanks
     \vfil\null
