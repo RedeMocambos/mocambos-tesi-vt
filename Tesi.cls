@@ -192,21 +192,14 @@
     \null\vfill
     \vskip 10\p@
       \begin{center}
-<<<<<<< HEAD
       {\LARGE\textbf{\UNIVNAME}\par}
-=======
->>>>>>> b8c5b3a... Cambiato frontespizio
       \begin{figure}[htbp]
         \centering
         \includegraphics[width=3.5cm]{./Figure/LogoUNIFI.pdf}
       \end{figure}
-<<<<<<< HEAD
       {\large \FACNAME \par}     
       {\large CORSO DI LAUREA IN INFORMATICA \par}     
-=======
-      {\large\textbf{\UNIVNAME}\par}
-      {\large \FACNAME \par}     
->>>>>>> b8c5b3a... Cambiato frontespizio
+
       \setlength{\parskip}{0pt}
       \vfill
       \vfill

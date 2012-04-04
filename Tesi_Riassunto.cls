@@ -192,21 +192,13 @@
     \null\vfill
     \vskip 10\p@
       \begin{center}
-<<<<<<< HEAD
       {\LARGE\textbf{\UNIVNAME}\par}
-=======
->>>>>>> b8c5b3a... Cambiato frontespizio
       \begin{figure}[htbp]
         \centering
         \includegraphics[width=3.5cm]{./Figure/LogoUNIFI.pdf}
       \end{figure}
-<<<<<<< HEAD
       {\large \FACNAME \par}     
       {\large CORSO DI LAUREA IN INFORMATICA \par}     
-=======
-      {\large\textbf{\UNIVNAME}\par}
-      {\large \FACNAME \par}     
->>>>>>> b8c5b3a... Cambiato frontespizio
       \setlength{\parskip}{0pt}
       \vfill
       \vfill
@@ -270,6 +262,10 @@
 \newenvironment{abstract}
 {
   \btypeout{Abstract Page}
+  \hypersetup{pdftitle={\@title}}
+  \hypersetup{pdfsubject=\subjectname}
+  \hypersetup{pdfauthor=\authornames}
+  \hypersetup{pdfkeywords=\keywordnames}
   \thispagestyle{empty}
   \null\vfil
   \begin{center}
@@ -283,14 +279,35 @@
     \bigskip
     {\normalsize Corso di Laurea in Informatica\par}
     \bigskip
+    \bigskip
+    \bigskip
+    \bigskip
     % {\normalsize\bf \@title \par}
-    {\normalsize\bf Eventually connected federated network \par}
-    {\normalsize Architecture and prototype for Mocambos Network \par}
+    {\LARGE\bf Reti federate eventualmente connesse \par}
+    {\LARGE Architettura e prototipo per la Rete Mocambos \par}
     % \vfill
-    \medskip
-    {\normalsize by \authornames \par}
+    \bigskip
+    {\large di \authornames \par}
+    {\normalsize vince@mocambos.net \par}
     \bigskip
   \end{center}
+    \bigskip
+      \begin{minipage}{0.5\textwidth}
+        \begin{flushleft} \large
+          {\large Relatore: \par}
+          {\large Prof. Rocco De Nicola \par}
+          {\normalsize rocco.denicola@unifi.it \par}
+        \end{flushleft}
+      \end{minipage}
+      \begin{minipage}{0.5\textwidth}
+        \begin{flushright} \large
+          {\large Co-relatore: \par}
+          {\large Dott. Alberto Mancini \par}
+          {\normalsize mancini@math.unifi.it \par}
+        \end{flushright}
+      \end{minipage}
+      \bigskip
+      \bigskip
 }
 {
   \vfil\vfil\vfil\null
