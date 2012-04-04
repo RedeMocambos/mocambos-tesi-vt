@@ -1,0 +1,98 @@
+%% ----------------------------------------------------------------
+%% Thesis.tex -- MAIN FILE (the one that you compile with LaTeX)
+%% ---------------------------------------------------------------- 
+
+% Set up the document
+\documentclass[a4paper, 11pt, oneside]{Tesi_Riassunto}  % Use the "Thesis" style, based on the ECS Thesis style by Steve Gunn
+\graphicspath{{Figure/}}  % Location of the graphics files (set up for graphics to be in PDF format)
+
+
+
+% Include any extra LaTeX packages required
+\usepackage[utf8]{inputenc}
+\usepackage[italian]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{ae,aecompl}
+\usepackage[square, numbers, comma, sort&compress]{natbib}  % Use the "Natbib" style for the references in the Bibliography
+\usepackage{verbatim}  % Needed for the "comment" environment to make LaTeX comments
+\usepackage{vector}  % Allows "\bvec{}" and "\buvec{}" for "blackboard" style bold vectors in maths
+%\usepackage{listings}
+\usepackage{listingsutf8}
+\lstset{frame=tb,
+  language=Python,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{dkblue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true
+  tabsize=2
+  morekeywords={models, lambda, forms, =}
+  inputencoding=utf8,
+  extendedchars=\true
+}
+
+\lstnewenvironment{code}[1][]%
+  {\minipage{\linewidth} 
+   \lstset{basicstyle=\ttfamily\footnotesize,frame=tb,#1}}
+  {\endminipage}
+
+
+%%%% Color definitions
+\usepackage{color}
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{dkblue}{rgb}{0,0,0.5}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.6,0,0.82}
+\definecolor{coolblack}{rgb}{0.0, 0.18, 0.39}
+\hypersetup{urlcolor=coolblack, colorlinks=true}  % Colours hyperlinks in blue, but this can be distracting if there are many links.
+%\hypersetup{urlcolor=black, colorlinks=false}  
+
+%% To show a border around all figures
+%\usepackage{float}
+%\floatstyle{boxed} 
+%\restylefloat{figure}
+
+%% ----------------------------------------------------------------
+\begin{document}
+\frontmatter	  % Begin Roman style (i, ii, iii, iv...) page numbering
+
+% Set up the Title Page
+\title  {Reti federate eventualmente connesse}
+
+\authors  {\texorpdfstring
+            {\href{mailto:vince@mocambos.net}{Vincenzo Tozzi}}
+            {Vincenzo Tozzi}
+            }
+\addresses  {\groupname\\\deptname\\\univname}  % Do not change this here, instead these must be set in the "Thesis.cls" file, please look through it instead
+\date       {\today}
+\subject    {Tesi di Laurea in Informatica}
+\keywords   {Federated Network, Tecnological Autonomy, Free Software, Rede Mocambos, Casa de Cultura Taina, Quilombo}
+
+
+% The Abstract Page
+%\addtotoc{Abstract}  % Add the "Abstract" page entry to the Contents
+\abstract{
+
+  Questo lavoro, basato su un'esperienza diretta, ricerca tecnologie per
+  una rete federata di comunità afro-discendenti incentrata
+  sull'autonomia e sulla libertà. Il lavoro propone un'architettura e
+  un prototipo per una ``rete federata eventualmente connessa'' il cui
+  limite e vincolo tecnologico principale è la banda e la
+  disponibilità della connessione. Il prototipo è un sistema per la
+  condivisione di contenuti multimediali tra portali web locali,
+  basato su \emph{Django} e \emph{git-annex}, autenticati su server
+  \emph{LDAP}.
+
+}
+
+\clearpage  % Abstract ended, start a new page
+
+\end{document}  % The End
+%% ----------------------------------------------------------------
