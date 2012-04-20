@@ -3,7 +3,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[italian]{babel}
 \usepackage{graphicx}
-
+\usepackage{wrapfig}
 \usepackage{amsfonts}
 %\usepackage[square, numbers, comma, sort&compress]{natbib}  % Use the
                                 % "Natbib" style for the references in
@@ -26,7 +26,7 @@
 % Inutile dire che se volete tutti i default, potete risparmiarvi gli ultimi
 % quattro comandi. 
 
-
+\beamertemplatenavigationsymbolsempty 
 %%% Titolo e autore.
 
 \title{Reti federate eventualmente connesse}
@@ -54,6 +54,19 @@
 \end{frame}
 
 \section{Introduzione}
+
+\begin{frame}
+
+  \frametitle{Lotta al \emph{Digital divide} - \emph{Inclusão digital}}
+  Popolazione con accesso ad Internet in Brasile\footnote{Fonte: intervista al Segretario Esecutivo del Ministero delle
+    Comunicazioni, Cesar Alvarez, su dati IBGE 2009.}:
+  \begin{itemize}
+    \item $\sim$ 30\% della popolazione
+    \item $\sim$ 6\% della popolazione in area rurale  
+  \end{itemize}
+    
+\end{frame}
+
 \begin{frame}
 
   \frametitle{Brasile: Uno, nessuno e centomila}
@@ -67,18 +80,6 @@
   \item \ldots
   \end{itemize}
 
-\end{frame}
-
-\begin{frame}
-
-  \frametitle{Digital divide - Inclusão digital}
-  Popolazione con accesso ad Internet in Brasile\footnote{Fonte: intervista al Segretario Esecutivo del Ministero delle
-    Comunicazioni, Cesar Alvarez, su dati IBGE 2009.}:
-  \begin{itemize}
-    \item $\sim$ 30\% della popolazione
-    \item $\sim$ 6\% della popolazione in area rurale  
-  \end{itemize}
-    
 \end{frame}
 
 \begin{frame}
@@ -148,6 +149,16 @@
     \end{itemize}
 \end{frame}
 
+\begin{frame}
+  \frametitle{La Rete Mocambos}
+  \framesubtitle{Mappa delle comunità}
+	\begin{figure}
+		\includegraphics[height=0.7\textheight]{./Figure/MappaRedeMocambos.pdf}
+	\end{figure}
+\end{frame}
+
+
+
 
 \begin{frame}
   \frametitle{Reti federate eventualmente connesse}
@@ -178,7 +189,6 @@
     \item git / git-annex
     \item rsync
     \end{itemize}
-
 \end{frame}
 }
 
@@ -217,8 +227,6 @@
 	\begin{figure}
 		\includegraphics[height=0.7\textheight]{./Figure/SchemaServer_ReteMocambos-crop.pdf}
 	\end{figure}
-
-
 \end{frame}
 
 \section{Un prototipo di servizio federato}
@@ -226,7 +234,9 @@
 \begin{frame}
   \frametitle{Un prototipo di servizio federato}
   \framesubtitle{Sistema di pubblicazione e diffusione di contenuti multimediali}
-
+	\begin{figure}
+		\includegraphics[width=\textwidth]{./Figure/SequenceDiagram_NuovoOggetto-crop.pdf}
+	\end{figure}
 \end{frame}
 
 \begin{frame}
@@ -237,15 +247,65 @@
 
 \section{Conclusioni e sviluppi futuri}
 
-\begin{frame}[fragile]
+\begin{frame}
  \frametitle{Conclusioni e sviluppi futuri}
-%  \framesubtitle{}
-
+  \framesubtitle{Risultati\ldots}
+  \begin{quote}
+    ``L'architettura e il prototipo sviluppati sono in corso di
+    implementazione, su scala ridotta, a partire dalle comunità più
+    strutturate e che fungono già da poli regionali, chiamati Nuclei
+    di Formazione Continua, che sono attualmente dieci,
+    geograficamente ben distribuiti sul territorio nazionale
+    brasiliano.''
+  \end{quote}
+  
+  Funzionalità implementate:
+  \begin{itemize}
+  \item autenticazione LDAP (con gestione basica dei gruppi)
+  \item creazione e upload di contenuti audio, immagini e video
+  \item distribuzione tramite \emph{git-annex}
+  \item sincronizzazione degli oggetti sui portali django (ricreando
+    gli oggetti relativi ai contenuti distribuiti via
+    \emph{git-annex})
+  \end{itemize}
+\end{frame}
+  
+\begin{frame}
+ \frametitle{Conclusioni e sviluppi futuri}
+  \framesubtitle{\ldots e prossime versioni}
+  
+  \begin{itemize}
+  \item trasferimento selettivo dei contenuti/valori basato sull'uso
+    statistico o su richiesta
+  \item sviluppo di in interfaccia di visualizzazione e pubblicazione
+    per l'utente finale
+  \item gestione del DIT dell'LDAP tramite script e/o portale
+  \end{itemize}
 \end{frame}
 
+\begin{frame}
+ \frametitle{Fine}
+ \begin{center}
+   \huge Grazie per l'attenzione! :) \\
+   \vfill
+   \large  
+   Vincenzo Tozzi \\
+   \normalsize
+   vince@mocambos.net
+   \vfill
+   \begin{figure}[htb]
+     \begin{minipage}[c]{0.10\textwidth}
+       \includegraphics[width=\textwidth]{./Figure/NPDD.pdf}
+  \end{minipage}
+  \begin{minipage}[c]{0.60\textwidth}
+    \footnotesize
+    Nucleo de Pesquisa e Desenvolvimento Digital \\*
+    Casa de Cultura Tainã/Rede Mocambos\\*
+    http://wiki.mocambos.net/wiki/NPDD
+  \end{minipage}
+
+\end{figure}
+\end{center}
+\end{frame}
 
 \end{document}
-
-%	\begin{figure}
-%		\includegraphics[width=\textwidth]{include/albero_tempi.pdf}
-%	\end{figure}
