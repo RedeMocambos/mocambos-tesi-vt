@@ -25,8 +25,18 @@
 \usefonttheme{default}  % schema dei font.
 % Inutile dire che se volete tutti i default, potete risparmiarvi gli ultimi
 % quattro comandi. 
-
+\definecolor{jgreen}{RGB}{0,92,40}
+\definecolor{jyellow}{RGB}{211,168,0}
+\definecolor{jred}{RGB}{153,32,0}
 \beamertemplatenavigationsymbolsempty 
+\setbeamercolor{sidebar}{bg=jgreen}
+\setbeamercolor{section in sidebar}{fg=yellow}
+\setbeamercolor{title in sidebar}{fg=white}
+\setbeamercolor{author in sidebar}{fg=jred}
+\setbeamercolor{frametitle}{fg=jgreen}
+\setbeamercolor{title}{fg=jgreen}
+\setbeamercolor{item}{fg=jgreen}
+
 %%% Titolo e autore.
 
 \title{Reti federate eventualmente connesse}
@@ -48,16 +58,16 @@
 \end{frame}
 }
 
-\section[Sommario]{}
+% \section[Sommario]{}
+% \begin{frame}
+%   \tableofcontents
+% \end{frame}
+
+\section{Digital divide e libertà tecnologica}
+
 \begin{frame}
-  \tableofcontents
-\end{frame}
 
-\section{Introduzione}
-
-\begin{frame}
-
-  \frametitle{Lotta al \emph{Digital divide} - \emph{Inclusão digital}}
+  \frametitle{\emph{Digital divide} in Brasile}
   Popolazione con accesso ad Internet in Brasile\footnote{Fonte: intervista al Segretario Esecutivo del Ministero delle
     Comunicazioni, Cesar Alvarez, su dati IBGE 2009.}:
   \begin{itemize}
@@ -66,6 +76,14 @@
   \end{itemize}
     
 \end{frame}
+
+
+{
+\usebackgroundtemplate{
+%  \hspace{2cm}
+  \begin{picture}(0,0)\put(130,-270)
+    {\includegraphics[width=0.8\textwidth]{./Figure/diversidade.pdf}}
+  \end{picture}}
 
 \begin{frame}
 
@@ -81,6 +99,8 @@
   \end{itemize}
 
 \end{frame}
+
+}
 
 \begin{frame}
 
@@ -116,9 +136,7 @@
   ``Internet è nata dal confronto aperto tra i responsabili di diverse
   reti, uniti dalla volontà di connettere le loro differenti
   realtà. La nascita di nuovi servizi, per queste reti eterogenee, era
-  basata sulla discussione e il confronto. Il primo uso documentato
-  del termine ``internet'', seguendo questa pratica, fa la sua
-  comparsa proprio in un RFC'' 
+  basata sulla discussione e il confronto.'' 
 \end{quote}
 
 \end{frame}
@@ -133,6 +151,34 @@
   diventa principalmente una rete per la globalizzazione di servizi
   fortemente centralizzati e uniformati.'' 
   \end{quote}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Internet, autonomia e libertà tecnologica}
+  \framesubtitle{\ldots ai ToS/API/Cloud}
+  \begin{quote}
+    ``Secondo la società di consulenza Gartner, nel 2016, tutte le
+    compagnie contemplate dal \emph{Forbes Global 2000} faranno uso di
+    soluzioni \emph{cloud} \footnote{Tratto dall'articolo: ``Six global trends
+      shaping the business world'', del 2011, pubblicato sulla rivista EY
+      Insights di Ernst \& Young}.''
+  \end{quote}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Dalle maestranze informatiche\ldots}
+  \framesubtitle{\ldots ai nuovi operai}
+  \begin{quotation}
+    ``\ldots un tempo lo sviluppo seguiva un modello \emph{bottom up}, per
+    cui le maestranze informatiche sviluppavano sistemi ad hoc per le
+    esigenze locali, per poi in seguito aprire una discussione in
+    rete, con i loro corrispettivi, per definire dei protocolli
+    standard e mettere in comunicazione il tutto.
+
+    Oggi si passa ad un modello di sviluppo \emph{top down}, per cui
+    nuovi servizi vengono lanciati basandosi su indagini di mercato e
+    test su campioni di utenti.''
+  \end{quotation}
 \end{frame}
 
 
@@ -162,7 +208,7 @@
 
 \begin{frame}
   \frametitle{Reti federate eventualmente connesse}
-  \begin{quotation}
+  \begin{quote}
     ``una rete federata basata su connessioni non sempre disponibili,
     quali le connessioni satellitari, con l'esigenza di mantenere i
     servizi federati attivi, anche in assenza di comunicazione. I
@@ -170,7 +216,7 @@
     sistema e la riduzione del traffico di rete esterno, attraverso
     strategie di replicazione, sincronizzazione e memorizzazione dei
     dati sull'infrastruttura logica/fisica locale.''
-    \end{quotation}
+    \end{quote}
 \end{frame}
 
 
@@ -242,6 +288,15 @@
 \begin{frame}
   \frametitle{Un prototipo di servizio federato}
   \framesubtitle{Archivio multimediale}
+\emph{git-annex} supporta:
+\begin{itemize}
+\item localizzazione delle copie (\emph{location tracking})
+\item scaricamento selettivo dei contenuti
+\item gestione della fiducia dei \emph{repository}
+\item gestione del numero di repliche minimo
+\item vari \emph{backend} per le chiavi (SHA, WORM)
+\item vari \emph{backend} per i contenuti/valori (BUP, rsync, web, S3)
+\end{itemize}
 
 \end{frame}
 
@@ -249,7 +304,6 @@
 
 \begin{frame}
  \frametitle{Conclusioni e sviluppi futuri}
-  \framesubtitle{Risultati\ldots}
   \begin{quote}
     ``L'architettura e il prototipo sviluppati sono in corso di
     implementazione, su scala ridotta, a partire dalle comunità più
@@ -258,7 +312,11 @@
     geograficamente ben distribuiti sul territorio nazionale
     brasiliano.''
   \end{quote}
-  
+\end{frame}
+
+\begin{frame}
+ \frametitle{Conclusioni e sviluppi futuri}
+  \framesubtitle{Risultati\ldots}
   Funzionalità implementate:
   \begin{itemize}
   \item autenticazione LDAP (con gestione basica dei gruppi)
@@ -273,7 +331,8 @@
 \begin{frame}
  \frametitle{Conclusioni e sviluppi futuri}
   \framesubtitle{\ldots e prossime versioni}
-  
+ 
+  Da implementare:
   \begin{itemize}
   \item trasferimento selettivo dei contenuti/valori basato sull'uso
     statistico o su richiesta
@@ -282,6 +341,35 @@
   \item gestione del DIT dell'LDAP tramite script e/o portale
   \end{itemize}
 \end{frame}
+
+\begin{frame}
+ \frametitle{Partner}
+ La Rete Mocambos conta con l'appoggio di altre reti, collettivi e istituzioni
+  
+  \begin{itemize}
+  \item Pontos de Cultura 
+  \item Metareciclagem
+  \item Rete Dyne 
+  \item \ldots
+  \end{itemize}
+  
+  Partner istituzionali:
+  \begin{itemize}
+  \item GESAC
+  \item Telecentros.BR
+  \item Secretaria de Políticas de Promoção da Igualdade Racial da
+    Presidência da República
+  \item Unicamp 
+  \item \ldots
+  \end{itemize}
+  
+\end{frame}
+
+\section{Extra}
+
+\begin{frame}
+  \frametitle{}
+ \end{frame}
 
 \begin{frame}
  \frametitle{Fine}
@@ -307,5 +395,8 @@
 \end{figure}
 \end{center}
 \end{frame}
+
+
+
 
 \end{document}
