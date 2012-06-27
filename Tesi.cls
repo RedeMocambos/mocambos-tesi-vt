@@ -204,7 +204,7 @@
       \vfill
       \vfill
       {\huge \bf \@title \par}
-      {\huge Architettura e prototipo per la Rete Mocambos \par}
+      {\huge Arquitetura e prot\'otipo para a Rede Mocambos \par}
       \vfill
       {\LARGE di \par}
       \smallskip
@@ -223,13 +223,13 @@
 
       \begin{minipage}{0.5\textwidth}
         \begin{flushleft} \large
-          {\large Relatore: \par}
+          {\large Orientador: \par}
           {\large Prof. Rocco De Nicola \par}
         \end{flushleft}
       \end{minipage}
       \begin{minipage}{0.5\textwidth}
         \begin{flushright} \large
-          {\large Co-relatore: \par}
+          {\large Co-orientador: \par}
           {\large Dott. Alberto Mancini \par}
         \end{flushright}
       \end{minipage}
@@ -238,7 +238,7 @@
       \begin{center}
       \bigskip
 %      {\Large \@date \par}
-      {\Large Anno Accademico 2010-2011 \par}
+      {\Large Ano Acad\'emico 2010-2011 \par}
       \bigskip
     \end{center}
 
@@ -381,16 +381,16 @@
     \cleardoublepage
 }
 \newcommand\acknowledgements[1]{
-\btypeout{Ringraziamenti}
-\addtotoc{Ringraziamenti}
+\btypeout{Agradecimentos}
+\addtotoc{Agradecimentos}
 \thispagestyle{plain}
-\begin{center}{\huge{\textit{Ringraziamenti}} \par}\end{center}
+\begin{center}{\huge{\textit{Agradecimentos}} \par}\end{center}
 {\normalsize #1}
 \vfil\vfil\null
 
 }
 \newcommand\dedicatory[1]{
-\btypeout{Dedica}
+\btypeout{Dedicat\'oria}
 \thispagestyle{plain}
 \null\vfil
 \vskip 60\p@
