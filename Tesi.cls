@@ -148,7 +148,7 @@
 \newcommand*{\keywords}[1]{\def\keywordnames{#1}}
 \supervisor  {Dott. Alberto Mancini}
 \examiner    {Prof. Rocco de Nicola}
-\degree      {Corso di Laurea in Informatica}
+\degree      {Gradua\c{c}\~ao  em Ci\^encia da Computa\c{c}\~ao}
 \authors     {Vincenzo Tozzi}
 \university  {\texorpdfstring{\href{http://www.unifi.it}
                 {Università degli Studi di Firenze}}
@@ -198,7 +198,7 @@
         \includegraphics[width=3.5cm]{./Figure/LogoUNIFI.pdf}
       \end{figure}
       {\large \FACNAME \par}     
-      {\large CORSO DI LAUREA IN INFORMATICA \par}     
+      {\large CURSO DE CI\^ENCIA DA COMPUTA\c{C}\~AO \par}     
       \setlength{\parskip}{0pt}
       \vfill
       \vfill
@@ -206,13 +206,13 @@
       {\huge \bf \@title \par}
       {\huge Arquitetura e prot\'otipo para a Rede Mocambos \par}
       \vfill
-      {\LARGE di \par}
+      {\LARGE de \par}
       \smallskip
       {\LARGE \authornames \par}
       \vfill
       \vfill
-      {\large Tesi di Laurea per il Corso\par}
-      {\large di Laurea triennale in Informatica \par}
+      {\large Tese de gradua\c{c}\~ao\par}
+      {\large em Ci\^encia da Computa\c{c}\~ao \par}
       \bigskip
       \bigskip
 %      {\large presso \par}
@@ -312,8 +312,8 @@
 }\end{spacing}
 }
 \renewcommand\listoffigures{
-\btypeout{Elenco delle figure}
-\addtotoc{Elenco delle figure}
+\btypeout{Lista de figuras}
+\addtotoc{Lista de figuras}
 \begin{spacing}{1}{
     \setlength{\parskip}{1pt}
     \if@twocolumn
@@ -347,7 +347,7 @@
     \cleardoublepage
 }\end{spacing}
 }
-\newcommand\listsymbolname{Abbreviazioni}
+\newcommand\listsymbolname{Siglas}
 \usepackage{longtable}
 \newcommand\listofsymbols[2]{
 \btypeout{\listsymbolname}
