@@ -1,90 +1,92 @@
-% Capitolo 3
+% Cápitulo 3
 
 \chapter{Un'architettura per la Rete Mocambos}
 \label{Capitolo3}
-\lhead{Capitolo 3. \emph{Un'architettura per la Rete Mocambos}}
+\lhead{C\'apitulo 3. \emph{Uma arquitetura para Rede Mocambos}}
 
-\section{Specifica dei requisiti}
-La Rete Mocambos attualmente è composta da piu di 200 comunità
-localizzate in tutto il territorio nazionale brasiliano e alcune
-comunità in Africa e in Europa. La connettività in Brasile è
-satellitare, garantita dal programma GESAC che mette a disposizione di
-ogni comunità un Very Small Aperture Terminal (VSAT) con banda di 512
-kbit/s in download e 128 kbit/s in upload. La topologia della rete è a
-stella per cui tutti i nodi comunicano tramite satellite concentrando
-il traffico su un hub terrestre, dove la rete satellitare è
-interconnessa a Internet. Ogni comunità ha a disposizione una sala con
-10 computer ad accesso pubblico, installati recentemente tramite il
-Telecentros.BR\footnote{``Il programma nazionale di appoggio
-  all'inclusione digitale nelle comunità, Telecentros.BR, è un'azione
-  del Governo Federale di appoggio per la creazione di nuovi spazi
-  pubblici e comunitari di inclusione digitale e per il potenziamento
-  degli spazi già in funzione su tutto il territorio. Vengono messe a
-  disposizione le apparecchiature informatiche e il mobiliario
-  necessario al funzionamento dei \textit{telecentros}, servizi di
-  connessione a internet tramite banda larga oltre a formazione e
-  borse per l'appoggio economico per tutor che lavorano come agenti di
-  inclusione digitale. Questi tutor borsisti partecipano ad un corso
-  di formazione e lavorano, nei telecentros, per le comunità.'',
-  tradotto da \url{http://www.inclusaodigital.gov.br/telecentros}.},
-altro programma federale brasiliano. La popolazione di ogni comunità
-varia dalle centinaia alle migliaia di persone. La maggior parte delle
-comunità si trova in area rurale, spesso di difficile accesso e priva
-di altri mezzi di comunicazione. A parte gli spazi comunitari,
-normalmente concentrati in una zona centrale, la popolazione è divisa
-in piccoli nuclei familiari sparsi sul territorio e a volte molto
-distanti tra di loro.
+\section{Especificação dos requisitos}
+A Rede Mocambos atualmente envolve cerca de 200 comunidades
+localizadas em todo o território nacional brasileiro e algumas
+comunidades na Africa e na Europa. A conectividade no Brasil é por
+satélite, garantida pelo GESAC que disponibiliza para cada comunidade
+uma \emph{Very Small Aperture Terminal} (VSAT) com banda de 512 kbit/s
+em download e 128 kbit/s em upload. A topologia da rede é a estrela
+então todos os nós comunicam por satélite concentrando o trafego num
+\emph{hub} terrestre, onde a rede via satélite é interligada a
+Internet. Cada comunidade tem uma sala com 10 computadores com acesso
+publico, recém instalados (ou sendo instalados) pelo
+Telecentros.BR\footnote{``O Programa Nacional de Apoio à Inclusão
+  Digital nas Comunidades – Telecentros.BR é uma ação do Governo
+  Federal de apoio à implantação de novos espaços públicos e
+  comunitários de inclusão digital e o fortalecimento dos que já estão
+  em funcionamento em todo o território. São disponibilizados
+  equipamentos de informática e mobiliário necessários ao
+  funcionamento dos telecentros, serviços de conexão em banda larga à
+  internet, assim como a formação e bolsas de auxílio financeiro para
+  monitores atuarem como agentes de inclusão digital. Esses monitores
+  bolsistas participam de um curso de formação e atendem as
+  comunidades dos telecentros.'', retirado de
+  \url{http://www.inclusaodigital.gov.br/telecentros}.}, outro
+programa do governo federal. A população de casa comunidade varia
+desde as centenas as milhares de pessoas. A maioria das comunidade se
+encontra em área rural, geralmente de difícil acesso e sem outros
+meios de comunicação. Além dos espaços comunitários, normalmente
+concentrados na zona central, a população é dividida em pequenos
+núcleos familiares espalhados no território e as vezes muito distantes
+um dos outros.
 
-Vediamo alcuni requisiti essenziali per questa architettura di rete
-federata.
+Vejamos agora alguns requisitos essenciais para essa arquitetura de
+rede federada.
 
-\subsection{Identità di rete}
-Gli utenti delle comunità devono avere associate delle identità
-digitali con cui accedere e utilizzare i servizi esistenti. Oltre ad
-accedere localmente, è importante avere accesso ad alcuni servizi
-anche al di fuori della propria comunità. Ad esempio, nel caso una
-persona si trovi in città, deve poter accedere, attraverso internet,
-ai servizi base, quale l'email, o ai portali e servizi web della
-RM. È necessaria quindi un'identità digitale di rete univoca.
+\subsection{Identidade de rede}
+Os usuários das comunidades tem que ter identidade digitais com as
+quais acessar e usar os serviços existentes. Além de acessar
+localmente, é importante ter acesso a alguns serviços também fora da
+própria comunidade. Por exemplo, no caso uma pessoa se encontra na
+cidade, ela deve poder acessar, através da internet, aos serviços de
+base, como o e-mail, o aos portais e serviços web da RM. É necessária
+então uma identidade digital de rede univoca. 
 
-\subsection{Autenticazione decentrata}
+\subsection{Autenticação descentralizada}
 \label{sec:AutDec}
-Un requisito essenziale per ogni comunità è l'autonomia in assenza di
-collegamento ad internet, e la presenza quindi di un sistema locale di
-autenticazione e autorizzazione. Oltre a garantire la continuità del
-servizio (in relazione a problemi di connessione satellitare), è un
-requisito importante per un buon disimpegno di tutti i servizi
-autenticati.
+Um requisito essencial para cada comunidade é ter autonomia em
+ausência de conexão internet, e a presença então de um sistema local
+de autenticação e autorização. Além de garantir a continuidade do
+serviço (em relação a problemas da conexão por satélite), é um
+requisito importante para um bom desempenho de todos os serviços autenticados. 
 
-\subsection{Sincronizzazione}\label{Sincronizzazione}
-Lo scambio di informazioni tra le comunità è l'obbiettivo primario per
-la RM. È quindi necessario un meccanismo per la sincronizzazione
-selettiva dei contenuti di interesse generale. Inoltre, per
-ottimizzare l'uso della banda, le operazioni di sincronizzazione dei
-dati devono incidere il meno possibile sull'uso quotidiano di internet,
-programmando queste operazioni per la notte o comunque quando la
-connessione satellitare non è utilizzata. Il sistema deve prevedere
-anche la possibilità di sincronizzare i dati da e verso periferiche di
-archiviazione di massa.
+\subsection{Sincronização}\label{Sincronizazzione}
+A troca de informações entre as comunidades é o objetivo primário para
+a RM. É então necessário um sistema para a sincronização seletiva dos
+conteúdos de interesse geral. Para otimizar o uso da banda, as
+operações de sincronização dos dados tem que influenciar o minimo
+possível o uso quotidiano da internet, programando essas operações
+durante a noite o de qualquer forma quando a conexão por satélite não
+ta sendo usada. 
 
-\subsection{Riproducibilità}
-Ogni comunità provvede autonomamente alla gestione della propria infrastruttura
-tecnologica e le soluzioni adottate devono quindi essere facilmente
-implementabili e adattabili localmente. Gli strumenti devono quindi essere
-soluzioni stabili e possibilmente di uso comune, anche al fine di
-reperire più facilmente assistenza in loco. 
+\subsection{Replicabilidade}
+Cada comunidade se organiza autonomamente para a gestão da própria
+infraestrutura tecnológica e as soluções adotadas tem então que ser
+facilmente implementáveis e adaptáveis localmente. As ferramentas
+precisam ser então soluções estáveis e possivelmente de uso comum,
+também ao fim de encontrar mais facilmente assistência em loco. 
 
-\subsection{Manutenzione}
-La manutenzione del sistema deve prevedere sia interventi a distanza
-sia locali. Il sistema deve essere basato su tecnologie standard e
-aperte per garantire l'accesso ai dati anche in caso di problemi.
+\subsection{Manutenção}
+A manutenção do sistema tem que prever seja intervenções a distancia
+seja locais. O sistema é baseado em tecnologias \emph{standard} e
+abertas para garantir o acesso aos dados mesmo em caso de problemas.
 
-\subsection{Sviluppo}
-Ogni comunità ha caratteristiche e necessità proprie che portano alla
-richiesta di servizi differenziati. L'architettura generale della RM
-deve essere una base stabile su cui poter sviluppare servizi senza
-vincoli troppo stringenti. Le tecnologie e i linguaggi adottati devono
-facilitare l'interazione, la formazione e il riuso delle conoscenze. 
+\subsection{Desenvolvimento}
+Cada comunidade tem características e necessidades próprias que levam
+a serviços diferenciados. A arquitetura geral da RM tem que ser uma
+base estável em cima da qual poder desenvolver sem demais restrições.
+As tecnologias e as linguagens adotadas tem que facilitar a interação,
+a formação e o reuso dos conhecimentos. 
+
+
+======================================================================
+
+
 
 \section{Strumenti e pratiche per lo sviluppo}
 Data la natura della RM, e in particolare la necessità di autonomia
