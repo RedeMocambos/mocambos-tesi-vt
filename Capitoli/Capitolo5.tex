@@ -1,84 +1,73 @@
-% Capitolo 4
+% Capitolo 5
 
-\chapter{Conclusioni e sviluppi futuri}
-\label{Capitolo5}
-\lhead{Capitolo 5. \emph{Conclusioni e sviluppi futuri}}
+\chapter{Conclusões e desenvolvimentos futuros}
+\label{Capitulo5}
+\lhead{Cap\'itulo 5. \emph{Conclusões e desenvolvimentos futuros}}
 
-L'architettura e il prototipo sviluppati sono in corso di
-implementazione, su scala ridotta, a partire dalle comunità più
-strutturate e che fungono già da poli regionali, chiamati
-\emph{Nucleos de Formação Continuada, (NFC)}, nuclei di formazione
-continua, che sono attualmente dieci, geograficamente ben distribuiti
-sul territorio nazionale brasiliano.
+A arquitetura e o protótipo desenvolvidos são em curso de
+implementação, em escada reduzida, a partir das comunidades mais
+estruturadas que tem já um papel de polos regionais, chamados
+\emph{Nucleos de Formação Continuada, (NFC)}, que são atualmente dez,
+geograficamente bem espalhados no território brasileiro.
 
-Seguendo la filosofia di sviluppo Agile \citep{Agile}, per cui: 
+Seguindo a filosofia de desenvolvimento Agile \citep{Agile}, pela qual: 
 
 \begin{quote}
   ``\emph{Agile software development is a group of software
     development methods based on iterative and incremental
     development, where requirements and solutions evolve through
     collaboration between self-organizing, cross-functional
-    teams.}''\footnote{``Lo sviluppo di software Agile è un insieme di
-    metodi basati sullo sviluppo iterativo e incrementale, dove i
-    requisiti e le soluzioni evolvono attraverso la collaborazione tra
-    team auto-organizzati e multifunzionali.'', tratto da Wikipedia:
+    teams.}''\footnote{``O desenvolvimento de software Agile é um
+    conjunto de metodologias baseadas no desenvolvimento iterativo e
+    incremental, onde os requisitos e as soluções evolvem através a
+    colaboração entre equipe auto-organizadas e multifuncionais.'',
+    traduzido de Wikipedia:
     \url{http://en.wikipedia.org/wiki/Agile_software_development}.}
 \end{quote}
 
-è importante, in un contesto così ampio ed eterogeneo, avere una
-struttura generale su cui poter sviluppare codice funzionante, da
-poter evolvere e adattare nel tempo.
+é importante, em um contexto assim amplo e heterogêneo, ter uma
+estrutura geral em cima da qual poder desenvolver código funcionante,
+que possa ser melhorado e evoluído no tempo.
 
-Il codice prodotto consente una prima implementazione per un progetto
-pilota che coinvolga sviluppatori del NPDD e consenta la formazione di
-tecnici locali nei NFC, oltre ad ottenere un feedback diretto sull'uso
-da parte delle comunità.
-
-Attualmente il codice supporta:
+Atualmente o código suporta:
 \begin{itemize}
-\item autenticazione LDAP (con gestione basica dei gruppi)
-\item creazione e upload di contenuti audio, immagini e video
-\item distribuzione tramite \emph{git-annex}
-\item sincronizzazione degli oggetti sui portali django (ricreando gli
-  oggetti relativi ai contenuti distribuiti via \emph{git-annex})
+\item autenticação LDAP (com gestão básica dos grupos)
+\item criação e upload de conteúdos áudios, imagens e vídeos
+\item distribuição através do \emph{git-annex}
+\item sincronização dos objetos em portais Django (recriando os
+  objetos relativos aos conteúdos distribuídos via \emph{git-annex})
 \end{itemize}
 
-Dal punto di vista strutturale la componente più importante è il
-sistema di gestione delle identità digitali federate. Pertanto è
-essenziale una sperimentazione approfondita della soluzione LDAP
-adottata che può comunque essere estesa e integrata ad altri
-meccanismi. Per la messaggistica e il VOIP, sarebbe interessante
-esplorare le possibilità date dal protocollo XMPP, che si presta per
-la facilità con cui può integrarsi in sistemi eterogenei. Ad esempio
-l'integrazione tra XMPP e OpenID, per cui, una volta autenticati, si
-ricevono le richieste di autorizzazione ad accedere a siti terzi,
-tramite messaggi istantanei\footnote{Un'implementazione pubblica di
-  questo sistema è disponibile sul sito:
-  \url{http://openid.xmpp.za.net/}.}. In questo senso il trio LDAP,
-XMPP e OpenID potrebbe offrire una buona struttura per servizi
-federati rispettivamente ``desktop'', ``client'' e ``web oriented''.
+Do ponto de vista estrutural a componente mais importante é o sistema
+de gestão das identidades federadas digitais. Portanto é essencial uma
+experimentação aprofundada da solução LDAP adotada que, contudo, pode
+ser estendida e integrada com outros mecanismos. Para mensagens
+instantâneas e VOIP, seria interessante explorar as possibilidades
+oferecidas pleo protocolo XMPP, que se destaca pela facilidade de
+integração em sistemas heterogêneos. Por exemplo a integração entre
+XMPP e OpenID, onde, uma vez autenticados, se recebem os pedidos de
+autorização a acessar a serviços terceiros, através de mensagens
+instantâneas\footnote{Uma implementação pública deste sistema é
+  disponível no site: \url{http://openid.xmpp.za.net/}.}. Neste
+sentido o trio LDAP, XMPP e OpenID poderia oferecer uma boa estrutura
+para serviços federados respetivamente ``desktop'', ``client'' e ``web
+oriented''.
 
-Per quanto riguardo il prototipo, la parte implementata costituisce un
-primo passo, e la prova su campo è un passaggio fondamentale per
-testare le reali capacità e i limiti che sussistono. La distribuzione
-di file di grandi dimensioni, oltre ai limiti di banda, comporta un
-notevole uso di spazio su disco. È necessario quindi imporre dei
-limiti, ad esempio, sulle dimensioni massime dei file accettate dal
-sistema.
+No que diz respeito ao protótipo, a parte implementada constitui um
+primeiro passo, e a prova no campo é uma passagem fundamental para
+testar as capacidades reais e os limites que ainda existem. A
+distribuição de arquivos de grande tamanho, além dos limites de banda,
+implica um considerável uso de espaço no disco. É necessário então
+impor limites, por exemplo, nas dimensões máximas dos arquivos aceitos
+pelo sistema. 
 
-Da implementare o migliorare nelle prossime versioni:
+A ser implementados ou melhorado nas próximas versões:
+
 \begin{itemize}
-\item trasferimento selettivo dei contenuti/valori basato sull'uso
-  statistico o su richiesta
-\item sviluppo di in interfaccia di visualizzazione e pubblicazione
-  per l'utente finale
-\item gestione del DIT dell'LDAP tramite script e/o portale
+\item transferência seletiva dos conteúdos/valores baseado no uso
+  estatístico o sob pedido
+\item desenvolvimento de uma interface de visualização e publicação
+  para o usuário final
+\item gestão do DIT do LDAP através de \emph{script} e/ou portal
 \end{itemize}
 
-% \begin{figure}[htbp]
-%   \centering
-%   \includegraphics[width=\textwidth]{./Figure/SchemaServer_ReteMocambos-crop.pdf}
-%   \rule{35em}{0.5pt}
-%   \caption[Schema dell'infrastruttura della RM]{Schema dell'infrastruttura della RM.}
-%   \label{fig:SchemaServer_ReteMocambos}
-% \end{figure}
