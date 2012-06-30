@@ -18,563 +18,6 @@
   <graph edgedefault="directed" id="G">
     <data key="d8"/>
     <node id="n0" yfiles.foldertype="group">
-      <data key="d5"/>
-      <data key="d7">
-        <y:ProxyAutoBoundsNode>
-          <y:Realizers active="0">
-            <y:GroupNode>
-              <y:Geometry height="664.272992737092" width="848.2576519785565" x="-524.440110577858" y="-57.21352202260823"/>
-              <y:Fill color="#F5F5F5" transparent="false"/>
-              <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#EBEBEB" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="848.2576519785565" x="0.0" y="0.0">Comunidade da Rede Mocambos (~200)</y:NodeLabel>
-              <y:Shape type="roundrectangle"/>
-              <y:State closed="false" closedHeight="755.5879373525213" closedWidth="1035.23342048834" innerGraphDisplayEnabled="false"/>
-              <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
-              <y:BorderInsets bottom="11" bottomF="10.880251302732404" left="2" leftF="2.4852168199737434" right="0" rightF="0.0" top="18" topF="18.235618371556882"/>
-            </y:GroupNode>
-            <y:GroupNode>
-              <y:Geometry height="30.0" width="230.92153904196084" x="-606.0582215510697" y="-69.63960612247683"/>
-              <y:Fill color="#F5F5F5" transparent="false"/>
-              <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#EBEBEB" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="230.92153904196084" x="0.0" y="0.0">Mocambo</y:NodeLabel>
-              <y:Shape type="roundrectangle"/>
-              <y:State closed="true" closedHeight="30.0" closedWidth="230.92153904196084" innerGraphDisplayEnabled="false"/>
-              <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
-              <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
-            </y:GroupNode>
-          </y:Realizers>
-        </y:ProxyAutoBoundsNode>
-      </data>
-      <graph edgedefault="directed" id="n0:">
-        <node id="n0::n0" yfiles.foldertype="group">
-          <data key="d5"/>
-          <data key="d7">
-            <y:ProxyAutoBoundsNode>
-              <y:Realizers active="0">
-                <y:GroupNode>
-                  <y:Geometry height="175.40920766932254" width="348.178570854548" x="-45.277045078849596" y="405.7700117424289"/>
-                  <y:Fill color="#F5F5F5" transparent="false"/>
-                  <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#EBEBEB" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="348.178570854548" x="0.0" y="0.0">Cliente (~10)</y:NodeLabel>
-                  <y:Shape type="roundrectangle"/>
-                  <y:State closed="false" closedHeight="224.50008413216017" closedWidth="273.365234375" innerGraphDisplayEnabled="false"/>
-                  <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
-                  <y:BorderInsets bottom="11" bottomF="11.389541334661317" left="6" leftF="5.626876963394579" right="0" rightF="0.0" top="0" topF="0.0"/>
-                </y:GroupNode>
-                <y:GroupNode>
-                  <y:Geometry height="30.0" width="170.0" x="83.17779446450368" y="472.9368873649387"/>
-                  <y:Fill color="#F5F5F5" transparent="false"/>
-                  <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#EBEBEB" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="170.0" x="0.0" y="0.0">Cliente (x10)</y:NodeLabel>
-                  <y:Shape type="roundrectangle"/>
-                  <y:State closed="true" closedHeight="30.0" closedWidth="170.0" innerGraphDisplayEnabled="false"/>
-                  <y:Insets bottom="5" bottomF="5.0" left="5" leftF="5.0" right="5" rightF="5.0" top="5" topF="5.0"/>
-                  <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
-                </y:GroupNode>
-              </y:Realizers>
-            </y:ProxyAutoBoundsNode>
-          </data>
-          <graph edgedefault="directed" id="n0::n0:">
-            <node id="n0::n0::n0" yfiles.foldertype="folder">
-              <data key="d7">
-                <y:ProxyAutoBoundsNode>
-                  <y:Realizers active="1">
-                    <y:GroupNode>
-                      <y:Geometry height="99.49779008964151" width="230.92153904196084" x="84.17779446450368" y="472.9368873649387"/>
-                      <y:Fill color="#CAECFF84" transparent="false"/>
-                      <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
-                      <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="230.92153904196084" x="0.0" y="0.0">Cliente XMPP</y:NodeLabel>
-                      <y:Shape type="roundrectangle"/>
-                      <y:State closed="false" closedHeight="99.49779008964151" closedWidth="230.92153904196084" innerGraphDisplayEnabled="false"/>
-                      <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
-                      <y:BorderInsets bottom="18" bottomF="18.036852589641512" left="0" leftF="0.0" right="31" rightF="30.92153904196084" top="0" topF="0.0"/>
-                    </y:GroupNode>
-                    <y:GroupNode>
-                      <y:Geometry height="33.401207669322616" width="312.55169389115343" x="-24.650168115455017" y="521.3884704077675"/>
-                      <y:Fill color="#CAECFF84" transparent="false"/>
-                      <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
-                      <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="312.55169389115343" x="0.0" y="0.0">Navegador</y:NodeLabel>
-                      <y:Shape type="roundrectangle"/>
-                      <y:State closed="true" closedHeight="33.401207669322616" closedWidth="312.55169389115343" innerGraphDisplayEnabled="false"/>
-                      <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
-                      <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
-                    </y:GroupNode>
-                  </y:Realizers>
-                </y:ProxyAutoBoundsNode>
-              </data>
-              <graph edgedefault="directed" id="n0::n0::n0:">
-                <node id="n0::n0::n0::n0">
-                  <data key="d7">
-                    <y:ShapeNode>
-                      <y:Geometry height="30.0" width="170.0" x="20.681700714503677" y="519.1209492424289"/>
-                      <y:Fill color="#FFCC00" transparent="false"/>
-                      <y:BorderStyle color="#000000" type="line" width="1.0"/>
-                      <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="80.998046875" x="44.5009765625" y="6.015625">Jabber Client</y:NodeLabel>
-                      <y:Shape type="rectangle"/>
-                    </y:ShapeNode>
-                  </data>
-                </node>
-              </graph>
-            </node>
-            <node id="n0::n0::n1" yfiles.foldertype="folder">
-              <data key="d7">
-                <y:ProxyAutoBoundsNode>
-                  <y:Realizers active="1">
-                    <y:GroupNode>
-                      <y:Geometry height="99.49779008964151" width="230.92153904196084" x="84.17779446450368" y="472.9368873649387"/>
-                      <y:Fill color="#CAECFF84" transparent="false"/>
-                      <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
-                      <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="230.92153904196084" x="0.0" y="0.0">Cliente XMPP</y:NodeLabel>
-                      <y:Shape type="roundrectangle"/>
-                      <y:State closed="false" closedHeight="99.49779008964151" closedWidth="230.92153904196084" innerGraphDisplayEnabled="false"/>
-                      <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
-                      <y:BorderInsets bottom="18" bottomF="18.036852589641512" left="0" leftF="0.0" right="31" rightF="30.92153904196084" top="0" topF="0.0"/>
-                    </y:GroupNode>
-                    <y:GroupNode>
-                      <y:Geometry height="33.401207669322616" width="312.55169389115343" x="-24.650168115455017" y="482.6600117424289"/>
-                      <y:Fill color="#CAECFF84" transparent="false"/>
-                      <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
-                      <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="312.55169389115343" x="0.0" y="0.0">Cliente XMPP</y:NodeLabel>
-                      <y:Shape type="roundrectangle"/>
-                      <y:State closed="true" closedHeight="33.401207669322616" closedWidth="312.55169389115343" innerGraphDisplayEnabled="false"/>
-                      <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
-                      <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
-                    </y:GroupNode>
-                  </y:Realizers>
-                </y:ProxyAutoBoundsNode>
-              </data>
-              <graph edgedefault="directed" id="n0::n0::n1:">
-                <node id="n0::n0::n1::n0">
-                  <data key="d7">
-                    <y:ShapeNode>
-                      <y:Geometry height="30.0" width="170.0" x="20.681700714503677" y="519.1209492424289"/>
-                      <y:Fill color="#FFCC00" transparent="false"/>
-                      <y:BorderStyle color="#000000" type="line" width="1.0"/>
-                      <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="80.998046875" x="44.5009765625" y="6.015625">Jabber Client</y:NodeLabel>
-                      <y:Shape type="rectangle"/>
-                    </y:ShapeNode>
-                  </data>
-                </node>
-              </graph>
-            </node>
-            <node id="n0::n0::n2" yfiles.foldertype="folder">
-              <data key="d7">
-                <y:ProxyAutoBoundsNode>
-                  <y:Realizers active="1">
-                    <y:GroupNode>
-                      <y:Geometry height="81.4609375" width="247.14641434262967" x="84.17779446450368" y="513.1478248649387"/>
-                      <y:Fill color="#CAECFF84" transparent="false"/>
-                      <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
-                      <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="247.14641434262967" x="0.0" y="0.0">Sistema Operacional</y:NodeLabel>
-                      <y:Shape type="roundrectangle"/>
-                      <y:State closed="false" closedHeight="81.4609375" closedWidth="247.14641434262967" innerGraphDisplayEnabled="false"/>
-                      <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
-                      <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="102" rightF="102.16594559262967" top="0" topF="0.0"/>
-                    </y:GroupNode>
-                    <y:GroupNode>
-                      <y:Geometry height="35.101811503983924" width="312.55169389115343" x="-24.650168115455017" y="442.2309492424289"/>
-                      <y:Fill color="#CAECFF84" transparent="false"/>
-                      <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
-                      <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="312.55169389115343" x="0.0" y="0.0">Sistema Operativo - GNU\Linux</y:NodeLabel>
-                      <y:Shape type="roundrectangle"/>
-                      <y:State closed="true" closedHeight="35.101811503983924" closedWidth="312.55169389115343" innerGraphDisplayEnabled="false"/>
-                      <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
-                      <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
-                    </y:GroupNode>
-                  </y:Realizers>
-                </y:ProxyAutoBoundsNode>
-              </data>
-              <graph edgedefault="directed" id="n0::n0::n2:">
-                <node id="n0::n0::n2::n0">
-                  <data key="d7">
-                    <y:ShapeNode>
-                      <y:Geometry height="30.0" width="114.98046875" x="20.681700714503677" y="478.6918867424289"/>
-                      <y:Fill color="#FFCC00" transparent="false"/>
-                      <y:BorderStyle color="#000000" type="line" width="1.0"/>
-                      <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="104.98046875" x="5.0" y="6.015625">Ubuntu / Arch / ?</y:NodeLabel>
-                      <y:Shape type="rectangle"/>
-                    </y:ShapeNode>
-                  </data>
-                </node>
-              </graph>
-            </node>
-          </graph>
-        </node>
-        <node id="n0::n1" yfiles.foldertype="group">
-          <data key="d5"/>
-          <data key="d7">
-            <y:ProxyAutoBoundsNode>
-              <y:Realizers active="0">
-                <y:GroupNode>
-                  <y:Geometry height="280.1510032299714" width="462.1407766802065" x="-468.57334070753706" y="0.7549160826968659"/>
-                  <y:Fill color="#F5F5F5" transparent="false"/>
-                  <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#EBEBEB" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="462.1407766802065" x="0.0" y="0.0">Servidor local</y:NodeLabel>
-                  <y:Shape type="roundrectangle"/>
-                  <y:State closed="false" closedHeight="277.2276719993804" closedWidth="370.3607088108532" innerGraphDisplayEnabled="false"/>
-                  <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
-                  <y:BorderInsets bottom="1" bottomF="1.2227273959297236" left="0" leftF="0.0" right="5" rightF="4.742350743782254" top="1" topF="0.791132399760329"/>
-                </y:GroupNode>
-                <y:GroupNode>
-                  <y:Geometry height="30.0" width="170.0" x="-287.9298367034528" y="-3.8315360508116783"/>
-                  <y:Fill color="#F5F5F5" transparent="false"/>
-                  <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#EBEBEB" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="170.0" x="0.0" y="0.0">Servidor</y:NodeLabel>
-                  <y:Shape type="roundrectangle"/>
-                  <y:State closed="true" closedHeight="30.0" closedWidth="170.0" innerGraphDisplayEnabled="false"/>
-                  <y:Insets bottom="5" bottomF="5.0" left="5" leftF="5.0" right="5" rightF="5.0" top="5" topF="5.0"/>
-                  <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
-                </y:GroupNode>
-              </y:Realizers>
-            </y:ProxyAutoBoundsNode>
-          </data>
-          <graph edgedefault="directed" id="n0::n1:">
-            <node id="n0::n1::n0" yfiles.foldertype="folder">
-              <data key="d7">
-                <y:ProxyAutoBoundsNode>
-                  <y:Realizers active="1">
-                    <y:GroupNode>
-                      <y:Geometry height="97.3984375" width="230.92153904196084" x="-163.4906669345604" y="112.43807964970853"/>
-                      <y:Fill color="#CAECFF84" transparent="false"/>
-                      <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
-                      <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="230.92153904196084" x="0.0" y="0.0">Servidor de IM</y:NodeLabel>
-                      <y:Shape type="roundrectangle"/>
-                      <y:State closed="false" closedHeight="97.3984375" closedWidth="230.92153904196084" innerGraphDisplayEnabled="false"/>
-                      <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
-                      <y:BorderInsets bottom="14" bottomF="14.0" left="0" leftF="0.0" right="100" rightF="100.13833591696084" top="0" topF="0.0"/>
-                    </y:GroupNode>
-                    <y:GroupNode>
-                      <y:Geometry height="33.401207669322616" width="290.56674272133" x="-316.7416574924428" y="117.02453178321707"/>
-                      <y:Fill color="#CAECFF84" transparent="false"/>
-                      <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
-                      <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="290.56674272133" x="0.0" y="0.0">Servidor XMPP</y:NodeLabel>
-                      <y:Shape type="roundrectangle"/>
-                      <y:State closed="true" closedHeight="33.401207669322616" closedWidth="290.56674272133" innerGraphDisplayEnabled="false"/>
-                      <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
-                      <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
-                    </y:GroupNode>
-                  </y:Realizers>
-                </y:ProxyAutoBoundsNode>
-              </data>
-              <graph edgedefault="directed" id="n0::n1::n0:">
-                <node id="n0::n1::n0::n0">
-                  <data key="d7">
-                    <y:ShapeNode>
-                      <y:Geometry height="30.0" width="100.783203125" x="-263.2367606845604" y="149.86776714970853"/>
-                      <y:Fill color="#FFCC00" transparent="false"/>
-                      <y:BorderStyle color="#000000" type="line" width="1.0"/>
-                      <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="90.783203125" x="5.0" y="-0.96875">Servidor de IM
-Prosody</y:NodeLabel>
-                      <y:Shape type="rectangle"/>
-                    </y:ShapeNode>
-                  </data>
-                </node>
-              </graph>
-            </node>
-            <node id="n0::n1::n1" yfiles.foldertype="folder">
-              <data key="d7">
-                <y:ProxyAutoBoundsNode>
-                  <y:Realizers active="1">
-                    <y:GroupNode>
-                      <y:Geometry height="81.4609375" width="247.14641434262967" x="-163.4906669345604" y="33.42053384894865"/>
-                      <y:Fill color="#CAECFF84" transparent="false"/>
-                      <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
-                      <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="247.14641434262967" x="0.0" y="0.0">Sistema Operacional</y:NodeLabel>
-                      <y:Shape type="roundrectangle"/>
-                      <y:State closed="false" closedHeight="81.4609375" closedWidth="247.14641434262967" innerGraphDisplayEnabled="false"/>
-                      <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
-                      <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="102" rightF="102.16594559262967" top="0" topF="0.0"/>
-                    </y:GroupNode>
-                    <y:GroupNode>
-                      <y:Geometry height="33.401207669322616" width="290.56674272133" x="-316.7416574924428" y="38.006985982457195"/>
-                      <y:Fill color="#CAECFF84" transparent="false"/>
-                      <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
-                      <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="290.56674272133" x="0.0" y="0.0">S.O. - Debian stable </y:NodeLabel>
-                      <y:Shape type="roundrectangle"/>
-                      <y:State closed="true" closedHeight="33.401207669322616" closedWidth="290.56674272133" innerGraphDisplayEnabled="false"/>
-                      <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
-                      <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
-                    </y:GroupNode>
-                  </y:Realizers>
-                </y:ProxyAutoBoundsNode>
-              </data>
-              <graph edgedefault="directed" id="n0::n1::n1:">
-                <node id="n0::n1::n1::n0">
-                  <data key="d7">
-                    <y:ShapeNode>
-                      <y:Geometry height="30.0" width="114.98046875" x="-263.2367606845604" y="69.88147134894865"/>
-                      <y:Fill color="#FFCC00" transparent="false"/>
-                      <y:BorderStyle color="#000000" type="line" width="1.0"/>
-                      <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="104.98046875" x="5.0" y="6.015625">Ubuntu / Arch / ?</y:NodeLabel>
-                      <y:Shape type="rectangle"/>
-                    </y:ShapeNode>
-                  </data>
-                </node>
-              </graph>
-            </node>
-            <node id="n0::n1::n2" yfiles.foldertype="folder">
-              <data key="d7">
-                <y:ProxyAutoBoundsNode>
-                  <y:Realizers active="1">
-                    <y:GroupNode>
-                      <y:Geometry height="81.4609375" width="230.92153904196084" x="-163.4906669345604" y="72.92930674932859"/>
-                      <y:Fill color="#CAECFF84" transparent="false"/>
-                      <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
-                      <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="230.92153904196084" x="0.0" y="0.0">Sistema de backup</y:NodeLabel>
-                      <y:Shape type="roundrectangle"/>
-                      <y:State closed="false" closedHeight="81.4609375" closedWidth="230.92153904196084" innerGraphDisplayEnabled="false"/>
-                      <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
-                      <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="72" rightF="72.21841404196084" top="0" topF="0.0"/>
-                    </y:GroupNode>
-                    <y:GroupNode>
-                      <y:Geometry height="33.401207669322616" width="290.56674272133" x="-316.7416574924428" y="77.51575888283713"/>
-                      <y:Fill color="#CAECFF84" transparent="false"/>
-                      <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
-                      <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="290.56674272133" x="0.0" y="0.0">Sistema de Backup</y:NodeLabel>
-                      <y:Shape type="roundrectangle"/>
-                      <y:State closed="true" closedHeight="33.401207669322616" closedWidth="290.56674272133" innerGraphDisplayEnabled="false"/>
-                      <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
-                      <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
-                    </y:GroupNode>
-                  </y:Realizers>
-                </y:ProxyAutoBoundsNode>
-              </data>
-              <graph edgedefault="directed" id="n0::n1::n2:">
-                <node id="n0::n1::n2::n0">
-                  <data key="d7">
-                    <y:ShapeNode>
-                      <y:Geometry height="30.0" width="128.703125" x="-263.2367606845604" y="109.39024424932859"/>
-                      <y:Fill color="#FFCC00" transparent="false"/>
-                      <y:BorderStyle color="#000000" type="line" width="1.0"/>
-                      <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="118.703125" x="5.0" y="6.015625">Sistema de backup</y:NodeLabel>
-                      <y:Shape type="rectangle"/>
-                    </y:ShapeNode>
-                  </data>
-                </node>
-              </graph>
-            </node>
-            <node id="n0::n1::n3" yfiles.foldertype="folder">
-              <data key="d7">
-                <y:ProxyAutoBoundsNode>
-                  <y:Realizers active="1">
-                    <y:GroupNode>
-                      <y:Geometry height="83.3984375" width="232.14641434262967" x="-164.71554223522924" y="151.4136817493286"/>
-                      <y:Fill color="#CAECFF84" transparent="false"/>
-                      <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
-                      <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="232.14641434262967" x="0.0" y="0.0">Portal</y:NodeLabel>
-                      <y:Shape type="roundrectangle"/>
-                      <y:State closed="false" closedHeight="83.3984375" closedWidth="232.14641434262967" innerGraphDisplayEnabled="false"/>
-                      <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
-                      <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="101" rightF="101.36321121762967" top="0" topF="0.0"/>
-                    </y:GroupNode>
-                    <y:GroupNode>
-                      <y:Geometry height="33.401207669322616" width="291.79161802199883" x="-317.96653279311164" y="156.00013388283713"/>
-                      <y:Fill color="#CAECFF84" transparent="false"/>
-                      <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
-                      <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="291.79161802199883" x="0.0" y="0.0">Portal Comunitário - Django</y:NodeLabel>
-                      <y:Shape type="roundrectangle"/>
-                      <y:State closed="true" closedHeight="33.401207669322616" closedWidth="291.79161802199883" innerGraphDisplayEnabled="false"/>
-                      <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
-                      <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
-                    </y:GroupNode>
-                  </y:Realizers>
-                </y:ProxyAutoBoundsNode>
-              </data>
-              <graph edgedefault="directed" id="n0::n1::n3:">
-                <node id="n0::n1::n3::n0">
-                  <data key="d7">
-                    <y:ShapeNode>
-                      <y:Geometry height="30.0" width="100.783203125" x="-264.46163598522924" y="188.8433692493286"/>
-                      <y:Fill color="#FFCC00" transparent="false"/>
-                      <y:BorderStyle color="#000000" type="line" width="1.0"/>
-                      <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="46.4921875" x="27.1455078125" y="-0.96875">Portal
-Django</y:NodeLabel>
-                      <y:Shape type="rectangle"/>
-                    </y:ShapeNode>
-                  </data>
-                </node>
-              </graph>
-            </node>
-            <node id="n0::n1::n4" yfiles.foldertype="folder">
-              <data key="d7">
-                <y:ProxyAutoBoundsNode>
-                  <y:Realizers active="1">
-                    <y:GroupNode>
-                      <y:Geometry height="129.9555839143427" width="232.14641434262967" x="-309.79350481518793" y="190.38928384894865"/>
-                      <y:Fill color="#CAECFF84" transparent="false"/>
-                      <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
-                      <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="232.14641434262967" x="0.0" y="0.0">Sistema de Autenticação</y:NodeLabel>
-                      <y:Shape type="roundrectangle"/>
-                      <y:State closed="false" closedHeight="129.9555839143427" closedWidth="232.14641434262967" innerGraphDisplayEnabled="false"/>
-                      <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
-                      <y:BorderInsets bottom="7" bottomF="6.82537314806342" left="1" leftF="1.0" right="31" rightF="31.14641434262967" top="0" topF="0.0"/>
-                    </y:GroupNode>
-                    <y:GroupNode>
-                      <y:Geometry height="32.432457669322616" width="291.79161802199883" x="-317.96653279311164" y="194.9757359824572"/>
-                      <y:Fill color="#CAECFF84" transparent="false"/>
-                      <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
-                      <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="291.79161802199883" x="0.0" y="0.0">Servidor LDAP (replica)</y:NodeLabel>
-                      <y:Shape type="roundrectangle"/>
-                      <y:State closed="true" closedHeight="32.432457669322616" closedWidth="291.79161802199883" innerGraphDisplayEnabled="false"/>
-                      <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
-                      <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
-                    </y:GroupNode>
-                  </y:Realizers>
-                </y:ProxyAutoBoundsNode>
-              </data>
-              <graph edgedefault="directed" id="n0::n1::n4:">
-                <node id="n0::n1::n4::n0">
-                  <data key="d7">
-                    <y:ShapeNode>
-                      <y:Geometry height="30.0" width="170.0" x="-293.79350481518793" y="226.85022134894865"/>
-                      <y:Fill color="#FFCC00" transparent="false"/>
-                      <y:BorderStyle color="#000000" type="line" width="1.0"/>
-                      <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="117.642578125" x="26.1787109375" y="6.015625">LDAP - MultiMaster</y:NodeLabel>
-                      <y:Shape type="rectangle"/>
-                    </y:ShapeNode>
-                  </data>
-                </node>
-                <node id="n0::n1::n4::n1">
-                  <data key="d7">
-                    <y:ShapeNode>
-                      <y:Geometry height="31.700603834661308" width="170.0" x="-293.79350481518793" y="266.7004426978973"/>
-                      <y:Fill color="#FFCC00" transparent="false"/>
-                      <y:BorderStyle color="#000000" type="line" width="1.0"/>
-                      <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="117.40234375" x="26.298828125" y="-0.11844808266937434">SimpleSAMLPhp
-OAuth / Shibboleth</y:NodeLabel>
-                      <y:Shape type="rectangle"/>
-                    </y:ShapeNode>
-                  </data>
-                </node>
-              </graph>
-            </node>
-            <node id="n0::n1::n5" yfiles.foldertype="folder">
-              <data key="d7">
-                <y:ProxyAutoBoundsNode>
-                  <y:Realizers active="1">
-                    <y:GroupNode>
-                      <y:Geometry height="226.4609375" width="286.4453125" x="-309.79350481518793" y="228.3961359485687"/>
-                      <y:Fill color="#CAECFF84" transparent="false"/>
-                      <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
-                      <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="286.4453125" x="0.0" y="0.0">Repositorio Multimedia</y:NodeLabel>
-                      <y:Shape type="roundrectangle"/>
-                      <y:State closed="false" closedHeight="226.4609375" closedWidth="286.4453125" innerGraphDisplayEnabled="false"/>
-                      <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
-                      <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
-                    </y:GroupNode>
-                    <y:GroupNode>
-                      <y:Geometry height="31.700603834661308" width="291.79161802199883" x="-317.96653279311164" y="232.98258808207726"/>
-                      <y:Fill color="#CAECFF84" transparent="false"/>
-                      <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
-                      <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="291.79161802199883" x="0.0" y="0.0">Acervo multimídia - Git-Annex</y:NodeLabel>
-                      <y:Shape type="roundrectangle"/>
-                      <y:State closed="true" closedHeight="31.700603834661308" closedWidth="291.79161802199883" innerGraphDisplayEnabled="false"/>
-                      <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
-                      <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
-                    </y:GroupNode>
-                  </y:Realizers>
-                </y:ProxyAutoBoundsNode>
-              </data>
-              <graph edgedefault="directed" id="n0::n1::n5:">
-                <node id="n0::n1::n5::n0">
-                  <data key="d7">
-                    <y:ShapeNode>
-                      <y:Geometry height="175.0" width="256.4453125" x="-294.79350481518793" y="264.8570734485687"/>
-                      <y:Fill color="#FFCC00" transparent="false"/>
-                      <y:BorderStyle color="#000000" type="line" width="1.0"/>
-                      <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="143.6875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="216.630859375" x="19.9072265625" y="15.65625">Arkiwi
-OAuth
-XML Backend
-Usando Arkiwi precisa verificar 
-se é possivel manter uma pasta 
-local e uma publica sincronizada.
-Para a sincronização se pode usar
-rsync. Precisa ver como sincronizar
-a copia local com a copia online
-so pela parte publica.</y:NodeLabel>
-                      <y:Shape type="rectangle"/>
-                    </y:ShapeNode>
-                  </data>
-                </node>
-              </graph>
-            </node>
-            <node id="n0::n1::n6">
-              <data key="d7">
-                <y:SVGNode>
-                  <y:Geometry height="115.86048449938039" width="65.15279166656444" x="-448.7473927908193" y="95.28269441799821"/>
-                  <y:Fill color="#CCCCFF" transparent="false"/>
-                  <y:BorderStyle color="#000000" type="line" width="1.0"/>
-                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" modelName="sandwich" modelPosition="n" textColor="#000000" visible="true" width="74.8046875" x="-4.82594791671778" y="-49.90625">HARDWARE
-4 Gb Ram
-2 Tb HD</y:NodeLabel>
-                  <y:SVGNodeProperties usingVisualBounds="true"/>
-                  <y:SVGModel svgBoundsPolicy="0">
-                    <y:SVGContent refid="1"/>
-                  </y:SVGModel>
-                </y:SVGNode>
-              </data>
-            </node>
-          </graph>
-        </node>
-        <node id="n0::n2">
-          <data key="d7">
-            <y:ImageNode>
-              <y:Geometry height="145.12910856573706" width="145.12910856573706" x="151.3369714928299" y="195.40459759396862"/>
-              <y:Fill color="#CCCCFF" transparent="false"/>
-              <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="80.265625" x="32.43174178286853" y="109.75999292327282">VSAT GESAC<y:LabelModel>
-                  <y:SmartNodeLabelModel distance="4.0"/>
-                </y:LabelModel>
-                <y:ModelParameter>
-                  <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.5" nodeRatioX="0.0" nodeRatioY="0.3801042339856815" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-                </y:ModelParameter>
-              </y:NodeLabel>
-              <y:Image alphaImage="true" refid="2"/>
-            </y:ImageNode>
-          </data>
-        </node>
-        <node id="n0::n3">
-          <data key="d7">
-            <y:SVGNode>
-              <y:Geometry height="44.6782916673838" width="157.77512469933117" x="-307.7048820829359" y="401.9420505481887"/>
-              <y:Fill color="#CCCCFF" transparent="false"/>
-              <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="106.580078125" x="25.597523287165586" y="48.6782916673838">Switch rede local
-100 Mbit/s</y:NodeLabel>
-              <y:SVGNodeProperties usingVisualBounds="true"/>
-              <y:SVGModel svgBoundsPolicy="0">
-                <y:SVGContent refid="3"/>
-              </y:SVGModel>
-            </y:SVGNode>
-          </data>
-        </node>
-        <node id="n0::n4">
-          <data key="d7">
-            <y:ImageNode>
-              <y:Geometry height="128.0" width="128.0" x="159.90152577569842" y="33.42053384894865"/>
-              <y:Fill color="#CCCCFF" transparent="false"/>
-              <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="sandwich" modelPosition="n" textColor="#000000" visible="true" width="169.83203125" x="-20.916015625" y="-35.9375">Conexão GESAC
-DW 512 Kbit/s UP 128Kbit/s</y:NodeLabel>
-              <y:Image alphaImage="true" refid="4"/>
-            </y:ImageNode>
-          </data>
-        </node>
-        <node id="n0::n5">
-          <data key="d7">
-            <y:ImageNode>
-              <y:Geometry height="146.78685258964146" width="146.78685258964146" x="-506.95489375788435" y="386.3884286996001"/>
-              <y:Fill color="#CCCCFF" transparent="false"/>
-              <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="133.87890625" x="6.453973169820699" y="150.7868525896415">Wireless Access Point
-54 Mbit/s</y:NodeLabel>
-              <y:Image alphaImage="true" refid="5"/>
-            </y:ImageNode>
-          </data>
-        </node>
-      </graph>
-    </node>
-    <node id="n1" yfiles.foldertype="group">
       <data key="d7">
         <y:ProxyAutoBoundsNode>
           <y:Realizers active="0">
@@ -601,8 +44,8 @@ DW 512 Kbit/s UP 128Kbit/s</y:NodeLabel>
           </y:Realizers>
         </y:ProxyAutoBoundsNode>
       </data>
-      <graph edgedefault="directed" id="n1:">
-        <node id="n1::n0" yfiles.foldertype="group">
+      <graph edgedefault="directed" id="n0:">
+        <node id="n0::n0" yfiles.foldertype="group">
           <data key="d5"/>
           <data key="d7">
             <y:ProxyAutoBoundsNode>
@@ -631,285 +74,8 @@ DW 512 Kbit/s UP 128Kbit/s</y:NodeLabel>
               </y:Realizers>
             </y:ProxyAutoBoundsNode>
           </data>
-          <graph edgedefault="directed" id="n1::n0:">
-            <node id="n1::n0::n0" yfiles.foldertype="folder">
-              <data key="d7">
-                <y:ProxyAutoBoundsNode>
-                  <y:Realizers active="1">
-                    <y:GroupNode>
-                      <y:Geometry height="226.4609375" width="286.4453125" x="-1090.2948612367081" y="741.5946136788067"/>
-                      <y:Fill color="#CAECFF84" transparent="false"/>
-                      <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
-                      <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="286.4453125" x="0.0" y="0.0">Repositorio Multimedia</y:NodeLabel>
-                      <y:Shape type="roundrectangle"/>
-                      <y:State closed="false" closedHeight="226.4609375" closedWidth="286.4453125" innerGraphDisplayEnabled="false"/>
-                      <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
-                      <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
-                    </y:GroupNode>
-                    <y:GroupNode>
-                      <y:Geometry height="30.0" width="371.37605070304676" x="299.1948692714893" y="-205.88714464751246"/>
-                      <y:Fill color="#CAECFF84" transparent="false"/>
-                      <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
-                      <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="371.37605070304676" x="0.0" y="0.0">Catalogo Patrimoniado - Greenstone</y:NodeLabel>
-                      <y:Shape type="roundrectangle"/>
-                      <y:State closed="true" closedHeight="30.0" closedWidth="371.37605070304676" innerGraphDisplayEnabled="false"/>
-                      <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
-                      <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
-                    </y:GroupNode>
-                  </y:Realizers>
-                </y:ProxyAutoBoundsNode>
-              </data>
-              <graph edgedefault="directed" id="n1::n0::n0:">
-                <node id="n1::n0::n0::n0">
-                  <data key="d7">
-                    <y:ShapeNode>
-                      <y:Geometry height="175.0" width="256.4453125" x="813.5558373788776" y="-501.7238341971696"/>
-                      <y:Fill color="#FFCC00" transparent="false"/>
-                      <y:BorderStyle color="#000000" type="line" width="1.0"/>
-                      <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="143.6875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="216.630859375" x="19.9072265625" y="15.65625">Arkiwi
-OAuth
-XML Backend
-Usando Arkiwi precisa verificar 
-se é possivel manter uma pasta 
-local e uma publica sincronizada.
-Para a sincronização se pode usar
-rsync. Precisa ver como sincronizar
-a copia local com a copia online
-so pela parte publica.</y:NodeLabel>
-                      <y:Shape type="rectangle"/>
-                    </y:ShapeNode>
-                  </data>
-                </node>
-              </graph>
-            </node>
-            <node id="n1::n0::n1" yfiles.foldertype="folder">
-              <data key="d7">
-                <y:ProxyAutoBoundsNode>
-                  <y:Realizers active="1">
-                    <y:GroupNode>
-                      <y:Geometry height="226.4609375" width="286.4453125" x="-1090.2948612367081" y="741.5946136788067"/>
-                      <y:Fill color="#CAECFF84" transparent="false"/>
-                      <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
-                      <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="286.4453125" x="0.0" y="0.0">Repositorio Multimedia</y:NodeLabel>
-                      <y:Shape type="roundrectangle"/>
-                      <y:State closed="false" closedHeight="226.4609375" closedWidth="286.4453125" innerGraphDisplayEnabled="false"/>
-                      <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
-                      <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
-                    </y:GroupNode>
-                    <y:GroupNode>
-                      <y:Geometry height="30.0" width="371.37605070304676" x="299.1948692714893" y="-243.93510021228133"/>
-                      <y:Fill color="#CAECFF84" transparent="false"/>
-                      <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
-                      <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="371.37605070304676" x="0.0" y="0.0">Acervo multimídia - Git-Annex</y:NodeLabel>
-                      <y:Shape type="roundrectangle"/>
-                      <y:State closed="true" closedHeight="30.0" closedWidth="371.37605070304676" innerGraphDisplayEnabled="false"/>
-                      <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
-                      <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
-                    </y:GroupNode>
-                  </y:Realizers>
-                </y:ProxyAutoBoundsNode>
-              </data>
-              <graph edgedefault="directed" id="n1::n0::n1:">
-                <node id="n1::n0::n1::n0">
-                  <data key="d7">
-                    <y:ShapeNode>
-                      <y:Geometry height="175.0" width="256.4453125" x="813.5558373788776" y="-501.7238341971696"/>
-                      <y:Fill color="#FFCC00" transparent="false"/>
-                      <y:BorderStyle color="#000000" type="line" width="1.0"/>
-                      <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="143.6875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="216.630859375" x="19.9072265625" y="15.65625">Arkiwi
-OAuth
-XML Backend
-Usando Arkiwi precisa verificar 
-se é possivel manter uma pasta 
-local e uma publica sincronizada.
-Para a sincronização se pode usar
-rsync. Precisa ver como sincronizar
-a copia local com a copia online
-so pela parte publica.</y:NodeLabel>
-                      <y:Shape type="rectangle"/>
-                    </y:ShapeNode>
-                  </data>
-                </node>
-              </graph>
-            </node>
-            <node id="n1::n0::n2" yfiles.foldertype="folder">
-              <data key="d7">
-                <y:ProxyAutoBoundsNode>
-                  <y:Realizers active="1">
-                    <y:GroupNode>
-                      <y:Geometry height="121.94718266438917" width="232.14641434262955" x="798.5558373788778" y="-576.9645810965999"/>
-                      <y:Fill color="#CAECFF84" transparent="false"/>
-                      <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
-                      <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="232.14641434262955" x="0.0" y="0.0">Sistema de Autenticação</y:NodeLabel>
-                      <y:Shape type="roundrectangle"/>
-                      <y:State closed="false" closedHeight="121.94718266438917" closedWidth="232.14641434262955" innerGraphDisplayEnabled="false"/>
-                      <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
-                      <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="31" rightF="31.146414342629555" top="1" topF="0.7729572998100593"/>
-                    </y:GroupNode>
-                    <y:GroupNode>
-                      <y:Geometry height="30.731853834661308" width="371.37605070304676" x="299.1948692714893" y="-282.7149096117115"/>
-                      <y:Fill color="#CAECFF84" transparent="false"/>
-                      <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
-                      <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="371.37605070304676" x="0.0" y="0.0">Servidor LDAP (master)</y:NodeLabel>
-                      <y:Shape type="roundrectangle"/>
-                      <y:State closed="true" closedHeight="30.731853834661308" closedWidth="371.37605070304676" innerGraphDisplayEnabled="false"/>
-                      <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
-                      <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
-                    </y:GroupNode>
-                  </y:Realizers>
-                </y:ProxyAutoBoundsNode>
-              </data>
-              <graph edgedefault="directed" id="n1::n0::n2:">
-                <node id="n1::n0::n2::n0">
-                  <data key="d7">
-                    <y:ShapeNode>
-                      <y:Geometry height="30.0" width="170.0" x="814.5558373788778" y="-539.7306862967898"/>
-                      <y:Fill color="#FFCC00" transparent="false"/>
-                      <y:BorderStyle color="#000000" type="line" width="1.0"/>
-                      <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="117.642578125" x="26.1787109375" y="6.015625">LDAP - MultiMaster</y:NodeLabel>
-                      <y:Shape type="rectangle"/>
-                    </y:ShapeNode>
-                  </data>
-                </node>
-                <node id="n1::n0::n2::n1">
-                  <data key="d7">
-                    <y:ShapeNode>
-                      <y:Geometry height="31.700603834661308" width="170.0" x="813.5558373788778" y="-501.83645034954134"/>
-                      <y:Fill color="#FFCC00" transparent="false"/>
-                      <y:BorderStyle color="#000000" type="line" width="1.0"/>
-                      <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="117.40234375" x="26.298828125" y="-0.11844808266937434">SimpleSAMLPhp
-OAuth / Shibboleth</y:NodeLabel>
-                      <y:Shape type="rectangle"/>
-                    </y:ShapeNode>
-                  </data>
-                </node>
-              </graph>
-            </node>
-            <node id="n1::n0::n3" yfiles.foldertype="folder">
-              <data key="d7">
-                <y:ProxyAutoBoundsNode>
-                  <y:Realizers active="1">
-                    <y:GroupNode>
-                      <y:Geometry height="81.4609375" width="247.14641434262967" x="-163.4906669345604" y="33.42053384894865"/>
-                      <y:Fill color="#CAECFF84" transparent="false"/>
-                      <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
-                      <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="247.14641434262967" x="0.0" y="0.0">Sistema Operacional</y:NodeLabel>
-                      <y:Shape type="roundrectangle"/>
-                      <y:State closed="false" closedHeight="81.4609375" closedWidth="247.14641434262967" innerGraphDisplayEnabled="false"/>
-                      <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
-                      <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="102" rightF="102.16594559262967" top="0" topF="0.0"/>
-                    </y:GroupNode>
-                    <y:GroupNode>
-                      <y:Geometry height="31.700603834661308" width="370.15117540237793" x="300.41974457215815" y="-438.91070231190145"/>
-                      <y:Fill color="#CAECFF84" transparent="false"/>
-                      <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
-                      <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="370.15117540237793" x="0.0" y="0.0">Sistema operacional - Debian stable </y:NodeLabel>
-                      <y:Shape type="roundrectangle"/>
-                      <y:State closed="true" closedHeight="31.700603834661308" closedWidth="370.15117540237793" innerGraphDisplayEnabled="false"/>
-                      <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
-                      <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
-                    </y:GroupNode>
-                  </y:Realizers>
-                </y:ProxyAutoBoundsNode>
-              </data>
-              <graph edgedefault="directed" id="n1::n0::n3:">
-                <node id="n1::n0::n3::n0">
-                  <data key="d7">
-                    <y:ShapeNode>
-                      <y:Geometry height="30.0" width="114.98046875" x="814.7807126795466" y="-696.6994362967898"/>
-                      <y:Fill color="#FFCC00" transparent="false"/>
-                      <y:BorderStyle color="#000000" type="line" width="1.0"/>
-                      <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="104.98046875" x="5.0" y="6.015625">Ubuntu / Arch / ?</y:NodeLabel>
-                      <y:Shape type="rectangle"/>
-                    </y:ShapeNode>
-                  </data>
-                </node>
-              </graph>
-            </node>
-            <node id="n1::n0::n4" yfiles.foldertype="folder">
-              <data key="d7">
-                <y:ProxyAutoBoundsNode>
-                  <y:Realizers active="1">
-                    <y:GroupNode>
-                      <y:Geometry height="81.4609375" width="230.92153904196084" x="-163.4906669345604" y="72.92930674932859"/>
-                      <y:Fill color="#CAECFF84" transparent="false"/>
-                      <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
-                      <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="230.92153904196084" x="0.0" y="0.0">Sistema de backup</y:NodeLabel>
-                      <y:Shape type="roundrectangle"/>
-                      <y:State closed="false" closedHeight="81.4609375" closedWidth="230.92153904196084" innerGraphDisplayEnabled="false"/>
-                      <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
-                      <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="72" rightF="72.21841404196084" top="0" topF="0.0"/>
-                    </y:GroupNode>
-                    <y:GroupNode>
-                      <y:Geometry height="31.700603834661308" width="370.15117540237793" x="300.41974457215815" y="-399.40192941152134"/>
-                      <y:Fill color="#CAECFF84" transparent="false"/>
-                      <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
-                      <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="370.15117540237793" x="0.0" y="0.0">Sistema de Backup</y:NodeLabel>
-                      <y:Shape type="roundrectangle"/>
-                      <y:State closed="true" closedHeight="31.700603834661308" closedWidth="370.15117540237793" innerGraphDisplayEnabled="false"/>
-                      <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
-                      <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
-                    </y:GroupNode>
-                  </y:Realizers>
-                </y:ProxyAutoBoundsNode>
-              </data>
-              <graph edgedefault="directed" id="n1::n0::n4:">
-                <node id="n1::n0::n4::n0">
-                  <data key="d7">
-                    <y:ShapeNode>
-                      <y:Geometry height="30.0" width="128.703125" x="814.7807126795466" y="-657.1906633964097"/>
-                      <y:Fill color="#FFCC00" transparent="false"/>
-                      <y:BorderStyle color="#000000" type="line" width="1.0"/>
-                      <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="118.703125" x="5.0" y="6.015625">Sistema de backup</y:NodeLabel>
-                      <y:Shape type="rectangle"/>
-                    </y:ShapeNode>
-                  </data>
-                </node>
-              </graph>
-            </node>
-            <node id="n1::n0::n5" yfiles.foldertype="folder">
-              <data key="d7">
-                <y:ProxyAutoBoundsNode>
-                  <y:Realizers active="1">
-                    <y:GroupNode>
-                      <y:Geometry height="83.3984375" width="232.14641434262967" x="-164.71554223522924" y="151.4136817493286"/>
-                      <y:Fill color="#CAECFF84" transparent="false"/>
-                      <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
-                      <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="232.14641434262967" x="0.0" y="0.0">Portal</y:NodeLabel>
-                      <y:Shape type="roundrectangle"/>
-                      <y:State closed="false" closedHeight="83.3984375" closedWidth="232.14641434262967" innerGraphDisplayEnabled="false"/>
-                      <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
-                      <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="101" rightF="101.36321121762967" top="0" topF="0.0"/>
-                    </y:GroupNode>
-                    <y:GroupNode>
-                      <y:Geometry height="31.700603834661308" width="371.37605070304676" x="299.1948692714893" y="-320.91755441152134"/>
-                      <y:Fill color="#CAECFF84" transparent="false"/>
-                      <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
-                      <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="371.37605070304676" x="0.0" y="0.0">Portal da Rede Mocambos - Django</y:NodeLabel>
-                      <y:Shape type="roundrectangle"/>
-                      <y:State closed="true" closedHeight="31.700603834661308" closedWidth="371.37605070304676" innerGraphDisplayEnabled="false"/>
-                      <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
-                      <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
-                    </y:GroupNode>
-                  </y:Realizers>
-                </y:ProxyAutoBoundsNode>
-              </data>
-              <graph edgedefault="directed" id="n1::n0::n5:">
-                <node id="n1::n0::n5::n0">
-                  <data key="d7">
-                    <y:ShapeNode>
-                      <y:Geometry height="30.0" width="100.783203125" x="813.5558373788778" y="-577.7375383964097"/>
-                      <y:Fill color="#FFCC00" transparent="false"/>
-                      <y:BorderStyle color="#000000" type="line" width="1.0"/>
-                      <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="46.4921875" x="27.1455078125" y="-0.96875">Portal
-Django</y:NodeLabel>
-                      <y:Shape type="rectangle"/>
-                    </y:ShapeNode>
-                  </data>
-                </node>
-              </graph>
-            </node>
-            <node id="n1::n0::n6" yfiles.foldertype="folder">
+          <graph edgedefault="directed" id="n0::n0:">
+            <node id="n0::n0::n0" yfiles.foldertype="folder">
               <data key="d7">
                 <y:ProxyAutoBoundsNode>
                   <y:Realizers active="1">
@@ -936,8 +102,8 @@ Django</y:NodeLabel>
                   </y:Realizers>
                 </y:ProxyAutoBoundsNode>
               </data>
-              <graph edgedefault="directed" id="n1::n0::n6:">
-                <node id="n1::n0::n6::n0">
+              <graph edgedefault="directed" id="n0::n0::n0:">
+                <node id="n0::n0::n0::n0">
                   <data key="d7">
                     <y:ShapeNode>
                       <y:Geometry height="30.0" width="100.783203125" x="814.7807126795466" y="-616.7131404960298"/>
@@ -951,7 +117,284 @@ Prosody</y:NodeLabel>
                 </node>
               </graph>
             </node>
-            <node id="n1::n0::n7">
+            <node id="n0::n0::n1" yfiles.foldertype="folder">
+              <data key="d7">
+                <y:ProxyAutoBoundsNode>
+                  <y:Realizers active="1">
+                    <y:GroupNode>
+                      <y:Geometry height="83.3984375" width="232.14641434262967" x="-164.71554223522924" y="151.4136817493286"/>
+                      <y:Fill color="#CAECFF84" transparent="false"/>
+                      <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+                      <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="232.14641434262967" x="0.0" y="0.0">Portal</y:NodeLabel>
+                      <y:Shape type="roundrectangle"/>
+                      <y:State closed="false" closedHeight="83.3984375" closedWidth="232.14641434262967" innerGraphDisplayEnabled="false"/>
+                      <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
+                      <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="101" rightF="101.36321121762967" top="0" topF="0.0"/>
+                    </y:GroupNode>
+                    <y:GroupNode>
+                      <y:Geometry height="31.700603834661308" width="371.37605070304676" x="299.1948692714893" y="-320.91755441152134"/>
+                      <y:Fill color="#CAECFF84" transparent="false"/>
+                      <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+                      <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="371.37605070304676" x="0.0" y="0.0">Portal da Rede Mocambos - Django</y:NodeLabel>
+                      <y:Shape type="roundrectangle"/>
+                      <y:State closed="true" closedHeight="31.700603834661308" closedWidth="371.37605070304676" innerGraphDisplayEnabled="false"/>
+                      <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
+                      <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+                    </y:GroupNode>
+                  </y:Realizers>
+                </y:ProxyAutoBoundsNode>
+              </data>
+              <graph edgedefault="directed" id="n0::n0::n1:">
+                <node id="n0::n0::n1::n0">
+                  <data key="d7">
+                    <y:ShapeNode>
+                      <y:Geometry height="30.0" width="100.783203125" x="813.5558373788778" y="-577.7375383964097"/>
+                      <y:Fill color="#FFCC00" transparent="false"/>
+                      <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                      <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="46.4921875" x="27.1455078125" y="-0.96875">Portal
+Django</y:NodeLabel>
+                      <y:Shape type="rectangle"/>
+                    </y:ShapeNode>
+                  </data>
+                </node>
+              </graph>
+            </node>
+            <node id="n0::n0::n2" yfiles.foldertype="folder">
+              <data key="d7">
+                <y:ProxyAutoBoundsNode>
+                  <y:Realizers active="1">
+                    <y:GroupNode>
+                      <y:Geometry height="81.4609375" width="230.92153904196084" x="-163.4906669345604" y="72.92930674932859"/>
+                      <y:Fill color="#CAECFF84" transparent="false"/>
+                      <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+                      <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="230.92153904196084" x="0.0" y="0.0">Sistema de backup</y:NodeLabel>
+                      <y:Shape type="roundrectangle"/>
+                      <y:State closed="false" closedHeight="81.4609375" closedWidth="230.92153904196084" innerGraphDisplayEnabled="false"/>
+                      <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
+                      <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="72" rightF="72.21841404196084" top="0" topF="0.0"/>
+                    </y:GroupNode>
+                    <y:GroupNode>
+                      <y:Geometry height="31.700603834661308" width="370.15117540237793" x="300.41974457215815" y="-399.40192941152134"/>
+                      <y:Fill color="#CAECFF84" transparent="false"/>
+                      <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+                      <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="370.15117540237793" x="0.0" y="0.0">Sistema de Backup</y:NodeLabel>
+                      <y:Shape type="roundrectangle"/>
+                      <y:State closed="true" closedHeight="31.700603834661308" closedWidth="370.15117540237793" innerGraphDisplayEnabled="false"/>
+                      <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
+                      <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+                    </y:GroupNode>
+                  </y:Realizers>
+                </y:ProxyAutoBoundsNode>
+              </data>
+              <graph edgedefault="directed" id="n0::n0::n2:">
+                <node id="n0::n0::n2::n0">
+                  <data key="d7">
+                    <y:ShapeNode>
+                      <y:Geometry height="30.0" width="128.703125" x="814.7807126795466" y="-657.1906633964097"/>
+                      <y:Fill color="#FFCC00" transparent="false"/>
+                      <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                      <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="118.703125" x="5.0" y="6.015625">Sistema de backup</y:NodeLabel>
+                      <y:Shape type="rectangle"/>
+                    </y:ShapeNode>
+                  </data>
+                </node>
+              </graph>
+            </node>
+            <node id="n0::n0::n3" yfiles.foldertype="folder">
+              <data key="d7">
+                <y:ProxyAutoBoundsNode>
+                  <y:Realizers active="1">
+                    <y:GroupNode>
+                      <y:Geometry height="81.4609375" width="247.14641434262967" x="-163.4906669345604" y="33.42053384894865"/>
+                      <y:Fill color="#CAECFF84" transparent="false"/>
+                      <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+                      <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="247.14641434262967" x="0.0" y="0.0">Sistema Operacional</y:NodeLabel>
+                      <y:Shape type="roundrectangle"/>
+                      <y:State closed="false" closedHeight="81.4609375" closedWidth="247.14641434262967" innerGraphDisplayEnabled="false"/>
+                      <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
+                      <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="102" rightF="102.16594559262967" top="0" topF="0.0"/>
+                    </y:GroupNode>
+                    <y:GroupNode>
+                      <y:Geometry height="31.700603834661308" width="370.15117540237793" x="300.41974457215815" y="-438.91070231190145"/>
+                      <y:Fill color="#CAECFF84" transparent="false"/>
+                      <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+                      <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="370.15117540237793" x="0.0" y="0.0">Sistema operacional - Debian stable </y:NodeLabel>
+                      <y:Shape type="roundrectangle"/>
+                      <y:State closed="true" closedHeight="31.700603834661308" closedWidth="370.15117540237793" innerGraphDisplayEnabled="false"/>
+                      <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
+                      <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+                    </y:GroupNode>
+                  </y:Realizers>
+                </y:ProxyAutoBoundsNode>
+              </data>
+              <graph edgedefault="directed" id="n0::n0::n3:">
+                <node id="n0::n0::n3::n0">
+                  <data key="d7">
+                    <y:ShapeNode>
+                      <y:Geometry height="30.0" width="114.98046875" x="814.7807126795466" y="-696.6994362967898"/>
+                      <y:Fill color="#FFCC00" transparent="false"/>
+                      <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                      <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="104.98046875" x="5.0" y="6.015625">Ubuntu / Arch / ?</y:NodeLabel>
+                      <y:Shape type="rectangle"/>
+                    </y:ShapeNode>
+                  </data>
+                </node>
+              </graph>
+            </node>
+            <node id="n0::n0::n4" yfiles.foldertype="folder">
+              <data key="d7">
+                <y:ProxyAutoBoundsNode>
+                  <y:Realizers active="1">
+                    <y:GroupNode>
+                      <y:Geometry height="121.94718266438917" width="232.14641434262955" x="798.5558373788778" y="-576.9645810965999"/>
+                      <y:Fill color="#CAECFF84" transparent="false"/>
+                      <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+                      <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="232.14641434262955" x="0.0" y="0.0">Sistema de Autenticação</y:NodeLabel>
+                      <y:Shape type="roundrectangle"/>
+                      <y:State closed="false" closedHeight="121.94718266438917" closedWidth="232.14641434262955" innerGraphDisplayEnabled="false"/>
+                      <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
+                      <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="31" rightF="31.146414342629555" top="1" topF="0.7729572998100593"/>
+                    </y:GroupNode>
+                    <y:GroupNode>
+                      <y:Geometry height="30.731853834661308" width="371.37605070304676" x="299.1948692714893" y="-282.7149096117115"/>
+                      <y:Fill color="#CAECFF84" transparent="false"/>
+                      <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+                      <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="371.37605070304676" x="0.0" y="0.0">Servidor LDAP (master)</y:NodeLabel>
+                      <y:Shape type="roundrectangle"/>
+                      <y:State closed="true" closedHeight="30.731853834661308" closedWidth="371.37605070304676" innerGraphDisplayEnabled="false"/>
+                      <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
+                      <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+                    </y:GroupNode>
+                  </y:Realizers>
+                </y:ProxyAutoBoundsNode>
+              </data>
+              <graph edgedefault="directed" id="n0::n0::n4:">
+                <node id="n0::n0::n4::n0">
+                  <data key="d7">
+                    <y:ShapeNode>
+                      <y:Geometry height="30.0" width="170.0" x="814.5558373788778" y="-539.7306862967898"/>
+                      <y:Fill color="#FFCC00" transparent="false"/>
+                      <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                      <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="117.642578125" x="26.1787109375" y="6.015625">LDAP - MultiMaster</y:NodeLabel>
+                      <y:Shape type="rectangle"/>
+                    </y:ShapeNode>
+                  </data>
+                </node>
+                <node id="n0::n0::n4::n1">
+                  <data key="d7">
+                    <y:ShapeNode>
+                      <y:Geometry height="31.700603834661308" width="170.0" x="813.5558373788778" y="-501.83645034954134"/>
+                      <y:Fill color="#FFCC00" transparent="false"/>
+                      <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                      <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="117.40234375" x="26.298828125" y="-0.11844808266937434">SimpleSAMLPhp
+OAuth / Shibboleth</y:NodeLabel>
+                      <y:Shape type="rectangle"/>
+                    </y:ShapeNode>
+                  </data>
+                </node>
+              </graph>
+            </node>
+            <node id="n0::n0::n5" yfiles.foldertype="folder">
+              <data key="d7">
+                <y:ProxyAutoBoundsNode>
+                  <y:Realizers active="1">
+                    <y:GroupNode>
+                      <y:Geometry height="226.4609375" width="286.4453125" x="-1090.2948612367081" y="741.5946136788067"/>
+                      <y:Fill color="#CAECFF84" transparent="false"/>
+                      <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+                      <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="286.4453125" x="0.0" y="0.0">Repositorio Multimedia</y:NodeLabel>
+                      <y:Shape type="roundrectangle"/>
+                      <y:State closed="false" closedHeight="226.4609375" closedWidth="286.4453125" innerGraphDisplayEnabled="false"/>
+                      <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
+                      <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+                    </y:GroupNode>
+                    <y:GroupNode>
+                      <y:Geometry height="30.0" width="371.37605070304676" x="299.1948692714893" y="-243.93510021228133"/>
+                      <y:Fill color="#CAECFF84" transparent="false"/>
+                      <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+                      <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="371.37605070304676" x="0.0" y="0.0">Acervo multimídia - Git-Annex</y:NodeLabel>
+                      <y:Shape type="roundrectangle"/>
+                      <y:State closed="true" closedHeight="30.0" closedWidth="371.37605070304676" innerGraphDisplayEnabled="false"/>
+                      <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
+                      <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+                    </y:GroupNode>
+                  </y:Realizers>
+                </y:ProxyAutoBoundsNode>
+              </data>
+              <graph edgedefault="directed" id="n0::n0::n5:">
+                <node id="n0::n0::n5::n0">
+                  <data key="d7">
+                    <y:ShapeNode>
+                      <y:Geometry height="175.0" width="256.4453125" x="813.5558373788776" y="-501.7238341971696"/>
+                      <y:Fill color="#FFCC00" transparent="false"/>
+                      <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                      <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="143.6875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="216.630859375" x="19.9072265625" y="15.65625">Arkiwi
+OAuth
+XML Backend
+Usando Arkiwi precisa verificar 
+se é possivel manter uma pasta 
+local e uma publica sincronizada.
+Para a sincronização se pode usar
+rsync. Precisa ver como sincronizar
+a copia local com a copia online
+so pela parte publica.</y:NodeLabel>
+                      <y:Shape type="rectangle"/>
+                    </y:ShapeNode>
+                  </data>
+                </node>
+              </graph>
+            </node>
+            <node id="n0::n0::n6" yfiles.foldertype="folder">
+              <data key="d7">
+                <y:ProxyAutoBoundsNode>
+                  <y:Realizers active="1">
+                    <y:GroupNode>
+                      <y:Geometry height="226.4609375" width="286.4453125" x="-1090.2948612367081" y="741.5946136788067"/>
+                      <y:Fill color="#CAECFF84" transparent="false"/>
+                      <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+                      <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="286.4453125" x="0.0" y="0.0">Repositorio Multimedia</y:NodeLabel>
+                      <y:Shape type="roundrectangle"/>
+                      <y:State closed="false" closedHeight="226.4609375" closedWidth="286.4453125" innerGraphDisplayEnabled="false"/>
+                      <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
+                      <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+                    </y:GroupNode>
+                    <y:GroupNode>
+                      <y:Geometry height="30.0" width="371.37605070304676" x="299.1948692714893" y="-205.88714464751246"/>
+                      <y:Fill color="#CAECFF84" transparent="false"/>
+                      <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+                      <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="371.37605070304676" x="0.0" y="0.0">Catalogo Patrimoniado - Greenstone</y:NodeLabel>
+                      <y:Shape type="roundrectangle"/>
+                      <y:State closed="true" closedHeight="30.0" closedWidth="371.37605070304676" innerGraphDisplayEnabled="false"/>
+                      <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
+                      <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+                    </y:GroupNode>
+                  </y:Realizers>
+                </y:ProxyAutoBoundsNode>
+              </data>
+              <graph edgedefault="directed" id="n0::n0::n6:">
+                <node id="n0::n0::n6::n0">
+                  <data key="d7">
+                    <y:ShapeNode>
+                      <y:Geometry height="175.0" width="256.4453125" x="813.5558373788776" y="-501.7238341971696"/>
+                      <y:Fill color="#FFCC00" transparent="false"/>
+                      <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                      <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="143.6875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="216.630859375" x="19.9072265625" y="15.65625">Arkiwi
+OAuth
+XML Backend
+Usando Arkiwi precisa verificar 
+se é possivel manter uma pasta 
+local e uma publica sincronizada.
+Para a sincronização se pode usar
+rsync. Precisa ver como sincronizar
+a copia local com a copia online
+so pela parte publica.</y:NodeLabel>
+                      <y:Shape type="rectangle"/>
+                    </y:ShapeNode>
+                  </data>
+                </node>
+              </graph>
+            </node>
+            <node id="n0::n0::n7">
               <data key="d7">
                 <y:SVGNode>
                   <y:Geometry height="115.86048449938039" width="65.15279166656444" x="204.042077604925" y="-389.7955847116617"/>
@@ -971,6 +414,563 @@ Prosody</y:NodeLabel>
         </node>
       </graph>
     </node>
+    <node id="n1" yfiles.foldertype="group">
+      <data key="d5"/>
+      <data key="d7">
+        <y:ProxyAutoBoundsNode>
+          <y:Realizers active="0">
+            <y:GroupNode>
+              <y:Geometry height="664.272992737092" width="848.2576519785565" x="-524.440110577858" y="-57.21352202260823"/>
+              <y:Fill color="#F5F5F5" transparent="false"/>
+              <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
+              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#EBEBEB" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="848.2576519785565" x="0.0" y="0.0">Comunidade da Rede Mocambos (~200)</y:NodeLabel>
+              <y:Shape type="roundrectangle"/>
+              <y:State closed="false" closedHeight="755.5879373525213" closedWidth="1035.23342048834" innerGraphDisplayEnabled="false"/>
+              <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
+              <y:BorderInsets bottom="11" bottomF="10.880251302732404" left="2" leftF="2.4852168199737434" right="0" rightF="0.0" top="18" topF="18.235618371556882"/>
+            </y:GroupNode>
+            <y:GroupNode>
+              <y:Geometry height="30.0" width="230.92153904196084" x="-606.0582215510697" y="-69.63960612247683"/>
+              <y:Fill color="#F5F5F5" transparent="false"/>
+              <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
+              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#EBEBEB" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="230.92153904196084" x="0.0" y="0.0">Mocambo</y:NodeLabel>
+              <y:Shape type="roundrectangle"/>
+              <y:State closed="true" closedHeight="30.0" closedWidth="230.92153904196084" innerGraphDisplayEnabled="false"/>
+              <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
+              <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+            </y:GroupNode>
+          </y:Realizers>
+        </y:ProxyAutoBoundsNode>
+      </data>
+      <graph edgedefault="directed" id="n1:">
+        <node id="n1::n0" yfiles.foldertype="group">
+          <data key="d5"/>
+          <data key="d7">
+            <y:ProxyAutoBoundsNode>
+              <y:Realizers active="0">
+                <y:GroupNode>
+                  <y:Geometry height="280.1510032299714" width="462.1407766802065" x="-468.57334070753706" y="0.7549160826968659"/>
+                  <y:Fill color="#F5F5F5" transparent="false"/>
+                  <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
+                  <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#EBEBEB" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="462.1407766802065" x="0.0" y="0.0">Servidor local</y:NodeLabel>
+                  <y:Shape type="roundrectangle"/>
+                  <y:State closed="false" closedHeight="277.2276719993804" closedWidth="370.3607088108532" innerGraphDisplayEnabled="false"/>
+                  <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
+                  <y:BorderInsets bottom="1" bottomF="1.2227273959297236" left="0" leftF="0.0" right="5" rightF="4.742350743782254" top="1" topF="0.791132399760329"/>
+                </y:GroupNode>
+                <y:GroupNode>
+                  <y:Geometry height="30.0" width="170.0" x="-287.9298367034528" y="-3.8315360508116783"/>
+                  <y:Fill color="#F5F5F5" transparent="false"/>
+                  <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
+                  <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#EBEBEB" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="170.0" x="0.0" y="0.0">Servidor</y:NodeLabel>
+                  <y:Shape type="roundrectangle"/>
+                  <y:State closed="true" closedHeight="30.0" closedWidth="170.0" innerGraphDisplayEnabled="false"/>
+                  <y:Insets bottom="5" bottomF="5.0" left="5" leftF="5.0" right="5" rightF="5.0" top="5" topF="5.0"/>
+                  <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+                </y:GroupNode>
+              </y:Realizers>
+            </y:ProxyAutoBoundsNode>
+          </data>
+          <graph edgedefault="directed" id="n1::n0:">
+            <node id="n1::n0::n0" yfiles.foldertype="folder">
+              <data key="d7">
+                <y:ProxyAutoBoundsNode>
+                  <y:Realizers active="1">
+                    <y:GroupNode>
+                      <y:Geometry height="226.4609375" width="286.4453125" x="-309.79350481518793" y="228.3961359485687"/>
+                      <y:Fill color="#CAECFF84" transparent="false"/>
+                      <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+                      <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="286.4453125" x="0.0" y="0.0">Repositorio Multimedia</y:NodeLabel>
+                      <y:Shape type="roundrectangle"/>
+                      <y:State closed="false" closedHeight="226.4609375" closedWidth="286.4453125" innerGraphDisplayEnabled="false"/>
+                      <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
+                      <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+                    </y:GroupNode>
+                    <y:GroupNode>
+                      <y:Geometry height="31.700603834661308" width="291.79161802199883" x="-317.96653279311164" y="232.98258808207726"/>
+                      <y:Fill color="#CAECFF84" transparent="false"/>
+                      <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+                      <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="291.79161802199883" x="0.0" y="0.0">Acervo multimídia - Git-Annex</y:NodeLabel>
+                      <y:Shape type="roundrectangle"/>
+                      <y:State closed="true" closedHeight="31.700603834661308" closedWidth="291.79161802199883" innerGraphDisplayEnabled="false"/>
+                      <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
+                      <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+                    </y:GroupNode>
+                  </y:Realizers>
+                </y:ProxyAutoBoundsNode>
+              </data>
+              <graph edgedefault="directed" id="n1::n0::n0:">
+                <node id="n1::n0::n0::n0">
+                  <data key="d7">
+                    <y:ShapeNode>
+                      <y:Geometry height="175.0" width="256.4453125" x="-294.79350481518793" y="264.8570734485687"/>
+                      <y:Fill color="#FFCC00" transparent="false"/>
+                      <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                      <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="143.6875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="216.630859375" x="19.9072265625" y="15.65625">Arkiwi
+OAuth
+XML Backend
+Usando Arkiwi precisa verificar 
+se é possivel manter uma pasta 
+local e uma publica sincronizada.
+Para a sincronização se pode usar
+rsync. Precisa ver como sincronizar
+a copia local com a copia online
+so pela parte publica.</y:NodeLabel>
+                      <y:Shape type="rectangle"/>
+                    </y:ShapeNode>
+                  </data>
+                </node>
+              </graph>
+            </node>
+            <node id="n1::n0::n1" yfiles.foldertype="folder">
+              <data key="d7">
+                <y:ProxyAutoBoundsNode>
+                  <y:Realizers active="1">
+                    <y:GroupNode>
+                      <y:Geometry height="129.9555839143427" width="232.14641434262967" x="-309.79350481518793" y="190.38928384894865"/>
+                      <y:Fill color="#CAECFF84" transparent="false"/>
+                      <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+                      <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="232.14641434262967" x="0.0" y="0.0">Sistema de Autenticação</y:NodeLabel>
+                      <y:Shape type="roundrectangle"/>
+                      <y:State closed="false" closedHeight="129.9555839143427" closedWidth="232.14641434262967" innerGraphDisplayEnabled="false"/>
+                      <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
+                      <y:BorderInsets bottom="7" bottomF="6.82537314806342" left="1" leftF="1.0" right="31" rightF="31.14641434262967" top="0" topF="0.0"/>
+                    </y:GroupNode>
+                    <y:GroupNode>
+                      <y:Geometry height="32.432457669322616" width="291.79161802199883" x="-317.96653279311164" y="194.9757359824572"/>
+                      <y:Fill color="#CAECFF84" transparent="false"/>
+                      <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+                      <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="291.79161802199883" x="0.0" y="0.0">Servidor LDAP (replica)</y:NodeLabel>
+                      <y:Shape type="roundrectangle"/>
+                      <y:State closed="true" closedHeight="32.432457669322616" closedWidth="291.79161802199883" innerGraphDisplayEnabled="false"/>
+                      <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
+                      <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+                    </y:GroupNode>
+                  </y:Realizers>
+                </y:ProxyAutoBoundsNode>
+              </data>
+              <graph edgedefault="directed" id="n1::n0::n1:">
+                <node id="n1::n0::n1::n0">
+                  <data key="d7">
+                    <y:ShapeNode>
+                      <y:Geometry height="30.0" width="170.0" x="-293.79350481518793" y="226.85022134894865"/>
+                      <y:Fill color="#FFCC00" transparent="false"/>
+                      <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                      <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="117.642578125" x="26.1787109375" y="6.015625">LDAP - MultiMaster</y:NodeLabel>
+                      <y:Shape type="rectangle"/>
+                    </y:ShapeNode>
+                  </data>
+                </node>
+                <node id="n1::n0::n1::n1">
+                  <data key="d7">
+                    <y:ShapeNode>
+                      <y:Geometry height="31.700603834661308" width="170.0" x="-293.79350481518793" y="266.7004426978973"/>
+                      <y:Fill color="#FFCC00" transparent="false"/>
+                      <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                      <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="117.40234375" x="26.298828125" y="-0.11844808266937434">SimpleSAMLPhp
+OAuth / Shibboleth</y:NodeLabel>
+                      <y:Shape type="rectangle"/>
+                    </y:ShapeNode>
+                  </data>
+                </node>
+              </graph>
+            </node>
+            <node id="n1::n0::n2" yfiles.foldertype="folder">
+              <data key="d7">
+                <y:ProxyAutoBoundsNode>
+                  <y:Realizers active="1">
+                    <y:GroupNode>
+                      <y:Geometry height="83.3984375" width="232.14641434262967" x="-164.71554223522924" y="151.4136817493286"/>
+                      <y:Fill color="#CAECFF84" transparent="false"/>
+                      <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+                      <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="232.14641434262967" x="0.0" y="0.0">Portal</y:NodeLabel>
+                      <y:Shape type="roundrectangle"/>
+                      <y:State closed="false" closedHeight="83.3984375" closedWidth="232.14641434262967" innerGraphDisplayEnabled="false"/>
+                      <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
+                      <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="101" rightF="101.36321121762967" top="0" topF="0.0"/>
+                    </y:GroupNode>
+                    <y:GroupNode>
+                      <y:Geometry height="33.401207669322616" width="291.79161802199883" x="-317.96653279311164" y="156.00013388283713"/>
+                      <y:Fill color="#CAECFF84" transparent="false"/>
+                      <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+                      <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="291.79161802199883" x="0.0" y="0.0">Portal Comunitário - Django</y:NodeLabel>
+                      <y:Shape type="roundrectangle"/>
+                      <y:State closed="true" closedHeight="33.401207669322616" closedWidth="291.79161802199883" innerGraphDisplayEnabled="false"/>
+                      <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
+                      <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+                    </y:GroupNode>
+                  </y:Realizers>
+                </y:ProxyAutoBoundsNode>
+              </data>
+              <graph edgedefault="directed" id="n1::n0::n2:">
+                <node id="n1::n0::n2::n0">
+                  <data key="d7">
+                    <y:ShapeNode>
+                      <y:Geometry height="30.0" width="100.783203125" x="-264.46163598522924" y="188.8433692493286"/>
+                      <y:Fill color="#FFCC00" transparent="false"/>
+                      <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                      <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="46.4921875" x="27.1455078125" y="-0.96875">Portal
+Django</y:NodeLabel>
+                      <y:Shape type="rectangle"/>
+                    </y:ShapeNode>
+                  </data>
+                </node>
+              </graph>
+            </node>
+            <node id="n1::n0::n3" yfiles.foldertype="folder">
+              <data key="d7">
+                <y:ProxyAutoBoundsNode>
+                  <y:Realizers active="1">
+                    <y:GroupNode>
+                      <y:Geometry height="81.4609375" width="230.92153904196084" x="-163.4906669345604" y="72.92930674932859"/>
+                      <y:Fill color="#CAECFF84" transparent="false"/>
+                      <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+                      <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="230.92153904196084" x="0.0" y="0.0">Sistema de backup</y:NodeLabel>
+                      <y:Shape type="roundrectangle"/>
+                      <y:State closed="false" closedHeight="81.4609375" closedWidth="230.92153904196084" innerGraphDisplayEnabled="false"/>
+                      <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
+                      <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="72" rightF="72.21841404196084" top="0" topF="0.0"/>
+                    </y:GroupNode>
+                    <y:GroupNode>
+                      <y:Geometry height="33.401207669322616" width="290.56674272133" x="-316.7416574924428" y="77.51575888283713"/>
+                      <y:Fill color="#CAECFF84" transparent="false"/>
+                      <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+                      <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="290.56674272133" x="0.0" y="0.0">Sistema de Backup</y:NodeLabel>
+                      <y:Shape type="roundrectangle"/>
+                      <y:State closed="true" closedHeight="33.401207669322616" closedWidth="290.56674272133" innerGraphDisplayEnabled="false"/>
+                      <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
+                      <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+                    </y:GroupNode>
+                  </y:Realizers>
+                </y:ProxyAutoBoundsNode>
+              </data>
+              <graph edgedefault="directed" id="n1::n0::n3:">
+                <node id="n1::n0::n3::n0">
+                  <data key="d7">
+                    <y:ShapeNode>
+                      <y:Geometry height="30.0" width="128.703125" x="-263.2367606845604" y="109.39024424932859"/>
+                      <y:Fill color="#FFCC00" transparent="false"/>
+                      <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                      <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="118.703125" x="5.0" y="6.015625">Sistema de backup</y:NodeLabel>
+                      <y:Shape type="rectangle"/>
+                    </y:ShapeNode>
+                  </data>
+                </node>
+              </graph>
+            </node>
+            <node id="n1::n0::n4" yfiles.foldertype="folder">
+              <data key="d7">
+                <y:ProxyAutoBoundsNode>
+                  <y:Realizers active="1">
+                    <y:GroupNode>
+                      <y:Geometry height="81.4609375" width="247.14641434262967" x="-163.4906669345604" y="33.42053384894865"/>
+                      <y:Fill color="#CAECFF84" transparent="false"/>
+                      <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+                      <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="247.14641434262967" x="0.0" y="0.0">Sistema Operacional</y:NodeLabel>
+                      <y:Shape type="roundrectangle"/>
+                      <y:State closed="false" closedHeight="81.4609375" closedWidth="247.14641434262967" innerGraphDisplayEnabled="false"/>
+                      <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
+                      <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="102" rightF="102.16594559262967" top="0" topF="0.0"/>
+                    </y:GroupNode>
+                    <y:GroupNode>
+                      <y:Geometry height="33.401207669322616" width="290.56674272133" x="-316.7416574924428" y="38.006985982457195"/>
+                      <y:Fill color="#CAECFF84" transparent="false"/>
+                      <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+                      <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="290.56674272133" x="0.0" y="0.0">S.O. - Debian stable </y:NodeLabel>
+                      <y:Shape type="roundrectangle"/>
+                      <y:State closed="true" closedHeight="33.401207669322616" closedWidth="290.56674272133" innerGraphDisplayEnabled="false"/>
+                      <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
+                      <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+                    </y:GroupNode>
+                  </y:Realizers>
+                </y:ProxyAutoBoundsNode>
+              </data>
+              <graph edgedefault="directed" id="n1::n0::n4:">
+                <node id="n1::n0::n4::n0">
+                  <data key="d7">
+                    <y:ShapeNode>
+                      <y:Geometry height="30.0" width="114.98046875" x="-263.2367606845604" y="69.88147134894865"/>
+                      <y:Fill color="#FFCC00" transparent="false"/>
+                      <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                      <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="104.98046875" x="5.0" y="6.015625">Ubuntu / Arch / ?</y:NodeLabel>
+                      <y:Shape type="rectangle"/>
+                    </y:ShapeNode>
+                  </data>
+                </node>
+              </graph>
+            </node>
+            <node id="n1::n0::n5" yfiles.foldertype="folder">
+              <data key="d7">
+                <y:ProxyAutoBoundsNode>
+                  <y:Realizers active="1">
+                    <y:GroupNode>
+                      <y:Geometry height="97.3984375" width="230.92153904196084" x="-163.4906669345604" y="112.43807964970853"/>
+                      <y:Fill color="#CAECFF84" transparent="false"/>
+                      <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+                      <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="230.92153904196084" x="0.0" y="0.0">Servidor de IM</y:NodeLabel>
+                      <y:Shape type="roundrectangle"/>
+                      <y:State closed="false" closedHeight="97.3984375" closedWidth="230.92153904196084" innerGraphDisplayEnabled="false"/>
+                      <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
+                      <y:BorderInsets bottom="14" bottomF="14.0" left="0" leftF="0.0" right="100" rightF="100.13833591696084" top="0" topF="0.0"/>
+                    </y:GroupNode>
+                    <y:GroupNode>
+                      <y:Geometry height="33.401207669322616" width="290.56674272133" x="-316.7416574924428" y="117.02453178321707"/>
+                      <y:Fill color="#CAECFF84" transparent="false"/>
+                      <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+                      <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="290.56674272133" x="0.0" y="0.0">Servidor XMPP</y:NodeLabel>
+                      <y:Shape type="roundrectangle"/>
+                      <y:State closed="true" closedHeight="33.401207669322616" closedWidth="290.56674272133" innerGraphDisplayEnabled="false"/>
+                      <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
+                      <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+                    </y:GroupNode>
+                  </y:Realizers>
+                </y:ProxyAutoBoundsNode>
+              </data>
+              <graph edgedefault="directed" id="n1::n0::n5:">
+                <node id="n1::n0::n5::n0">
+                  <data key="d7">
+                    <y:ShapeNode>
+                      <y:Geometry height="30.0" width="100.783203125" x="-263.2367606845604" y="149.86776714970853"/>
+                      <y:Fill color="#FFCC00" transparent="false"/>
+                      <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                      <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="90.783203125" x="5.0" y="-0.96875">Servidor de IM
+Prosody</y:NodeLabel>
+                      <y:Shape type="rectangle"/>
+                    </y:ShapeNode>
+                  </data>
+                </node>
+              </graph>
+            </node>
+            <node id="n1::n0::n6">
+              <data key="d7">
+                <y:SVGNode>
+                  <y:Geometry height="115.86048449938039" width="65.15279166656444" x="-448.7473927908193" y="95.28269441799821"/>
+                  <y:Fill color="#CCCCFF" transparent="false"/>
+                  <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" modelName="sandwich" modelPosition="n" textColor="#000000" visible="true" width="74.8046875" x="-4.82594791671778" y="-49.90625">HARDWARE
+4 Gb Ram
+2 Tb HD</y:NodeLabel>
+                  <y:SVGNodeProperties usingVisualBounds="true"/>
+                  <y:SVGModel svgBoundsPolicy="0">
+                    <y:SVGContent refid="1"/>
+                  </y:SVGModel>
+                </y:SVGNode>
+              </data>
+            </node>
+          </graph>
+        </node>
+        <node id="n1::n1" yfiles.foldertype="group">
+          <data key="d5"/>
+          <data key="d7">
+            <y:ProxyAutoBoundsNode>
+              <y:Realizers active="0">
+                <y:GroupNode>
+                  <y:Geometry height="175.40920766932254" width="348.178570854548" x="-45.277045078849596" y="405.7700117424289"/>
+                  <y:Fill color="#F5F5F5" transparent="false"/>
+                  <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
+                  <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#EBEBEB" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="348.178570854548" x="0.0" y="0.0">Cliente (~10)</y:NodeLabel>
+                  <y:Shape type="roundrectangle"/>
+                  <y:State closed="false" closedHeight="224.50008413216017" closedWidth="273.365234375" innerGraphDisplayEnabled="false"/>
+                  <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
+                  <y:BorderInsets bottom="11" bottomF="11.389541334661317" left="6" leftF="5.626876963394579" right="0" rightF="0.0" top="0" topF="0.0"/>
+                </y:GroupNode>
+                <y:GroupNode>
+                  <y:Geometry height="30.0" width="170.0" x="83.17779446450368" y="472.9368873649387"/>
+                  <y:Fill color="#F5F5F5" transparent="false"/>
+                  <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
+                  <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#EBEBEB" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="170.0" x="0.0" y="0.0">Cliente (x10)</y:NodeLabel>
+                  <y:Shape type="roundrectangle"/>
+                  <y:State closed="true" closedHeight="30.0" closedWidth="170.0" innerGraphDisplayEnabled="false"/>
+                  <y:Insets bottom="5" bottomF="5.0" left="5" leftF="5.0" right="5" rightF="5.0" top="5" topF="5.0"/>
+                  <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+                </y:GroupNode>
+              </y:Realizers>
+            </y:ProxyAutoBoundsNode>
+          </data>
+          <graph edgedefault="directed" id="n1::n1:">
+            <node id="n1::n1::n0" yfiles.foldertype="folder">
+              <data key="d7">
+                <y:ProxyAutoBoundsNode>
+                  <y:Realizers active="1">
+                    <y:GroupNode>
+                      <y:Geometry height="81.4609375" width="247.14641434262967" x="84.17779446450368" y="513.1478248649387"/>
+                      <y:Fill color="#CAECFF84" transparent="false"/>
+                      <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+                      <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="247.14641434262967" x="0.0" y="0.0">Sistema Operacional</y:NodeLabel>
+                      <y:Shape type="roundrectangle"/>
+                      <y:State closed="false" closedHeight="81.4609375" closedWidth="247.14641434262967" innerGraphDisplayEnabled="false"/>
+                      <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
+                      <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="102" rightF="102.16594559262967" top="0" topF="0.0"/>
+                    </y:GroupNode>
+                    <y:GroupNode>
+                      <y:Geometry height="35.101811503983924" width="312.55169389115343" x="-24.650168115455017" y="442.2309492424289"/>
+                      <y:Fill color="#CAECFF84" transparent="false"/>
+                      <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+                      <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="312.55169389115343" x="0.0" y="0.0">Sistema Operativo - GNU\Linux</y:NodeLabel>
+                      <y:Shape type="roundrectangle"/>
+                      <y:State closed="true" closedHeight="35.101811503983924" closedWidth="312.55169389115343" innerGraphDisplayEnabled="false"/>
+                      <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
+                      <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+                    </y:GroupNode>
+                  </y:Realizers>
+                </y:ProxyAutoBoundsNode>
+              </data>
+              <graph edgedefault="directed" id="n1::n1::n0:">
+                <node id="n1::n1::n0::n0">
+                  <data key="d7">
+                    <y:ShapeNode>
+                      <y:Geometry height="30.0" width="114.98046875" x="20.681700714503677" y="478.6918867424289"/>
+                      <y:Fill color="#FFCC00" transparent="false"/>
+                      <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                      <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="104.98046875" x="5.0" y="6.015625">Ubuntu / Arch / ?</y:NodeLabel>
+                      <y:Shape type="rectangle"/>
+                    </y:ShapeNode>
+                  </data>
+                </node>
+              </graph>
+            </node>
+            <node id="n1::n1::n1" yfiles.foldertype="folder">
+              <data key="d7">
+                <y:ProxyAutoBoundsNode>
+                  <y:Realizers active="1">
+                    <y:GroupNode>
+                      <y:Geometry height="99.49779008964151" width="230.92153904196084" x="84.17779446450368" y="472.9368873649387"/>
+                      <y:Fill color="#CAECFF84" transparent="false"/>
+                      <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+                      <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="230.92153904196084" x="0.0" y="0.0">Cliente XMPP</y:NodeLabel>
+                      <y:Shape type="roundrectangle"/>
+                      <y:State closed="false" closedHeight="99.49779008964151" closedWidth="230.92153904196084" innerGraphDisplayEnabled="false"/>
+                      <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
+                      <y:BorderInsets bottom="18" bottomF="18.036852589641512" left="0" leftF="0.0" right="31" rightF="30.92153904196084" top="0" topF="0.0"/>
+                    </y:GroupNode>
+                    <y:GroupNode>
+                      <y:Geometry height="33.401207669322616" width="312.55169389115343" x="-24.650168115455017" y="482.6600117424289"/>
+                      <y:Fill color="#CAECFF84" transparent="false"/>
+                      <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+                      <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="312.55169389115343" x="0.0" y="0.0">Cliente XMPP</y:NodeLabel>
+                      <y:Shape type="roundrectangle"/>
+                      <y:State closed="true" closedHeight="33.401207669322616" closedWidth="312.55169389115343" innerGraphDisplayEnabled="false"/>
+                      <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
+                      <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+                    </y:GroupNode>
+                  </y:Realizers>
+                </y:ProxyAutoBoundsNode>
+              </data>
+              <graph edgedefault="directed" id="n1::n1::n1:">
+                <node id="n1::n1::n1::n0">
+                  <data key="d7">
+                    <y:ShapeNode>
+                      <y:Geometry height="30.0" width="170.0" x="20.681700714503677" y="519.1209492424289"/>
+                      <y:Fill color="#FFCC00" transparent="false"/>
+                      <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                      <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="80.998046875" x="44.5009765625" y="6.015625">Jabber Client</y:NodeLabel>
+                      <y:Shape type="rectangle"/>
+                    </y:ShapeNode>
+                  </data>
+                </node>
+              </graph>
+            </node>
+            <node id="n1::n1::n2" yfiles.foldertype="folder">
+              <data key="d7">
+                <y:ProxyAutoBoundsNode>
+                  <y:Realizers active="1">
+                    <y:GroupNode>
+                      <y:Geometry height="99.49779008964151" width="230.92153904196084" x="84.17779446450368" y="472.9368873649387"/>
+                      <y:Fill color="#CAECFF84" transparent="false"/>
+                      <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+                      <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="230.92153904196084" x="0.0" y="0.0">Cliente XMPP</y:NodeLabel>
+                      <y:Shape type="roundrectangle"/>
+                      <y:State closed="false" closedHeight="99.49779008964151" closedWidth="230.92153904196084" innerGraphDisplayEnabled="false"/>
+                      <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
+                      <y:BorderInsets bottom="18" bottomF="18.036852589641512" left="0" leftF="0.0" right="31" rightF="30.92153904196084" top="0" topF="0.0"/>
+                    </y:GroupNode>
+                    <y:GroupNode>
+                      <y:Geometry height="33.401207669322616" width="312.55169389115343" x="-24.650168115455017" y="521.3884704077675"/>
+                      <y:Fill color="#CAECFF84" transparent="false"/>
+                      <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+                      <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="312.55169389115343" x="0.0" y="0.0">Navegador</y:NodeLabel>
+                      <y:Shape type="roundrectangle"/>
+                      <y:State closed="true" closedHeight="33.401207669322616" closedWidth="312.55169389115343" innerGraphDisplayEnabled="false"/>
+                      <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
+                      <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+                    </y:GroupNode>
+                  </y:Realizers>
+                </y:ProxyAutoBoundsNode>
+              </data>
+              <graph edgedefault="directed" id="n1::n1::n2:">
+                <node id="n1::n1::n2::n0">
+                  <data key="d7">
+                    <y:ShapeNode>
+                      <y:Geometry height="30.0" width="170.0" x="20.681700714503677" y="519.1209492424289"/>
+                      <y:Fill color="#FFCC00" transparent="false"/>
+                      <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                      <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="80.998046875" x="44.5009765625" y="6.015625">Jabber Client</y:NodeLabel>
+                      <y:Shape type="rectangle"/>
+                    </y:ShapeNode>
+                  </data>
+                </node>
+              </graph>
+            </node>
+          </graph>
+        </node>
+        <node id="n1::n2">
+          <data key="d7">
+            <y:ImageNode>
+              <y:Geometry height="145.12910856573706" width="145.12910856573706" x="151.3369714928299" y="195.40459759396862"/>
+              <y:Fill color="#CCCCFF" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="80.265625" x="32.43174178286853" y="109.75999292327282">VSAT GESAC<y:LabelModel>
+                  <y:SmartNodeLabelModel distance="4.0"/>
+                </y:LabelModel>
+                <y:ModelParameter>
+                  <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.5" nodeRatioX="0.0" nodeRatioY="0.3801042339856815" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+                </y:ModelParameter>
+              </y:NodeLabel>
+              <y:Image alphaImage="true" refid="2"/>
+            </y:ImageNode>
+          </data>
+        </node>
+        <node id="n1::n3">
+          <data key="d7">
+            <y:SVGNode>
+              <y:Geometry height="44.6782916673838" width="157.77512469933117" x="-307.7048820829359" y="401.9420505481887"/>
+              <y:Fill color="#CCCCFF" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="106.580078125" x="25.597523287165586" y="48.6782916673838">Switch rede local
+100 Mbit/s</y:NodeLabel>
+              <y:SVGNodeProperties usingVisualBounds="true"/>
+              <y:SVGModel svgBoundsPolicy="0">
+                <y:SVGContent refid="3"/>
+              </y:SVGModel>
+            </y:SVGNode>
+          </data>
+        </node>
+        <node id="n1::n4">
+          <data key="d7">
+            <y:ImageNode>
+              <y:Geometry height="128.0" width="128.0" x="159.90152577569842" y="33.42053384894865"/>
+              <y:Fill color="#CCCCFF" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="sandwich" modelPosition="n" textColor="#000000" visible="true" width="169.83203125" x="-20.916015625" y="-35.9375">Conexão GESAC
+DW 512 Kbit/s UP 128Kbit/s</y:NodeLabel>
+              <y:Image alphaImage="true" refid="4"/>
+            </y:ImageNode>
+          </data>
+        </node>
+        <node id="n1::n5">
+          <data key="d7">
+            <y:ImageNode>
+              <y:Geometry height="146.78685258964146" width="146.78685258964146" x="-506.95489375788435" y="386.3884286996001"/>
+              <y:Fill color="#CCCCFF" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="133.87890625" x="6.453973169820699" y="150.7868525896415">Wireless Access Point
+54 Mbit/s</y:NodeLabel>
+              <y:Image alphaImage="true" refid="5"/>
+            </y:ImageNode>
+          </data>
+        </node>
+      </graph>
+    </node>
     <node id="n2">
       <data key="d7">
         <y:SVGNode>
@@ -985,25 +985,7 @@ Prosody</y:NodeLabel>
         </y:SVGNode>
       </data>
     </node>
-    <node id="n3">
-      <data key="d5"/>
-      <data key="d6"/>
-      <data key="d7">
-        <y:UMLNoteNode>
-          <y:Geometry height="28.0" width="100.0" x="-519.4266792320003" y="-604.043592247411"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="32.40625" x="33.796875" y="5.015625">Note<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-        </y:UMLNoteNode>
-      </data>
-    </node>
-    <edge id="e0" source="n0::n4" target="n2">
+    <edge id="e0" source="n1::n4" target="n2">
       <data key="d11">
         <y:PolyLineEdge>
           <y:Path sx="-1.7053025658242404E-13" sy="0.0" tx="0.0" ty="0.0">
@@ -1016,7 +998,7 @@ Prosody</y:NodeLabel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e1" source="n1" target="n2">
+    <edge id="e1" source="n0" target="n2">
       <data key="d11">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="188.18090460602053" tx="0.0" ty="0.0"/>
@@ -1033,7 +1015,7 @@ Prosody</y:NodeLabel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e2" source="n1::n0::n2::n0" target="n0::n1::n4::n0">
+    <edge id="e2" source="n0::n0::n4::n0" target="n1::n0::n1::n0">
       <data key="d11">
         <y:PolyLineEdge>
           <y:Path sx="-24.113351767948288" sy="-2.2024869334760524" tx="-145.8858974460842" ty="0.0">
@@ -1047,7 +1029,7 @@ Prosody</y:NodeLabel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e0" source="n0::n2" target="n0::n1">
+    <edge id="n1::e0" source="n1::n2" target="n1::n0">
       <data key="d11">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="231.0886871950995" ty="95.22580250495753"/>
@@ -1057,7 +1039,7 @@ Prosody</y:NodeLabel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e1" source="n0::n2" target="n0::n4">
+    <edge id="n1::e1" source="n1::n2" target="n1::n4">
       <data key="d11">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1067,7 +1049,7 @@ Prosody</y:NodeLabel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e2" source="n0::n3" target="n0::n1">
+    <edge id="n1::e2" source="n1::n3" target="n1::n0">
       <data key="d11">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="8.685632634163483" ty="140.10352679237494"/>
@@ -1077,7 +1059,7 @@ Prosody</y:NodeLabel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e3" source="n0::n3" target="n0::n0">
+    <edge id="n1::e3" source="n1::n3" target="n1::n1">
       <data key="d11">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1087,7 +1069,7 @@ Prosody</y:NodeLabel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e4" source="n0::n3" target="n0::n5">
+    <edge id="n1::e4" source="n1::n3" target="n1::n5">
       <data key="d11">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1097,7 +1079,7 @@ Prosody</y:NodeLabel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e3" source="n0::n1::n5" target="n1::n0::n1">
+    <edge id="e3" source="n1::n0::n0" target="n0::n0::n5">
       <data key="d9"/>
       <data key="d11">
         <y:PolyLineEdge>
@@ -1126,9 +1108,8 @@ Prosody</y:NodeLabel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n1::n0::e0" source="n1::n0::n5" target="n1::n0::n2">
+    <edge id="n0::n0::e0" source="n0::n0::n1" target="n0::n0::n4">
       <data key="d9"/>
-      <data key="d10"/>
       <data key="d11">
         <y:PolyLineEdge>
           <y:Path sx="185.70296741732705" sy="0.0" tx="185.70296741732705" ty="0.0">
@@ -1148,9 +1129,8 @@ Prosody</y:NodeLabel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n1::n0::e1" source="n1::n0::n6" target="n1::n0::n2">
+    <edge id="n0::n0::e1" source="n0::n0::n0" target="n0::n0::n4">
       <data key="d9"/>
-      <data key="d10"/>
       <data key="d11">
         <y:PolyLineEdge>
           <y:Path sx="185.1217796373345" sy="0.0" tx="185.70296741732705" ty="0.0">
@@ -1170,9 +1150,8 @@ Prosody</y:NodeLabel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n1::n0::e2" source="n1::n0::n1" target="n1::n0::n0">
+    <edge id="n0::n0::e2" source="n0::n0::n5" target="n0::n0::n6">
       <data key="d9"/>
-      <data key="d10"/>
       <data key="d11">
         <y:PolyLineEdge>
           <y:Path sx="185.70296741732705" sy="0.0" tx="185.70296741732705" ty="0.0">
@@ -1194,9 +1173,8 @@ conteúdos
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::n1::e0" source="n0::n1::n3" target="n0::n1::n4">
+    <edge id="n1::n0::e0" source="n1::n0::n2" target="n1::n0::n1">
       <data key="d9"/>
-      <data key="d10"/>
       <data key="d11">
         <y:PolyLineEdge>
           <y:Path sx="145.88589744608416" sy="0.0" tx="145.88589744608416" ty="0.0">
@@ -1216,9 +1194,8 @@ conteúdos
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::n1::e1" source="n0::n1::n0" target="n0::n1::n4">
+    <edge id="n1::n0::e1" source="n1::n0::n5" target="n1::n0::n1">
       <data key="d9"/>
-      <data key="d10"/>
       <data key="d11">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="145.13297872280182" ty="0.0">

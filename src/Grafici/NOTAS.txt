@@ -1,0 +1,2 @@
+Para embutir no latex/pdf os graficos criados no yEd, exportar como
+pdf e depois fazer um crop usano o pdfcrop.
