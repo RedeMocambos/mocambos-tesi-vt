@@ -1,6 +1,6 @@
 % Cápitulo 3
 
-\chapter{Un'architettura per la Rete Mocambos}
+\chapter{Uma arquitetura para a Rede Mocambos}
 \label{Capitolo3}
 \lhead{C\'apitulo 3. \emph{Uma arquitetura para Rede Mocambos}}
 
@@ -83,132 +83,118 @@ base estável em cima da qual poder desenvolver sem demais restrições.
 As tecnologias e as linguagens adotadas tem que facilitar a interação,
 a formação e o reuso dos conhecimentos. 
 
+\section{Ferramentas e praticas para o desenvolvimento}
+Pela natureza da RM, e em particular pela necessidade de autonomia
+tecnológica, a formação é fundamental então é importante o uso de
+ferramentas que facilitem a documentação e o desenvolvimento
+colaborativo. A RM já utiliza a anos um wiki\footnote{``Un Wiki é uma
+  pagina (ou uma coleção de hipertextos) que é atualizada pelos seus
+  usuários e cujos conteúdos são desenvolvidos colaborativamente por
+  todos que tenham acesso. A alteração dos conteúdos é aberta, no
+  sentido que o texto pode ser modificado por todos os usuários (as
+  vezes mesmo se anônimos) contribuindo non somente adicionando, como
+  acontece normalmente nos fóruns, mas também mudando e excluindo o
+  que outros escreveram. Cada mudança fica gravada em uma cronologia
+  que permite, quando necessário, voltar a versão antecedente; o
+  objetivo é compartilhar, trocar, armazenar e otimizar os
+  conhecimentos de maneira colaborativa. O termo wiki indica também o
+  software utilizado para criar o site web num servidor.'', traduzido
+  de \url{http://it.wikipedia.org/wiki/Wiki}.}, disponível no endereço
+\url{http://wiki.mocambos.net}, onde se encontra parte da documentação
+sobre o sistema e o código desenvolvido para este trabalho. Para o
+versionamento do código foi usado o sistema descentralizado GIT (ver
+\ref{sec:GIT}) e a plataforma
+GITHUB\footnote{\href{http://github.com}{GITHUB} è uma rede social
+  baseada no sistema GIT \ref{sec:GIT}.}. O código do protótipo é
+disponível no endereço \url{https://github.com/RedeMocambos}.
 
-======================================================================
+\subsection{Sistema operacional}
+A escolha de um sistema operacional comum facilita a documentação, a
+automação e a assistência a distancia. Muitas comunidades já usam
+distribuições GNU/Linux baseadas no Debian\footnote{``O Projeto Debian
+  é uma associação de indivíduos que têm como causa comum criar um
+  sistema operacional livre. O sistema operacional que criamos é
+  chamado Debian GNU/Linux, ou simplesmente Debian.'', retirado de
+  \url{http://www.debian.org}}. Para o protótipo foram escolhidas as
+ultimas versões estáveis do Debian, a 6.0, e de
+Ubuntu\footnote{``Ubuntu é um sistema operacional GNU/Linux criado em
+  2004, baseado no Debian, focado no usuário e na facilidade de
+  uso. Ubuntu é orientado para uso em desktop e dando muita atenção ao
+  suporte do hardware. A cada seis meses é lançada uma nova
+  versão. Financiado pela empresa Canonical Ltd (com registro na Ilha
+  de Man), este sistema é compartilhado como Software Livre sob
+  licença GNU GPL.'', traduzido de
+  \url{http://it.wikipedia.org/wiki/Ubuntu}.}, a 11.10.
 
-
-
-\section{Strumenti e pratiche per lo sviluppo}
-Data la natura della RM, e in particolare la necessità di autonomia
-tecnologica, la formazione è fondamentale per cui è importante l'uso
-di strumenti che facilitino la documentazione e lo sviluppo
-collettivo. La RM utilizza già da anni un wiki\footnote{``Una Wiki è
-  una pagina (o comunque una collezione di documenti ipertestuali) che
-  viene aggiornata dai suoi utilizzatori e i cui contenuti sono
-  sviluppati in collaborazione da tutti coloro che vi hanno
-  accesso. La modifica dei contenuti è aperta, nel senso che il testo
-  può essere modificato da tutti gli utenti (a volte soltanto se
-  registrati, altre volte anche anonimi) contribuendo non solo per
-  aggiunte come accade solitamente nei forum, ma anche cambiando e
-  cancellando ciò che hanno scritto gli autori precedenti.  Ogni
-  modifica è registrata in una cronologia che permette in caso di
-  necessità di riportare il testo alla versione precedente; lo scopo è
-  quello di condividere, scambiare, immagazzinare e ottimizzare la
-  conoscenza in modo collaborativo. Il termine wiki indica anche il
-  software collaborativo utilizzato per creare il sito web e il
-  server.'', tratto da \url{http://it.wikipedia.org/wiki/Wiki}.},
-disponibile all'indirizzo \url{http://wiki.mocambos.net}, dove è
-disponibile, in lingua portoghese, una parte della documentazione sul
-codice sviluppato per questo lavoro. Per il \emph{versionamento} del
-codice del lavoro svolto si è scelto di usare il sistema decentrato
-GIT (vedi \ref{sec:GIT}) e la piattaforma
-GITHUB\footnote{\href{http://github.com}{GITHUB} è una rete sociale
-  basata sul sistema GIT \ref{sec:GIT}.}. Il codice del prototipo è
-disponibile all'indirizzo \url{https://github.com/RedeMocambos}
-
-\subsection{Sistema operativo}
-La scelta di un sistema operativo comune facilita la documentazione,
-l'automazione e l'assistenza a distanza. Molte comunità utilizzano già
-distribuzioni GNU/Linux basate su Debian\footnote{``Il Progetto Debian
-  è una associazione di persone che ha come scopo comune la creazione
-  di un sistema operativo libero. Il sistema operativo che abbiamo
-  creato si chiama Debian GNU/Linux, o semplicemente Debian.'', tratto
-  da \url{http://www.debian.org/}}. Per il prototipo sono state scelte
-l'ultima versione stabile, di Debian, la 6.0, e di
-Ubuntu\footnote{``Ubuntu è un sistema operativo GNU/Linux nato nel
-  2004, basato su Debian, che si focalizza sull'utente e sulla
-  facilità di utilizzo. Ubuntu è orientato all'utilizzo desktop e pone
-  una grande attenzione al supporto hardware. È prevista una nuova
-  versione ogni sei mesi.  Finanziato dalla società Canonical Ltd
-  (registrata nell'Isola di Man), questo sistema è rilasciato come
-  software libero sotto licenza GNU GPL ed è gratuito e liberamente
-  modificabile.'', tratto da
-  \url{http://it.wikipedia.org/wiki/Ubuntu}.}, la 11.10.
-
-\subsection{Linguaggi di programmazione}
-Per il sistema sviluppato si è scelto l'uso del linguaggio di
-programmazione Python, un linguaggio molto flessibile e probabilmente
-il più versatile per connettere componenti eterogenee. Inoltre alcune
-comunità già usano Software Liberi, quali
-\emph{GIMP}\footnote{\emph{GNU Image Manipulation Program (GIMP)} è un
-  programma per il fotoritocco, montaggio e creazione di
-  immagini. Disponibile su \url{http://www.gimp.org/}.},
-\emph{Blender}\footnote{\emph{Blender} è un programma per la creazione
-  di grafica e ambienti tridimensionali. Disponibile su
+\subsection{Linguagens de programação}
+Para o sistema desenvolvido foi escolhida a linguagem de programação
+Python, uma linguagem muito flexível e provavelmente o mais versátil
+para conectar componentes heterogêneas. Várias comunidades já usam
+Software Livres como: \emph{GIMP}\footnote{\emph{GNU Image
+    Manipulation Program (GIMP)} é um programa para edição, montagem e
+  criação de imagens. Disponível em \url{http://www.gimp.org/}.},
+\emph{Blender}\footnote{\emph{Blender} é um programa para a criação de
+  gráfica e ambientes tridimensionais. Disponível em
   \url{http://www.blender.org/}.},
-\emph{Inkscape}\footnote{\emph{Inkscape} è un programma di grafica
-  vettoriale conforme allo standard SVG. Disponibile su
-  \url{http://inkscape.org}.} che fanno ampio uso di \emph{scripting}
-Python per la creazione di filtri e per altre funzionalità avanzate.
+\emph{Inkscape}\footnote{\emph{Inkscape} é um programa de gráfica
+  vectorial conforme ao formado SVG. Disponível em
+  \url{http://inkscape.org}.} que também fazem uso de \emph{scripting}
+Python para criação de filtros e para outras funcionalidades
+avançadas.
 
-\subsection{Virtualizzazione}
-Il prototipo è stato sviluppato e testato in un ambiente
-virtualizzato, per garantire maggior controllo e verificare la
-correttezza del procedimento in tutti i suoi passaggi. Gli
-\emph{script} per automatizzare le installazioni, e le procedure passo
-passo presenti nella documentazione, sono state eseguite a partire da
-un sistema base. Sono state create delle macchine virtuali, con
-l'aiuto del programma libero
-\emph{VirtualBox}\footnote{\emph{VirtualBox} è un virtualizzatore
-  completo per architettura x86 per l'uso in server, computer
-  personali e sistemi \emph{embedded}. Dispobibile su
-  \url{http://www.virtualbox.org/}.}, simulando dei server
-comunitari/locali e il server centrale.
+\subsection{Virtualização}
+O protótipo foi desenvolvido e testado em um ambiente virtualizado,
+para garantir maior controle e verificar a exatidão dos procedimentos
+em todos seus passos. Os \emph{script} para automatizar as
+instalações, e os procedimentos passo a passo na documentação, foram
+feitos a partir da configuração de base do sistema. Foram criadas
+maquinas virtuais, com a ajuda do software livre
+\emph{VirtualBox}\footnote{\emph{VirtualBox} é um virtualizador
+  completo para arquiteturas x86 para uso em servidores, desktop e
+  sistemas embutidos. Disponível em
+  \url{http://www.virtualbox.org/}.}, simulando os servidores
+comunitários/locais e o servidor central.
 
+\section{Arquitetura base}
 
-\section{Architettura di base}
-
-\subsection{Gestione delle identità di rete}
-Analizzando la specifica dei requisiti e alcune delle tecnologie
-esistenti viste nel capitolo precedente, è stato scelto l'uso di LDAP
-per gestire le credenziali degli utenti all'interno della RM. Il
-prototipo proposto prevede un server centrale su connettività internet
-garantita e server locali in replica. È possibile pensare una
-configurazione in cui tutti i server della rete sono configurati in
-modalità N-Way-Multimaster. Questa configurazione, se da un lato
-consente l'aggiornamento in scrittura della base utenti su ognuno dei
-server, può generare più facilmente situazioni di inconsistenza dei
-dati e problemi di sincronizzazione tra i server LDAP. Per questo
-motivo per il prototipo realizzato si è scelto di rilassare il
-requisito \ref{sec:AutDec}, ipotizzando un singolo server master per
-tutta la rete su cui effettuare le operazioni in scrittura (creazione,
-eliminazione e aggiornamento di utenti) e server locali abilitati solo
-ad operazioni in lettura. Ogni comunità quindi avrebbe a disposizione
-un server LDAP in replica su cui basare le operazioni di
-autenticazione e autorizzazione. In mancanza di connessione esterna i
-servizi locali rimangono comunque attivi per le utenze attive fino
-all'ultima sincronizzazione.
-
+\subsection{Gestão das identidades de rede}
+Analisando a especificação dos requisitos e algumas das tecnologias
+existentes que vimos no capítulo precedente, foi escolhido o uso de
+LDAP para gerenciar as credenciais dos usuários da RM. O protótipo
+proposto prevê um servidor central em conectividade internet garantida
+e servidores locais em replicação. É possível uma configuração onde
+todos os servidores da rede sejam \emph{master} (modalidade
+\emph{N-Way-Multimaster}). Esta configuração, se por um lado permite a
+atualização em escritura das bases dos usuários em cada servidor, por
+outro lado pode gerar mais facilmente situações de inconsistência dos
+dados e problemas de sincronização entre os servidores LDAP. Por esta
+razão para o protótipo realizado se escolheu relaxar o requisito
+\ref{sec:AutDec}, assumindo um síngulo servidor \emph{master} para
+toda a rede onde efetuar as operações de escritura (criação,
+eliminação, e atualização dos usuários) e servidores locais
+habilitados somente para operações em leitura. Cada comunidade então
+teria a disposição um servidor LDAP replicado para autenticação e
+autorização. Contudo, na falta da conexão esterna, os serviços locais
+permanecem ativos para os usuários habilitados até a ultima
+sincronização. 
 
 \subsection{Mocambos\_LDAP}\label{MocambosLDAP}
-\framebox[\textwidth]{\footnotesize Il codice è disponibile su
+\framebox[\textwidth]{\footnotesize O código esta disponível em
 \url{https://github.com/RedeMocambos/Mocambos_LDAP}}
 
-Per facilitare l'implementazione dei server LDAP dagli amministratori
-locali è stato sviluppato uno script di installazione, che può tornare
-utile anche per un amministratore remoto.
-
-Lo script \textit{bash} provvede ad installare i pacchetti necessari e
-preparare il server LDAP \emph{slapd} in configurazione master o
-replica. Inoltre crea un DIT preconfigurato per la RM con una semplice
-struttura (vedi figura \ref{fig:DIT_ReteMocambos}).
+Para facilitar a implementação dos servidores LDAP por parte dos
+administradores locais, foi desenvolvido um \emph{script} de
+instalação, que pode se tornar útil também para um administrador
+remoto. O \emph{script} instala os pacotes necessários e prepara o
+servidor LDAP \emph{slapd} em configuração \emph{master} ou
+replica. Também cria um DIT pré-configurado para a RM com uma simples
+estrutura (ver figura \ref{fig:DIT_ReteMocambos}).
 
 \begin{figure}[htbp]
   \centering
   \includegraphics[width=\textwidth]{./Figure/DIT_ReteMocambos-crop.pdf}
   \rule{35em}{0.5pt}
-  \caption[DIT di base del server LDAP della RM]{DIT di base del
-    server LDAP della RM.}
+  \caption[DIT base do servidor LDAP da RM]{DIT base do servidor LDAP da RM.}
   \label{fig:DIT_ReteMocambos}
 \end{figure}
 
