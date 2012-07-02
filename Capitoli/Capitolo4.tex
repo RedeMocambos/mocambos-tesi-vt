@@ -5,25 +5,25 @@
 \lhead{Cap\'itulo 4. \emph{Um protótipo de serviço federado}}
 
 O uso de tecnologias digitais oferece novas possibilidades para o
-ensino e a formação. Muitas comunidades, aferentes a RM, tem começando
-produzir material pedagógico audiovisual, que com a ajuda da rede,
-poderia contribuir para enriquecer os programas educacionais públicos,
-geralmente deficientes e pouco integrados com a cultura quilombola. O
-\emph{Núcleo de Pesquisa e Desenvolvimento Digital (NPDD)}\footnote{O
-  \emph{Núcleo de Pesquisa e Desenvolvimento Digital (NPDD)} da RM
-  pesquisa e desenvolve tecnologias para a comunicação, a produção de
-  energias renováveis e sustentáveis, e a melhoria das condições de
-  vida em simbiose com o ambiente. Mais informações em
-  \url{http://wiki.mocambos.net/wiki/NPDD}.} da RM, com o projeto
-\emph{Tambor e Comunicação}\footnote{O projeto \emph{Tambor e
-    Comunicação} tenta fortificar a rede de comunicação digital
+ensino e a formação. Muitas comunidades, aferentes a RM, vem
+produzindo material pedagógico audiovisual, que com a ajuda da rede,
+poderiam contribuir para enriquecer os programas educacionais
+públicos, geralmente deficientes e pouco integrados com a cultura
+quilombola. O \emph{Núcleo de Pesquisa e Desenvolvimento Digital
+  (NPDD)}\footnote{O \emph{Núcleo de Pesquisa e Desenvolvimento
+    Digital (NPDD)} da RM pesquisa e desenvolve tecnologias para a
+  comunicação, a produção de energias renováveis e sustentáveis, e a
+  melhoria das condições de vida em simbiose com o ambiente. Mais
+  informações em \url{http://wiki.mocambos.net/wiki/NPDD}.} da RM, com
+o projeto \emph{Tambor e Comunicação}\footnote{O projeto \emph{Tambor
+    e Comunicação} tenta fortificar a rede de comunicação digital
   seguindo as necessidades das comunidades. Ver
   \url{http://wiki.mocambos.net/wiki/Projeto_Tambor_e_Comunicacao}.},
 propus a pesquisa e o desenvolvimento de uma solução para a publicação
 e compartilhamento em rede de imagens, áudios e vídeos de interesse
-comum e geralmente produzidos nas comunidades. 
+comum e geralmente produzidos nas comunidades.
 
-\section{Sistema de publicação e difusão de conteúdos multimídia}
+\section{Sistema de publicação e sincronização de conteúdos multimídia}
 O sistema desenvolvido prevê a instalação de um portal no servidor
 local das comunidades através do qual é possível visualizar e publicar
 conteúdos multimídia aproveitando a rapidez da rede local. O sistema
@@ -51,7 +51,7 @@ arquivos acessíveis no disco. Também é possível interagir com os dados
 através do amplo universo de aplicações e bibliotecas do
 \emph{git}. Em especial o protótipo usa a estrutura de metadados do
 \emph{git} para manter o controle do usuário que publicou um
-conteúdo. A operação de \emph{commit} coincide da facto com a
+conteúdo. A operação de \emph{commit} coincide de fato com a
 publicação de um conteúdo, e o \emph{committer} com o usuário que o
 publica. Os metadados, em vez, relativos ao conteúdo multimídia em si,
 como autor, tipo de licenciamento, data de criação, podem ser
@@ -69,7 +69,7 @@ transparente usando vários protocolos. Em particular é interessante a
 possibilidade de executar sincronizações com sistemas de armazenamento
 massivo, característica essencial na fase de criação de um novo nó,
 onde a primeira sincronização via rede poderia levar dias (ver
-requisito \ref{Sincronizzazione}). As transferências contudo, no caso
+requisito \ref{sec:Sinc}). As transferências contudo, no caso
 do \emph{git-annex}, são executadas através do protocolo
 \emph{rsync}\footnote{\emph{rsync} é um Software Livre para a
   transfêrencia rápida e incremental de arquivos disponível no
@@ -77,7 +77,7 @@ do \emph{git-annex}, são executadas através do protocolo
 interrupções, evitando retransmissões onerosas. 
 
 \subsection{git-annex}\label{git-annex}
-\emph{git-annex}\footnote{\emph{git-annex} é um proframa que estende
+\emph{git-annex}\footnote{\emph{git-annex} é um programa que estende
   as funcionalidades do \emph{git} em gerir arquivos de grande tamanho
 disponível no \url{http://git-annex.branchable.com}.} permite a
 gestão de arquivos com \emph{git}, sem a necessidade de adicionar os
@@ -88,7 +88,7 @@ tempo ou espaço no disco.
 
 Mesmo sem manter o histórico das mudanças do conteúdo do arquivo, ter
 a possibilidade de gerenciar arquivos com \emph{git}, de movê-los, e
-exclui-los, numa arvore de pasta versionada, com uso de
+exclui-los, numa árvore de pasta versionada, com uso de
 \emph{branches} e de clones distribuídos, são todos bons motivos para
 usar \emph{git}. E os arquivos anexos (por isso o nome
 \emph{git-annex}) podem coexistir no mesmo repositório \emph{git} com
@@ -112,18 +112,18 @@ modificado, é gerada uma outra chave, e o \emph{link} é alterado.
 
 O conteúdo do arquivo pode ser transferido de um repositório para
 outro por \emph{git-annex}, que além de manter controle de quem mantem
-o que, permite criar um mapa das copias disponíveis e impor um numero
-minimo de copias. Essas informações são mantidas em um \emph{branch}
+o que, permite criar um mapa das copias disponíveis e impor um número
+mínimo de cópias. Essas informações são mantidas em um \emph{branch}
 separado, chamado ``\emph{git-annex}'', e as operações de
 sincronização, são simplesmente \emph{push} e \emph{pull} entre os
 vários clones dos repositórios.
 
 \emph{git-annex} suporta:
 \begin{itemize}
-\item localização das copias (\emph{location tracking})
+\item localização das cópias (\emph{location tracking})
 \item download seletivo dos conteúdos 
 \item gestão da confiança dos repositórios
-\item gestão do numero minimo de copias
+\item gestão do número minimo de cópias
 \item vários \emph{backend} para as chaves (SHA\footnote{Secure Hash
     Algoritm, (SHA), é um algoritmo usado em sistemas chave/valor onde
     as chaves são calculadas através de uma função criptográfica dos
@@ -230,7 +230,7 @@ sincronização.
 \end{figure}
 
 Seguindo a especificação, é definido, através do atributo
-\emph{syncStartTime}, um horário para o inicio da sincronização, que é
+\emph{syncStartTime}, um horário para o início da sincronização, que é
 inicializada pela função \emph{runScheduledJobs()}. Para interagir
 mais facilmente com o framework através do terminal é possível definir
 comandos que precisam ser criados na pasta
@@ -241,13 +241,13 @@ comandos que precisam ser criados na pasta
   comando crontab permite o planejamento de comandos, ou seja permite
   de agendá-los no sistema para serem executados periodicamente.'',
   traduzido de Wikipedia:
-  \url{http://it.wikipedia.org/wiki/Crontab}.} o diretamente no
+  \url{http://it.wikipedia.org/wiki/Crontab}.} diretamente no
 terminal com:
 \begin{verbatim}
 zumbi@palmares:~$ python manage.py run_scheduled_jobs
 \end{verbatim}
 
-\emph{Django} providencia um sistema de sinais, enviados em
+\emph{Django} providência um sistema de sinais, enviados em
 concomitância de operações como a \emph{save()} de um objeto, que
 podem ser interceptados em outras partes do sistema. A aplicação
 \emph{gitannex} intercepta o sinal padrão do Django, \emph{post-save}

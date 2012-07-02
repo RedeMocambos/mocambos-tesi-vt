@@ -11,14 +11,14 @@ federada que tenha as seguintes caraterísticas:
 
 \begin{itemize}
   \item administração descentralizada
-  \item acesso a gestão logica (e física) da rede
+  \item acesso a gestão lógica (e física) da rede
   \item conhecimentos técnicos locais das tecnologias usadas na rede
   \item serviços internos a rede federada
   \item interações entre redes locais inteligentes
 \end{itemize} 
 
 Uma rede federada, então, entendida como um conjunto de soluções
-tecnicamente viáveis e adaptáveis a usos, praticas e contextos
+tecnicamente viáveis e adaptáveis a usos, práticas e contextos
 diferentes, que permita uma gestão flexível da rede, com sub-redes
 heterogêneas, aproveitando diversas tecnologias, como por exemplo P2P
 onde necessário. Uma rede federada se adapta particularmente num
@@ -41,10 +41,10 @@ logico/física local.
 
 \begin{quote}
   ``\emph{É uma rede solidária de comunidades, no qual o objetivo
-    principal é compartilhar idéias e oferecer apoio recíproco.}''
+    principal é compartilhar ideias e oferecer apoio recíproco.}''
   \ldots ``\emph{A tecnologia é uma frente de trabalho da Rede
-    Mocambos, sendo ao mesmo tempo idéia e meio para transferir
-    idéias.}'' \citep{RMSobre}.
+    Mocambos, sendo ao mesmo tempo ideia e meio para transferir
+    ideias.}'' \citep{RMSobre}.
 \end{quote}
 
 A Rede Mocambos (RM), atualmente envolve diretamente mais de duzentas
@@ -59,7 +59,7 @@ precisamente com os programas GESAC e Telecentros.BR.
   \centering
   \includegraphics[width=\textwidth]{./Figure/MappaRedeMocambos.pdf}
   \rule{35em}{0.5pt}
-  \caption[Mapa das comunidades da Rede Mocambos, retirado desde
+  \caption[Mapa das comunidades da Rede Mocambos, retirado deste
   \url{http://mapa.mocambos.net}]{Mapa das comunidades da Rede Mocambos, retirado desde
   \url{http://mapa.mocambos.net}}
   \label{fig:MappaRedeMocambos}
@@ -69,7 +69,7 @@ O GESAC garante conectividade por satélite a todas as comunidades, com
 banda limitada devido a tipologia de tecnologia, que devido as
 distancias representa a única alternativa, pelo menos no curto e médio
 prazo. Através do programa Telecentros.BR estão sendo instalados
-telecentros, salas equipadas com computadores para acesso publico, e
+telecentros, salas equipadas com computadores para acesso público, e
 garantidas bolsas para monitores, para a gestão desses espaços. É
 exatamente em contextos tão específicos que nasce a necessidade de
 adaptar a tecnologia as exigências locais, também pelas limitações
@@ -79,7 +79,7 @@ rede pode, e neste caso deve, ser estruturada no território com
 logicas de desenvolvimento e gestão local determinadas pelas
 comunidades. Neste sentido é fundamental a formação e o acesso as
 tecnologias. A Casa de Cultura Tainã, núcleo fundador da Rede
-Mocambos, e entre as primeira realidades populares que perceberam a
+Mocambos, e entre as primeiras realidades populares que perceberam a
 necessidade do Software Livre, como expressão de liberdade de poder
 criar as próprias ferramentas tecnológicas digitais. A exclusão
 digital não diz respeito somente ao acesso ao mundo digital mas também
@@ -113,14 +113,14 @@ vez mais, dominando-as. Isso não teria sido possível sem a existência
 e ampla difusão de Software Livre. Tecnologias digitais sob forma de
 produtos comerciais seriam o enésimo passo para uma dependência
 econômica e cultural. Esta consciência esta atras de escolhas bem
-ponderadas. Alguns anos atras, em Brasília, numa reunião
-do programa Luz Para Todos, programa federal para levar a eletricidade
-a população da área rural, um cacique disse que, mesmo querendo a
-energia elétrica, este devia ser limitada aos espaços comunitários e
-não devia ser ligada nas casas. Não é difícil entender o porque de tal
-condição. Além dos aspectos culturais, ter um contador e uma conta
-para cada casa significaria introduzir custos em dinheiro, que não são
-compatíveis com a economia deles. 
+ponderadas. Alguns anos atras, em Brasília, numa reunião do programa
+Luz Para Todos, programa federal para levar a eletricidade a população
+da área rural, um cacique disse que, mesmo querendo a energia
+elétrica, esta deveria ser limitada aos espaços comunitários e não
+residenciais. Não é difícil entender o porque de tal condição. Além
+dos aspectos culturais, ter um contador e uma conta para cada casa
+significaria introduzir custos em dinheiro, que não são compatíveis
+com a economia deles.
 
 \section{Tecnologias}
 Antes de mergulhar nos requisitos específicos, e nas escolhas feitas,
@@ -128,30 +128,30 @@ pode ser útil uma breve descrição das ferramentas tecnológicas que de
 várias formas foram usadas para estruturar o protótipo, para a Rede
 Mocambos, de rede federada eventualmente conectada, em particular para
 os seus serviços de base, como a identificação, autenticação e
-comunicação. 
+comunicação.
 
 \subsection{LDAP}
 \emph{Lightweight Directory Access Protocol (LDAP)}\footnote{Protocolo
   Leve de Acesso a Diretório.} é um conjunto de protocolos abertos
-para acessar as informações mantidas centralmente através uma
-rede. LDAP organiza as informações através de uma hierarquia a arvore
+para acessar as informações mantidas centralmente através de uma
+rede. LDAP organiza as informações através de uma hierarquia a árvore
 chamada \emph{Directory Information Tree (DIT)}\footnote{Arvore do
   diretório de informações}. LDAP é um sistema cliente/servidor. O
 servidor pode usar uma variedade de banco de dados para armazenar um
 DIT, normalmente otimizados para operações de leitura. Quando uma
-aplicação cliente se conecta a um servidor LDAP, pode ou consultar o
-diretório ou tentar de alterá-lo. No caso de uma consulta, o servidor
+aplicação cliente se conecta a um servidor LDAP, pode consultar o
+diretório ou tentar alterá-lo. No caso de uma consulta, o servidor
 pode responder de maneira local, ou pode encaminhar o pedido para um
-servidor LDAP em condição de responder. Se a aplicação cliente esta
+servidor LDAP em condição de responder. Se a aplicação cliente está
 tentando modificar informações do diretório LDAP, o servidor verifica
 se o usuário possui permissão de efetuar a mudança, para em seguida
 adicionar e atualizar as informações. LDAP suporta a delegação de
 parte do DIT para servidores específicos, a replicação só em leitura e
 a replicação em leitura/escritura (chamada \emph{multi-master}). LDAP
-é um protocolo solido, muito comum e suportado, e desde muito tempo è
-o padrão de facto para gerir base de dados de usuários. OpenLDAP é uma
+é um protocolo solido, muito comum e suportado, e desde muito tempo é
+o padrão de fato para gerir base de dados de usuários. OpenLDAP é uma
 implementação aberta e livre do protocolo LDAP, que inclui cliente,
-servidor e uma serie de ferramentas para facilitar a administração.
+servidor e uma série de ferramentas para facilitar a administração.
   
 \subsection{XMPP}
 Extensible Messaging and Presence Protocol (XMPP)\footnote{Protocolo
@@ -159,7 +159,7 @@ Extensible Messaging and Presence Protocol (XMPP)\footnote{Protocolo
 abertos para as mensagens e a presença em rede baseado no XML. XMPP é
 um sistema cliente/servidor. As especificações para a comunicação
 entre servidores permitem que os usuários de um servidor interajam de
-maneira transparente com usuários de outros servidor federados. A
+maneira transparente com usuários de outros servidores federados. A
 \emph{XMPP Standard Foundation (XSF)} coordena o desenvolvimento das
 extensões do padrão por meio das \emph{XMPP Extensions Protocols
   (XEPs)}, que até hoje são já 311. XMPP e as XEPs constituem um
@@ -171,8 +171,9 @@ interessante. Jabber foi inicialmente desenvolvido por Jeremie Miller
 na sua fazenda no Iowa. É um exemplo concreto de como a pesquisa e o
 desenvolvimento de tecnologias da comunicação, fora de ambientes
 acadêmicos e empresariais, além de possível pode ser
-revolucionaria. De facto, hoje, XMPP é a tecnologia mais usada para
-mensagens instantâneas também pelo grandes atores da \emph{new economy}.
+revolucionária. De fato, hoje, XMPP é a tecnologia mais usada para
+mensagens instantâneas também pelo grandes atores da \emph{new
+  economy}.
 
 Para as necessidade específicas de uma rede é possível então estender
 e customizar as funcionalidades do próprio servidor XMPP a ao mesmo
@@ -190,9 +191,9 @@ mesma identidade em mais serviços e é uma ótima base para um sistema
 para manter uma sessão ativa. No primeiro tentativo de autenticação em
 um serviço compatível com OpenID, o usuário é redirecionado para o
 próprio provedor OpenID para efetuar o acesso e confirmar a
-autorização a proceder com o serviço inicial. Por toda a durada da
+autorização a proceder com o serviço inicial. Por todo o período da
 sessão, é possível acessar serviços OpenID sem reinserir as
-credenciais. 
+credenciais.
 
 \begin{figure}[htbp]
   \centering
@@ -204,7 +205,7 @@ credenciais.
 
 \subsection{OAuth}
 OAuth é um protocolo aberto para autorização de serviços através
-API. Por exemplo, permite para um usuário autorizar o acesso a
+API. Por exemplo, permite um usuário autorizar o acesso a
 informações específicas armazenadas num site, chamado \emph{service
   provider}, para outro site, chamado \emph{consumer}, sem necessidade
 de compartilhar a sua identidade. É uma maneira de publicar e
@@ -212,8 +213,8 @@ interagir com dados protegidos. Existem muitos outros protocolos e API
 parecidos como Google AuthSub, AOL OpenAuth, Yahoo
 BBAuth, Upcoming API, Flickr API, Amazon Web Services e cada um
 fornece maneiras proprietárias para troca de credenciais e para acesso
-através de \emph{tokens}. OAuth é uma padronização aberta das praticas
-mais comuns. Alem disso foi pensado para suportar vários tipos de
+através de \emph{tokens}. OAuth é uma padronização aberta das práticas
+mais comuns. Além disso foi pensado para suportar vários tipos de
 aplicações, não somente para serviços web.
 
 \subsection{Shibboleth}
@@ -223,7 +224,7 @@ autenticação e autorização de identidades federadas baseada no
 marcação para asserções de segurança.}. As identidades federadas
 permitem que as informações de um usuário sob um certo domínio possam
 ser compartilhadas com um outro domínio federado. Isso permite o SSO
-através mais domínios sem a troca de nomes de usuários e senhas. Os
+através de mais domínios sem a troca de nomes de usuários e senhas. Os
 IdP mantêm as informações do usuário enquanto os SP fazem uso dessas
 informações para o acesso seguro aos conteúdos. 
 
@@ -252,13 +253,13 @@ maneira pragmática e eficaz.
 
 As caraterísticas do Django são:
 \begin{itemize}
-\item é un framework \emph{Model, View, Template}, (MVT),
+\item é um framework \emph{Model, View, Template}, (MVT),
   correspondente ao difundido \emph{pattern Model, View, Controller},
   (MVC). O \emph{Template} do Django corresponde ao \emph{view} de
   qualquer framework MVC, enquanto a \emph{View} corresponde ao
   \emph{controller} (mesmo se as funcionalidades do \emph{controller},
   no caso do Django, não são limitadas a componente \emph{View}).
-\item permite de modelar os dados diretamente em python e o
+\item permite modelar os dados diretamente em python e o
   \emph{Object Relational Mapper} (ORM), se ocupa de transformá-los em
   código SQL. Também não precisa escrever \emph{query} diretamente em
   SQL; é só usar o ORM para obter os resultados diretamente sob forma
@@ -268,7 +269,7 @@ As caraterísticas do Django são:
   expressiva que permite realizar logicas complexas com poucas linhas
   de código, deixando o máximo controle ao desenvolvedor para todas as
   situações. 
-\item é um framework ``\emph{batteries included}'', ou seja já vem com
+\item é um framework ``\emph{batteries included}'', ou seja já vêm com
   algumas aplicações, chamadas \emph{apps}, para as funcionalidade
   mais comuns, que reduzem o tempo de desenvolvimento, por exemplo um
   sistema de autenticação, uma interface de administração, um

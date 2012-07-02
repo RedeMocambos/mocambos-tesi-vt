@@ -211,8 +211,8 @@
       {\LARGE \authornames \par}
       \vfill
       \vfill
-      {\large Tese de gradua\c{c}\~ao\par}
-      {\large em Ci\^encia da Computa\c{c}\~ao \par}
+      %{\large Tese de gradua\c{c}\~ao\par}
+      %{\large em Ci\^encia da Computa\c{c}\~ao \par}
       \bigskip
       \bigskip
 %      {\large presso \par}
